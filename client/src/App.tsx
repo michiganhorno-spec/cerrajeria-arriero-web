@@ -5,6 +5,7 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
+import StructuredData from "./components/StructuredData";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -26,8 +27,9 @@ function Router() {
 function App() {
   return (
     <ErrorBoundary>
+      <StructuredData />
       <ThemeProvider
-        defaultTheme="light"
+        defaultTheme="dark"
         // switchable
       >
         <TooltipProvider>
