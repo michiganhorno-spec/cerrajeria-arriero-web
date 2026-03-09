@@ -202,6 +202,15 @@ export default function Home() {
               "Real de San Vicente",
               "Marrupe",
               "Sotillo de las Palomas",
+              "Serranillos",
+              "Playa",
+              "El Chaparral",
+              "Montecarlo",
+              "Prado del Arca",
+              "Cornicabral",
+              "Cervines",
+              "Las Nieves",
+              "Espinosillo",
             ].map((pueblo) => (
               <span key={pueblo} className="text-xs text-gray-600 bg-gray-900/50 px-3 py-1 rounded-full border border-gray-700/50">
                 {pueblo}
