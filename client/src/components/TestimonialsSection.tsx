@@ -5,32 +5,17 @@ const testimonials = [
   {
     name: "Adrián Fernández",
     rating: 5,
-    text: "Sandro nos ha dado un servicio excelente, es un profesional de los pies a la cabeza. Me ha instalado una puerta seccional con un acabado impecable y materiales de primera calidad. Se nota la experiencia y el cuidado por los detalles.",
+    text: "Sandro nos ha dado un servicio excelente, es un profesional de los pies a la cabeza. Me ha instalado una puerta seccional con un acabado impecable y materiales de primera calidad.",
   },
   {
     name: "Aaron Diaz",
     rating: 5,
-    text: "Te ayudan y asesoran desde el primer momento y te dejan elegir la mejor opción. Son muy profesionales, todo en el tiempo acordado y el acabado impecable. Los recomiendo al 100% y Sandro un gran profesional.",
+    text: "Te ayudan y asesoran desde el primer momento. Son muy profesionales, todo en el tiempo acordado y el acabado impecable. Los recomiendo al 100%.",
   },
   {
     name: "Ivan Gonzalez",
     rating: 5,
-    text: "Muy profesionales, les encargué la instalación de una puerta corredera para mi finca y estuvieron pendientes del proyecto en todo momento. Muy contento con el trabajo, 100% recomendables.",
-  },
-  {
-    name: "Jandriruth Moreno",
-    rating: 5,
-    text: "Me instalaron una puerta exterior motorizada y estoy encantadísima. ¡Todo genial! Muy buen servicio, calidad y precio. Muy recomendables.",
-  },
-  {
-    name: "Juanda",
-    rating: 5,
-    text: "Todo perfecto. Les encargué una puerta batiente motorizada, han sido rápidos y el trabajo de calidad.",
-  },
-  {
-    name: "Raul Silveira del Moral",
-    rating: 5,
-    text: "Excelente trabajo y gran personal, ¡estoy súper contento!",
+    text: "Muy profesionales, les encargué la instalación de una puerta corredera para mi finca y estuvieron pendientes del proyecto en todo momento. 100% recomendables.",
   },
 ];
 
@@ -63,7 +48,7 @@ export default function TestimonialsSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           {testimonials.map((testimonial, index) => (
             <Card
               key={index}

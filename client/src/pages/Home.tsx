@@ -43,7 +43,7 @@ export default function Home() {
           
           <div className="border-2 border-orange-500 inline-block px-6 py-3 mb-8">
             <p className="text-lg font-semibold text-white">
-              + 25 AÑOS DE EXPERIENCIA EN TALAVERA DE LA REINA
+              + 40 AÑOS DE EXPERIENCIA EN TALAVERA DE LA REINA
             </p>
           </div>
           
