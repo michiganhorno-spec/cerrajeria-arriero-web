@@ -177,6 +177,65 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Google Maps Section */}
+      <section className="py-16 md:py-24 bg-background">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-white">
+            📍 UBICACIÓN Y ZONA DE COBERTURA
+          </h2>
+          
+          <p className="text-center text-gray-400 mb-12 text-lg max-w-2xl mx-auto">
+            Visítanos en nuestro taller o solicita presupuesto para tu zona
+          </p>
+          
+          <div className="max-w-4xl mx-auto rounded-lg overflow-hidden border-2 border-orange-600/30">
+            <iframe
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              loading="lazy"
+              allowFullScreen
+              referrerPolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.6794656789!2d-4.82416!3d40.0007457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd401bcc43905b03%3A0x1deee5eef1491310!2sCerrajer%C3%ADa%20L.%20Arriero%20-%20Carpinter%C3%ADa%20Met%C3%A1lica!5e0!3m2!1ses!2ses!4v1741543200000"
+            />
+          </div>
+          
+          <div className="mt-12 grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="bg-secondary p-6 rounded-lg border border-orange-600/30">
+              <h3 className="text-xl font-bold text-white mb-4">📍 Ubicación</h3>
+              <p className="text-gray-300 mb-2">
+                <strong>Pol. Ind. Valdefuentes</strong>
+              </p>
+              <p className="text-gray-300 mb-2">
+                Calle Principal, 10
+              </p>
+              <p className="text-gray-300 mb-4">
+                45638 Pepino, Toledo
+              </p>
+              <p className="text-orange-400 font-semibold">252G+78 Pepino, Spain</p>
+            </div>
+            
+            <div className="bg-secondary p-6 rounded-lg border border-orange-600/30">
+              <h3 className="text-xl font-bold text-white mb-4">📞 Contacto</h3>
+              <div className="space-y-3">
+                <a href="tel:925701792" className="flex items-center gap-3 text-gray-300 hover:text-orange-400 transition-colors">
+                  <span>☎️</span>
+                  <span>925 70 17 92</span>
+                </a>
+                <a href="https://wa.me/34661622160" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-gray-300 hover:text-orange-400 transition-colors">
+                  <span>💬</span>
+                  <span>661 62 21 60 (WhatsApp)</span>
+                </a>
+                <a href="mailto:cerrajeria_l.arriero@hotmail.com" className="flex items-center gap-3 text-gray-300 hover:text-orange-400 transition-colors">
+                  <span>✉️</span>
+                  <span>cerrajeria_l.arriero@hotmail.com</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Service Areas Section - Discreta para SEO */}
       <section className="py-12 bg-background border-t border-orange-600/20">
         <div className="container mx-auto px-4">
@@ -228,6 +287,7 @@ export default function Home() {
               <h3 className="text-white font-bold mb-4">Contacto</h3>
               <p className="mb-2">📞 925 70 17 92</p>
               <p className="mb-2">💬 661 62 21 60 (WhatsApp)</p>
+              <p className="mb-2">✉️ <a href="mailto:cerrajeria_l.arriero@hotmail.com" className="text-orange-400 hover:text-orange-300">cerrajeria_l.arriero@hotmail.com</a></p>
               <p>📍 Pol. Ind. Valdefuentes, Pepino, Toledo</p>
             </div>
             
