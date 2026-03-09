@@ -177,6 +177,40 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Service Areas Section - Discreta para SEO */}
+      <section className="py-12 bg-background border-t border-orange-600/20">
+        <div className="container mx-auto px-4">
+          <p className="text-center text-gray-500 text-sm mb-6">
+            Servicio profesional en Talavera de la Reina y alrededores
+          </p>
+          <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
+            {[
+              "Talavera de la Reina",
+              "Pepino",
+              "Cebolla",
+              "Mejorada",
+              "Seguirilla",
+              "Talavera la Nueva",
+              "Belvís de la Jara",
+              "Sevilleja",
+              "Cervera de los Montes",
+              "San Román",
+              "Pueblanueva",
+              "Castillo Bayuela",
+              "Nuño Gómez",
+              "Hinojosa de San Vicente",
+              "Real de San Vicente",
+              "Marrupe",
+              "Sotillo de las Palomas",
+            ].map((pueblo) => (
+              <span key={pueblo} className="text-xs text-gray-600 bg-gray-900/50 px-3 py-1 rounded-full border border-gray-700/50">
+                {pueblo}
+              </span>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-black/80 text-gray-400 py-12 border-t border-orange-600/30">
         <div className="container mx-auto px-4">
