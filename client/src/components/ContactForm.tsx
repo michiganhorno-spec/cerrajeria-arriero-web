@@ -49,18 +49,20 @@ export default function ContactForm({ onClose }: ContactFormProps) {
     setIsLoading(true);
     
     try {
-      // Send notification to owner
+      // Prepare email content
+      const emailContent = `Nombre: ${formData.nombre}\nEmail: ${formData.email}\nTeléfono: ${formData.telefono}\nServicio: ${formData.servicio}\nMensaje: ${formData.mensaje}`;
+      
+      // Send notification to owner in platform
       const notifyMutation = trpc.system.notifyOwner.useMutation();
       await notifyMutation.mutateAsync({
         title: `Nueva solicitud de presupuesto de ${formData.nombre}`,
-        content: `
-Nombre: ${formData.nombre}
-Email: ${formData.email}
-Teléfono: ${formData.telefono}
-Servicio: ${formData.servicio}
-Mensaje: ${formData.mensaje}
-        `,
+        content: emailContent,
       });
+
+      // Redirect to WhatsApp with pre-filled message
+      const whatsappMessage = `Hola, me interesa solicitar presupuesto para: ${formData.servicio}. Nombre: ${formData.nombre}. Teléfono: ${formData.telefono}. Email: ${formData.email}. Detalles: ${formData.mensaje}`;
+      const whatsappUrl = `https://wa.me/34661622160?text=${encodeURIComponent(whatsappMessage)}`;
+      window.open(whatsappUrl, '_blank');
 
       setIsSubmitted(true);
       setTimeout(() => {
