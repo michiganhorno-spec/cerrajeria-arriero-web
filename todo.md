@@ -37,3 +37,14 @@
 - [x] Optimizar alt text y meta data para SEO local
 - [x] Validar carga de imágenes en todas las resoluciones
 - [x] Pruebas finales y publicación (10 tests pasados)
+
+
+## Integración de Imágenes Reales de Trabajos
+- [x] Recibir imágenes de rejas, puertas automáticas, cerramientos, etc.
+- [x] Renombrar imágenes con nombres SEO-friendly para Talavera de la Reina
+- [x] Integrar 1 imagen principal por servicio en las tarjetas
+- [x] Crear sección de Galería de Proyectos con 2-3 imágenes por servicio
+- [x] Optimizar imágenes para web (compresión, formato webp)
+- [x] Añadir alt text descriptivo para SEO
+- [x] Validar carga de imágenes en móvil y desktop
+- [x] Pruebas finales y publicación (10 tests pasados)
