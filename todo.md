@@ -30,3 +30,10 @@
 - [x] Meta tags SEO y structured data JSON-LD
 - [x] Botones de llamada y WhatsApp funcionales
 - [x] Pruebas unitarias (10 tests pasados)
+
+
+## Integración de Imágenes de Rejas
+- [x] Integrar imagen rejas-seguridad-talavera-reina.jpg en sección de rejas
+- [x] Optimizar alt text y meta data para SEO local
+- [x] Validar carga de imágenes en todas las resoluciones
+- [x] Pruebas finales y publicación (10 tests pasados)

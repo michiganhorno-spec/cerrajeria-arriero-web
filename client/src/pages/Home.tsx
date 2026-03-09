@@ -116,6 +116,7 @@ export default function Home() {
               icon={<Shield size={32} />}
               title="Instalación de Rejas y Cancelas"
               description="Rejas personalizadas en hierro y aluminio soldado que ofrecen máxima protección. Cancelas correderas para acceso controlado."
+              image="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/rejas-seguridad-talavera-reina-oWLjpXDqaTUqFWxRdutWB7.webp"
             />
             
             <ServiceCard
@@ -206,9 +207,18 @@ export default function Home() {
   );
 }
 
-function ServiceCard({ icon, title, description }: { icon: React.ReactNode; title: string; description: string }) {
+function ServiceCard({ icon, title, description, image }: { icon: React.ReactNode; title: string; description: string; image?: string }) {
   return (
-    <Card className="bg-secondary border-orange-600/30 hover:border-orange-500 transition-colors p-6">
+    <Card className="bg-secondary border-orange-600/30 hover:border-orange-500 transition-colors p-6 overflow-hidden">
+      {image && (
+        <div className="mb-4 -mx-6 -mt-6 h-40 overflow-hidden rounded-t-lg">
+          <img 
+            src={image} 
+            alt={title}
+            className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+      )}
       <div className="text-orange-500 mb-4">{icon}</div>
       <h3 className="text-xl font-bold text-white mb-3">{title}</h3>
       <p className="text-gray-400">{description}</p>
