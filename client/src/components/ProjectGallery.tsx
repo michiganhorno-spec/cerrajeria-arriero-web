@@ -30,14 +30,6 @@ const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: "reja-3",
-    title: "Reja de Hierro Amarillo Personalizada",
-    description: "Reja de hierro con diseño tradicional español en pared amarilla. Trabajo personalizado según especificaciones del cliente.",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-hierro-amarillo-personalizada-talavera_e1afa918.jpg",
-    alt: "Reja de hierro personalizada con diseño tradicional español",
-    category: "Rejas",
-  },
-  {
-    id: "reja-4",
     title: "Reja de Aluminio Azul Moderno",
     description: "Reja de aluminio azul con diseño moderno y limpio. Excelente relación entre seguridad y estética.",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-aluminio-azul-talavera-reina_03362468.jpg",
