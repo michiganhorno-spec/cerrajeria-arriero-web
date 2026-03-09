@@ -5,7 +5,6 @@ import { Phone, MessageCircle, Star, Wrench, Zap, Shield, DoorOpen, Package } fr
 import { useState } from "react";
 import ContactForm from "@/components/ContactForm";
 import TestimonialsSection from "@/components/TestimonialsSection";
-import ProjectGallery from "@/components/ProjectGallery";
 
 const INDUSTRIAL_BG_1 = "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/industrial_background_sparks_d80625e8.jpg";
 const INDUSTRIAL_BG_2 = "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/metal_welding_close_up_aedbc5e1.jpg";
@@ -132,11 +131,18 @@ export default function Home() {
               description="Solución perfecta para ampliar tu espacio habitable. Excelente aislamiento térmico y acústico durante todo el año."
             />
           </div>
+          
+          {/* Button to Projects Page */}
+          <div className="flex justify-center mt-12">
+            <a
+              href="/trabajos-realizados"
+              className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors"
+            >
+              Ver Todos Nuestros Trabajos Realizados
+            </a>
+          </div>
         </div>
       </section>
-
-      {/* Project Gallery Section */}
-      <ProjectGallery />
 
       {/* Testimonials Section */}
       <TestimonialsSection />

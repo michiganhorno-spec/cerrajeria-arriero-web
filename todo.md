@@ -48,3 +48,12 @@
 - [x] Añadir alt text descriptivo para SEO
 - [x] Validar carga de imágenes en móvil y desktop
 - [x] Pruebas finales y publicación (10 tests pasados)
+
+
+## Reorganización de Estructura
+- [x] Eliminar galería de página principal
+- [x] Crear página separada "Trabajos Realizados" (/trabajos-realizados)
+- [x] Añadir navegación con botón en página principal
+- [x] Añadir botón "Volver" en página de trabajos
+- [x] Validar rutas y navegación
+- [x] Pruebas unitarias pasadas (10/10)
