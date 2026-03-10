@@ -34,8 +34,11 @@ export default function Home() {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
-            Carpintería Metálica Profesional en Talavera de la Reina
+            Cerrajería L. Arriero
           </h1>
+          <h2 className="text-2xl md:text-4xl font-semibold text-orange-400 mb-4">
+            Carpintería Metálica Profesional en Talavera de la Reina
+          </h2>
           
           <p className="text-xl md:text-2xl text-orange-400 mb-2">
             Rejas, Puertas Metálicas y Automáticas de Hierro y Aluminio Soldado
@@ -288,6 +291,11 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-black/80 text-gray-400 py-12 border-t border-orange-600/30">
         <div className="container mx-auto px-4">
+          <div className="mb-8 pb-8 border-b border-gray-700 text-center">
+            <h2 className="text-3xl font-bold text-white mb-2">Cerrajeria L. Arriero</h2>
+            <p className="text-orange-400 font-semibold">Carpinteria Metalica Profesional</p>
+          </div>
+          
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <h3 className="text-white font-bold mb-4">Contacto</h3>

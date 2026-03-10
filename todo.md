@@ -68,3 +68,11 @@
 - [x] Añadir texto SEO principal en página de inicio
 - [x] Crear sección de blog para publicaciones
 - [x] Validar estructura de navegación
+
+
+## Visibilidad del Nombre de Empresa
+- [x] Añadir "Cerrajería L. Arriero" en H1 principal
+- [x] Añadir nombre en footer con datos de contacto
+- [x] Añadir nombre en meta tags y structured data
+- [x] Añadir nombre en sección principal de inicio
+- [x] Validar visibilidad en todas las páginas
