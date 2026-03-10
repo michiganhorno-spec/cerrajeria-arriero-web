@@ -34,11 +34,11 @@ export default function Home() {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
-            CERRAJERÍA L. ARRIERO
+            Carpintería Metálica Profesional en Talavera de la Reina
           </h1>
           
           <p className="text-xl md:text-2xl text-orange-400 mb-2">
-            Carpintería Metálica y Cerrajería Profesional
+            Rejas, Puertas Metálicas y Automáticas de Hierro y Aluminio Soldado
           </p>
           
           <div className="border-2 border-orange-500 inline-block px-6 py-3 mb-8">
@@ -48,7 +48,7 @@ export default function Home() {
           </div>
           
           <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
-            Soluciones de seguridad y diseño para tu hogar o negocio
+            Ofrecemos carpintería metálica profesional en Talavera de la Reina y sus urbanizaciones. Fabricamos e instalamos rejas de seguridad, puertas metálicas y automáticas de hierro y aluminio soldado, cerramientos metálicos, pérgolas con panel sándwich, mobiliario industrial a medida y automatismos para portones y puertas.
           </p>
           
           {/* Call to Action Buttons */}
@@ -85,60 +85,66 @@ export default function Home() {
       <section className="py-16 md:py-24 bg-background">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-white">
-            NUESTROS SERVICIOS ESPECIALIZADOS
+            Servicios de Carpintería Metálica en Talavera
           </h2>
           
           <p className="text-center text-gray-400 mb-16 max-w-2xl mx-auto">
-            Soluciones de seguridad y diseño para tu hogar o negocio
+            Todos nuestros trabajos son personalizados y adaptados a las necesidades de cada cliente, combinando calidad, resistencia y diseño profesional.
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Service Cards */}
             <ServiceCard
               icon={<Shield size={32} />}
-              title="Carpintería Metálica y Cerrajería"
-              description="Especialistas en la transformación del hierro y aluminio en soluciones funcionales y elegantes. Rejas de seguridad, cancelas de hierro robustas y barandillas personalizadas."
-            />
-            
-            <ServiceCard
-              icon={<DoorOpen size={32} />}
-              title="Puertas Automáticas de Hierro y Aluminio"
-              description="Puertas automáticas a medida con sistemas de apertura suave y silenciosa. Soluciones personalizadas para garajes, accesos residenciales y fincas."
-            />
-            
-            <ServiceCard
-              icon={<Zap size={32} />}
-              title="Cerramientos y Vallas de Seguridad"
-              description="Cerramientos metálicos que combinan resistencia estructural con diseño profesional. Adaptados a cualquier estilo arquitectónico."
-            />
-            
-            <ServiceCard
-              icon={<Shield size={32} />}
-              title="Instalación de Rejas y Cancelas"
-              description="Rejas personalizadas en hierro y aluminio soldado que ofrecen máxima protección. Cancelas correderas para acceso controlado."
+              title="Rejas de Seguridad a Medida"
+              description="Rejas personalizadas en hierro y aluminio soldado que ofrecen máxima protección. Diseños tradicionales y modernos adaptados a tu estilo."
               image="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-hierro-negro-tradicional-talavera_b4b99360.jpg"
             />
             
             <ServiceCard
+              icon={<DoorOpen size={32} />}
+              title="Puertas Metálicas y Automáticas"
+              description="Puertas automáticas a medida de hierro y aluminio soldado con sistemas de apertura suave y silenciosa. Soluciones personalizadas para garajes y accesos."
+            />
+            
+            <ServiceCard
+              icon={<Zap size={32} />}
+              title="Cerramientos Metálicos"
+              description="Cerramientos metálicos que combinan resistencia estructural con diseño profesional. Vallas de seguridad adaptadas a cualquier estilo arquitectónico."
+            />
+            
+            <ServiceCard
               icon={<Package size={32} />}
-              title="Puertas Seccionales para Garajes"
-              description="Instalación y reparación de puertas seccionales de alta calidad. Sistemas de apertura suave y segura con tecnología actual."
+              title="Pérgolas con Panel Sándwich"
+              description="Pérgolas metálicas con panel sándwich para ampliar tu espacio habitable. Excelente aislamiento térmico y acústico."
             />
             
             <ServiceCard
               icon={<Wrench size={32} />}
-              title="Cerramientos de Cubierta con Panel Sándwich"
-              description="Solución perfecta para ampliar tu espacio habitable. Excelente aislamiento térmico y acústico durante todo el año."
+              title="Mobiliario Industrial Metálico"
+              description="Mobiliario industrial a medida en hierro y aluminio. Mesas, estanterías, armarios y estructuras personalizadas para tu negocio."
+            />
+            
+            <ServiceCard
+              icon={<Zap size={32} />}
+              title="Automatismos para Portones y Puertas"
+              description="Instalación de automatismos profesionales para portones y puertas. Sistemas de apertura suave, segura y controlada."
             />
           </div>
           
-          {/* Button to Projects Page */}
-          <div className="flex justify-center mt-12">
+          {/* Buttons to Projects and Blog */}
+          <div className="flex flex-col sm:flex-row justify-center gap-4 mt-12">
             <a
               href="/trabajos-realizados"
               className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors"
             >
               Ver Todos Nuestros Trabajos Realizados
+            </a>
+            <a
+              href="/blog"
+              className="bg-gray-700 hover:bg-gray-800 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors"
+            >
+              Leer Nuestro Blog
             </a>
           </div>
         </div>

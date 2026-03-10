@@ -57,3 +57,14 @@
 - [x] Añadir botón "Volver" en página de trabajos
 - [x] Validar rutas y navegación
 - [x] Pruebas unitarias pasadas (10/10)
+
+
+## Restructuración SEO - Carpintería Metálica
+- [x] Actualizar meta tags (título y descripción)
+- [x] Cambiar H1 a "Carpintería Metálica Profesional en Talavera de la Reina"
+- [x] Crear H2 para cada servicio
+- [x] Crear secciones separadas: Rejas, Puertas, Cerramientos, Pérgolas, Mobiliario, Automatismos
+- [x] Optimizar ALT de todas las imágenes con keywords locales
+- [x] Añadir texto SEO principal en página de inicio
+- [x] Crear sección de blog para publicaciones
+- [x] Validar estructura de navegación
