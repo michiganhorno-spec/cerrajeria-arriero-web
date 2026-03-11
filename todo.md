@@ -117,6 +117,13 @@
 - [x] Incluir areaServed con lista de pueblos
 - [x] Validar schema en Google Search Console
 
+## Actualización de 9 Servicios con SEO Optimizado
+- [x] Crear textos SEO optimizados para 9 servicios
+- [x] Actualizar Home.tsx con 9 nuevos servicios
+- [x] Actualizar página de Productos con 9 servicios
+- [x] Incluir keywords locales de Talavera y alrededores
+- [x] Optimizar títulos y descripciones para SEO
+
 ## Próximas Acciones
 - [ ] Crear sitemap.xml con todas las páginas
 - [ ] Crear robots.txt optimizado
