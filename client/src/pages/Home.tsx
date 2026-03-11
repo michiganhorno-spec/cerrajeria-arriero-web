@@ -61,7 +61,7 @@ export default function Home() {
               className="flex items-center justify-center gap-2 bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors"
             >
               <Phone size={20} />
-              📞 925 70 17 92
+              925 70 17 92
             </a>
             
             <a 
@@ -71,7 +71,7 @@ export default function Home() {
               className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors"
             >
               <MessageCircle size={20} />
-              💬 WhatsApp: 661 62 21 60
+              WhatsApp: 661 62 21 60
             </a>
           </div>
           
@@ -99,7 +99,7 @@ export default function Home() {
             {/* Service Cards */}
             <ServiceCard
               icon={<Shield size={32} />}
-              title="Rejas de Seguridad de Hierro Macizo a Medida en Talavera de la Reina"
+              title="Rejas de Seguridad de Hierro a Medida en Talavera de la Reina"
               description="Rejas de seguridad personalizadas en hierro macizo y aluminio soldado para ventanas, balcones y accesos en Talavera de la Reina, Cebolla, Seguirilla, Mejorada y Talavera la Nueva. Máxima protección con diseños tradicionales y modernos adaptados a tu estilo arquitectónico. Fabricación artesanal con soldadura de calidad y acabados profesionales. Instalación segura y rápida. Resistencia garantizada contra intentos de robo. Confía en la experiencia de más de 40 años en carpintería metálica."
               image="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-hierro-negro-tradicional-talavera_b4b99360.jpg"
             />
@@ -147,6 +147,12 @@ export default function Home() {
             />
             
             <ServiceCard
+              icon={<Shield size={32} />}
+              title="Cerramientos y Vallas Metálicas a Medida en Talavera de la Reina"
+              description="Cerramientos y vallas metálicas de seguridad a medida en Talavera de la Reina, Real de San Vicente, San Román, Pueblanueva y Castillo Bayuela. Combinan resistencia estructural con diseño profesional. Adaptados a cualquier estilo arquitectónico y necesidad de seguridad. Fabricación en hierro y aluminio soldado con acabados de calidad. Instalación rápida y segura. Protección total para parcelas, fincas, terrenos y accesos. Soluciones personalizadas para cada proyecto."
+            />
+            
+            <ServiceCard
               icon={<Wrench size={32} />}
               title="Barandillas y Balcones de Hierro a Medida en Talavera de la Reina"
               description="Barandillas y balcones de hierro a medida con diseños clásicos y contemporáneos en Talavera de la Reina, Pepino, Castillo Bayuela, Mejorada y Cebolla. Fabricación artesanal en hierro soldado con acabados profesionales. Seguridad y estética garantizadas para tu hogar o negocio. Personalizable según tus preferencias de diseño. Resistencia estructural y durabilidad. Instalación profesional y rápida."
@@ -156,10 +162,13 @@ export default function Home() {
           {/* Buttons to Projects, Productos and Blog */}
           <div className="flex flex-col sm:flex-row justify-center gap-4 mt-12">
             <a
-              href="/productos"
-              className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors"
+              href="https://wa.me/c/34661622160"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors flex items-center justify-center gap-2"
             >
-              Ver Catálogo de Productos
+              <MessageCircle size={20} />
+              Ver Catálogo en WhatsApp
             </a>
             <a
               href="/trabajos-realizados"

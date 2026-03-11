@@ -124,10 +124,19 @@
 - [x] Incluir keywords locales de Talavera y alrededores
 - [x] Optimizar títulos y descripciones para SEO
 
+## Mejoras y Correcciones Finales
+- [x] Corregir botones de llamada y WhatsApp (quitar emoji duplicados)
+- [x] Quitar "macizo" del título de Rejas de Seguridad
+- [x] Añadir servicio de Cerramientos y Vallas Metálicas
+- [x] Quitar precios del catálogo de productos
+- [x] Reemplazar catálogo de Google con redirección a WhatsApp Business
+- [x] Actualizar botón principal a "Ver Catálogo en WhatsApp"
+
 ## Próximas Acciones
+- [ ] Subir fotos reales al catálogo de WhatsApp Business
 - [ ] Crear sitemap.xml con todas las páginas
 - [ ] Crear robots.txt optimizado
 - [ ] Validar en Google Search Console
-- [ ] Verificar indexación de página de productos
+- [ ] Verificar indexación en Google Business Profile
 - [ ] Monitorear posicionamiento en búsquedas locales
 - [ ] Considerar custom domain cerrajerialuisarriero.es
