@@ -99,39 +99,57 @@ export default function Home() {
             {/* Service Cards */}
             <ServiceCard
               icon={<Shield size={32} />}
-              title="Rejas de Seguridad a Medida"
-              description="Rejas personalizadas en hierro y aluminio soldado que ofrecen máxima protección. Diseños tradicionales y modernos adaptados a tu estilo."
+              title="Rejas de Seguridad a Medida en Talavera de la Reina"
+              description="Rejas de seguridad personalizadas en hierro y aluminio soldado que ofrecen máxima protección para ventanas, balcones y accesos. Diseños tradicionales y modernos adaptados a tu estilo arquitectónico. Fabricación artesanal con acabados profesionales. Instalación rápida y segura. Garantiza la protección de tu hogar o negocio con rejas de calidad."
               image="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-hierro-negro-tradicional-talavera_b4b99360.jpg"
             />
             
             <ServiceCard
               icon={<DoorOpen size={32} />}
-              title="Puertas Metálicas y Automáticas"
-              description="Puertas automáticas a medida de hierro y aluminio soldado con sistemas de apertura suave y silenciosa. Soluciones personalizadas para garajes y accesos."
+              title="Puertas Metálicas y Automáticas de Hierro y Aluminio Soldado"
+              description="Puertas automáticas a medida de hierro y aluminio soldado con sistemas de apertura suave, silenciosa y segura. Soluciones personalizadas para garajes, accesos comerciales y residenciales. Diseños modernos y tradicionales. Instalación profesional con garantía. Sistemas de cierre automático y controlado para máxima seguridad y comodidad."
             />
             
             <ServiceCard
               icon={<Zap size={32} />}
-              title="Cerramientos Metálicos"
-              description="Cerramientos metálicos que combinan resistencia estructural con diseño profesional. Vallas de seguridad adaptadas a cualquier estilo arquitectónico."
+              title="Cerramientos Metálicos y Vallas para Parcelas"
+              description="Cerramientos metálicos y vallas de seguridad que combinan resistencia estructural con diseño profesional. Adaptados a cualquier estilo arquitectónico y necesidad de seguridad. Fabricación en hierro y aluminio soldado. Instalación rápida y segura. Protección total para parcelas, fincas y terrenos."
             />
             
             <ServiceCard
               icon={<Package size={32} />}
-              title="Pérgolas con Panel Sándwich"
-              description="Pérgolas metálicas con panel sándwich para ampliar tu espacio habitable. Excelente aislamiento térmico y acústico."
+              title="Pérgolas Metálicas con Panel Sándwich"
+              description="Pérgolas metálicas con panel sándwich para ampliar tu espacio habitable con protección total. Excelente aislamiento térmico y acústico. Diseño moderno y funcional. Fabricación en hierro y aluminio soldado. Instalación profesional. Ideal para terrazas, patios y espacios exteriores."
             />
             
             <ServiceCard
               icon={<Wrench size={32} />}
-              title="Mobiliario Industrial Metálico"
-              description="Mobiliario industrial a medida en hierro y aluminio. Mesas, estanterías, armarios y estructuras personalizadas para tu negocio."
+              title="Mobiliario Industrial Metálico a Medida"
+              description="Mobiliario industrial personalizado en hierro y aluminio soldado. Mesas, estanterías, armarios y estructuras robustas para tu negocio. Diseño funcional y profesional. Fabricación artesanal con acabados de calidad. Solución completa para almacenes, talleres y espacios industriales."
             />
             
             <ServiceCard
               icon={<Zap size={32} />}
               title="Automatismos para Portones y Puertas"
-              description="Instalación de automatismos profesionales para portones y puertas. Sistemas de apertura suave, segura y controlada."
+              description="Instalación de automatismos profesionales para portones y puertas de entrada. Sistemas de apertura suave, segura y controlada. Tecnología de última generación. Mandos a distancia y controles de acceso. Mantenimiento y reparación. Seguridad garantizada para tu hogar o negocio."
+            />
+            
+            <ServiceCard
+              icon={<DoorOpen size={32} />}
+              title="Puertas Correderas Metálicas"
+              description="Puertas correderas de hierro y aluminio soldado para garajes y fincas. Sistemas de deslizamiento suave con cierre automático y seguro. Diseños modernos y tradicionales adaptados a tu espacio."
+            />
+            
+            <ServiceCard
+              icon={<Shield size={32} />}
+              title="Puestos de Caza y Aguardos Metálicos"
+              description="Estructuras metálicas especializadas para puestos de caza y aguardos. Fabricación robusta en hierro soldado con diseño funcional y seguro. Personalizados según tus necesidades y especificaciones."
+            />
+            
+            <ServiceCard
+              icon={<Wrench size={32} />}
+              title="Barandillas y Balcones de Hierro"
+              description="Barandillas y balcones de hierro a medida con diseños clásicos y contemporáneos. Fabricación artesanal en hierro soldado con acabados profesionales. Seguridad y estética garantizadas para tu hogar o negocio."
             />
           </div>
           
@@ -320,16 +338,35 @@ export default function Home() {
             </div>
           </div>
           
-          <div className="border-t border-gray-700 pt-8 text-center">
-            <p className="text-sm">
+          <div className="border-t border-gray-700 pt-8">
+            <div className="flex justify-center gap-8 mb-6">
+              <a href="https://www.facebook.com/CerrajeriaLArriero/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors text-2xl" title="Facebook">
+                f
+              </a>
+              <a href="https://www.instagram.com/cerrajerialuisarriero/" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-400 transition-colors text-2xl" title="Instagram">
+                📷
+              </a>
+            </div>
+            <p className="text-sm text-center">
               © 2026 Cerrajería L. Arriero. Todos los derechos reservados.
             </p>
-            <p className="text-sm mt-2 text-orange-400">
+            <p className="text-sm mt-2 text-orange-400 text-center">
               Especialistas en carpintería metálica y cerrajería profesional en Talavera de la Reina
             </p>
           </div>
         </div>
       </footer>
+      
+      {/* Floating WhatsApp Button */}
+      <a
+        href="https://wa.me/34661622160?text=Hola%2C%20quiero%20solicitar%20presupuesto%20para%20un%20trabajo%20de%20carpinter%C3%ADa%20met%C3%A1lica."
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg transition-all hover:scale-110"
+        title="Solicitar presupuesto por WhatsApp"
+      >
+        <MessageCircle size={28} />
+      </a>
     </div>
   );
 }

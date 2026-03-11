@@ -76,3 +76,14 @@
 - [x] Añadir nombre en meta tags y structured data
 - [x] Añadir nombre en sección principal de inicio
 - [x] Validar visibilidad en todas las páginas
+
+
+## Mejoras SEO Recomendadas por ChatGPT
+- [x] Implementar botón flotante de WhatsApp
+- [x] Añadir botón de catálogo (enlace a WhatsApp Business)
+- [x] Crear servicio: Puertas Correderas Metálicas
+- [x] Crear servicio: Puestos de Caza y Aguardos Metálicos
+- [x] Crear servicio: Barandillas y Balcones de Hierro
+- [x] Expandir descripciones de servicios a 80-120 palabras
+- [x] Añadir iconos de redes sociales (Facebook, Instagram) en footer
+- [x] Validar y publicar (10 tests pasados)
