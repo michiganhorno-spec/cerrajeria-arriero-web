@@ -1,8 +1,8 @@
-import { useAuth } from "@/_core/hooks/useAuth";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Phone, MessageCircle, Star, Wrench, Zap, Shield, DoorOpen, Package } from "lucide-react";
 import { useState } from "react";
+import { useAuth } from "@/_core/hooks/useAuth";
 import ContactForm from "@/components/ContactForm";
 import TestimonialsSection from "@/components/TestimonialsSection";
 
@@ -100,66 +100,72 @@ export default function Home() {
             <ServiceCard
               icon={<Shield size={32} />}
               title="Rejas de Seguridad a Medida en Talavera de la Reina"
-              description="Rejas de seguridad personalizadas en hierro y aluminio soldado que ofrecen máxima protección para ventanas, balcones y accesos. Diseños tradicionales y modernos adaptados a tu estilo arquitectónico. Fabricación artesanal con acabados profesionales. Instalación rápida y segura. Garantiza la protección de tu hogar o negocio con rejas de calidad."
+              description="Rejas de seguridad personalizadas en hierro y aluminio soldado en Talavera de la Reina, Pepino, Cebolla, Mejorada y Seguirilla. Máxima protección para ventanas, balcones y accesos. Diseños tradicionales y modernos adaptados a tu estilo arquitectónico. Fabricación artesanal con acabados profesionales. Instalación rápida y segura. Garantiza la protección de tu hogar o negocio con rejas de calidad."
               image="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-hierro-negro-tradicional-talavera_b4b99360.jpg"
             />
             
             <ServiceCard
               icon={<DoorOpen size={32} />}
               title="Puertas Metálicas y Automáticas de Hierro y Aluminio Soldado"
-              description="Puertas automáticas a medida de hierro y aluminio soldado con sistemas de apertura suave, silenciosa y segura. Soluciones personalizadas para garajes, accesos comerciales y residenciales. Diseños modernos y tradicionales. Instalación profesional con garantía. Sistemas de cierre automático y controlado para máxima seguridad y comodidad."
+              description="Puertas automáticas a medida de hierro y aluminio soldado en Talavera de la Reina, Montecarlo, Prado del Arca, El Chaparral y Pueblanueva. Sistemas de apertura suave, silenciosa y segura. Soluciones personalizadas para garajes, accesos comerciales y residenciales. Diseños modernos y tradicionales. Instalación profesional con garantía. Sistemas de cierre automático y controlado para máxima seguridad y comodidad."
             />
             
             <ServiceCard
               icon={<Zap size={32} />}
               title="Cerramientos Metálicos y Vallas para Parcelas"
-              description="Cerramientos metálicos y vallas de seguridad que combinan resistencia estructural con diseño profesional. Adaptados a cualquier estilo arquitectónico y necesidad de seguridad. Fabricación en hierro y aluminio soldado. Instalación rápida y segura. Protección total para parcelas, fincas y terrenos."
+              description="Cerramientos metálicos y vallas de seguridad en Talavera de la Reina, Real de San Vicente, San Román, Pueblanueva y Castillo Bayuela. Combinan resistencia estructural con diseño profesional. Adaptados a cualquier estilo arquitectónico y necesidad de seguridad. Fabricación en hierro y aluminio soldado. Instalación rápida y segura. Protección total para parcelas, fincas y terrenos."
             />
             
             <ServiceCard
               icon={<Package size={32} />}
               title="Pérgolas Metálicas con Panel Sándwich"
-              description="Pérgolas metálicas con panel sándwich para ampliar tu espacio habitable con protección total. Excelente aislamiento térmico y acústico. Diseño moderno y funcional. Fabricación en hierro y aluminio soldado. Instalación profesional. Ideal para terrazas, patios y espacios exteriores."
+              description="Pérgolas metálicas con panel sándwich en Talavera de la Reina, Belvís de la Jara, Sevilleja, Cervera de los Montes y Nuño Gómez. Amplían tu espacio habitable con protección total. Excelente aislamiento térmico y acústico. Diseño moderno y funcional. Fabricación en hierro y aluminio soldado. Instalación profesional. Ideal para terrazas, patios y espacios exteriores."
             />
             
             <ServiceCard
               icon={<Wrench size={32} />}
               title="Mobiliario Industrial Metálico a Medida"
-              description="Mobiliario industrial personalizado en hierro y aluminio soldado. Mesas, estanterías, armarios y estructuras robustas para tu negocio. Diseño funcional y profesional. Fabricación artesanal con acabados de calidad. Solución completa para almacenes, talleres y espacios industriales."
+              description="Mobiliario industrial personalizado en Talavera de la Reina, Hinojosa de San Vicente, Marrupe, Sotillo de las Palomas y Serranillos. Mesas, estanterías, armarios y estructuras robustas para tu negocio. Diseño funcional y profesional. Fabricación artesanal con acabados de calidad. Solución completa para almacenes, talleres y espacios industriales."
             />
             
             <ServiceCard
               icon={<Zap size={32} />}
               title="Automatismos para Portones y Puertas"
-              description="Instalación de automatismos profesionales para portones y puertas de entrada. Sistemas de apertura suave, segura y controlada. Tecnología de última generación. Mandos a distancia y controles de acceso. Mantenimiento y reparación. Seguridad garantizada para tu hogar o negocio."
+              description="Instalación de automatismos profesionales en Talavera de la Reina, Playa, El Chaparral, Montecarlo y Prado del Arca. Sistemas de apertura suave, segura y controlada. Tecnología de última generación. Mandos a distancia y controles de acceso. Mantenimiento y reparación. Seguridad garantizada para tu hogar o negocio."
             />
             
             <ServiceCard
               icon={<DoorOpen size={32} />}
               title="Puertas Correderas Metálicas"
-              description="Puertas correderas de hierro y aluminio soldado para garajes y fincas. Sistemas de deslizamiento suave con cierre automático y seguro. Diseños modernos y tradicionales adaptados a tu espacio."
+              description="Puertas correderas de hierro y aluminio soldado en Talavera de la Reina, Cornicabral, Cervines, Las Nieves y Espinosillo. Para garajes y fincas. Sistemas de deslizamiento suave con cierre automático y seguro. Diseños modernos y tradicionales adaptados a tu espacio."
             />
             
             <ServiceCard
               icon={<Shield size={32} />}
               title="Puestos de Caza y Aguardos Metálicos"
-              description="Estructuras metálicas especializadas para puestos de caza y aguardos. Fabricación robusta en hierro soldado con diseño funcional y seguro. Personalizados según tus necesidades y especificaciones."
+              description="Estructuras metálicas especializadas para puestos de caza y aguardos en Talavera de la Reina, Comarca de Talavera, La Jara, Sevilleja y Cervera de los Montes. Fabricación robusta en hierro soldado con diseño funcional y seguro. Personalizados según tus necesidades y especificaciones."
             />
             
             <ServiceCard
               icon={<Wrench size={32} />}
               title="Barandillas y Balcones de Hierro"
-              description="Barandillas y balcones de hierro a medida con diseños clásicos y contemporáneos. Fabricación artesanal en hierro soldado con acabados profesionales. Seguridad y estética garantizadas para tu hogar o negocio."
+              description="Barandillas y balcones de hierro a medida en Talavera de la Reina, Pepino, Cebolla, Mejorada y Castillo Bayuela. Diseños clásicos y contemporáneos. Fabricación artesanal en hierro soldado con acabados profesionales. Seguridad y estética garantizadas para tu hogar o negocio."
             />
           </div>
           
-          {/* Buttons to Projects and Blog */}
+          {/* Buttons to Projects, Productos and Blog */}
           <div className="flex flex-col sm:flex-row justify-center gap-4 mt-12">
             <a
-              href="/trabajos-realizados"
+              href="/productos"
               className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors"
             >
-              Ver Todos Nuestros Trabajos Realizados
+              Ver Catálogo de Productos
+            </a>
+            <a
+              href="/trabajos-realizados"
+              className="bg-gray-700 hover:bg-gray-800 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors"
+            >
+              Ver Trabajos Realizados
             </a>
             <a
               href="/blog"

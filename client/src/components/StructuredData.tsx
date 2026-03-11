@@ -16,7 +16,7 @@ export default function StructuredData() {
     "telephone": "+34925701792",
     "url": "https://cerrajeria-arriero.manus.space",
     "priceRange": "$$",
-    "areaServed": "Talavera de la Reina",
+    "areaServed": ["Talavera de la Reina", "Pepino", "Cebolla", "Mejorada", "Seguirilla", "Talavera la Nueva", "Belvís de la Jara", "Sevilleja", "Cervera de los Montes", "San Román", "Pueblanueva", "Castillo Bayuela", "Nuño Gómez", "Hinojosa de San Vicente", "Real de San Vicente", "Marrupe", "Sotillo de las Palomas", "Serranillos", "Playa", "El Chaparral", "Montecarlo", "Prado del Arca", "Cornicabral", "Cervines", "Las Nieves", "Espinosillo"],
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "5",
@@ -66,12 +66,49 @@ export default function StructuredData() {
       "@type": "ContactPoint",
       "telephone": "+34925701792",
       "contactType": "Customer Service",
-      "areaServed": "Talavera de la Reina"
+      "areaServed": ["Talavera de la Reina", "Pepino", "Cebolla", "Mejorada", "Seguirilla", "Talavera la Nueva", "Belvís de la Jara", "Sevilleja", "Cervera de los Montes", "San Román", "Pueblanueva", "Castillo Bayuela", "Nuño Gómez", "Hinojosa de San Vicente", "Real de San Vicente", "Marrupe", "Sotillo de las Palomas", "Serranillos", "Playa", "El Chaparral", "Montecarlo", "Prado del Arca", "Cornicabral", "Cervines", "Las Nieves", "Espinosillo"]
     },
     "sameAs": [
       "https://www.google.com/maps/place/Cerrajer%C3%ADa+L.+Arriero",
       "https://www.facebook.com/CerrajeriaLArriero",
       "https://www.instagram.com/cerrajerialuisarriero"
+    ],
+    "hasOfferingType": [
+      {
+        "@type": "Service",
+        "name": "Rejas de Seguridad de Hierro Macizo a Medida",
+        "description": "Rejas de hierro macizo a medida para ventanas y accesos en Talavera de la Reina",
+        "areaServed": "Talavera de la Reina",
+        "priceRange": "150 EUR"
+      },
+      {
+        "@type": "Service",
+        "name": "Puertas Correderas Metálicas a Medida",
+        "description": "Puertas correderas de hierro y aluminio para garajes y fincas",
+        "areaServed": "Talavera de la Reina",
+        "priceRange": "200 EUR"
+      },
+      {
+        "@type": "Service",
+        "name": "Cancelas Metálicas de Seguridad a Medida",
+        "description": "Cancelas de hierro a medida en Talavera de la Reina y alrededores",
+        "areaServed": "Talavera de la Reina",
+        "priceRange": "150 EUR"
+      },
+      {
+        "@type": "Service",
+        "name": "Barandillas y Balcones Metálicos a Medida",
+        "description": "Barandillas de hierro personalizadas en Talavera de la Reina",
+        "areaServed": "Talavera de la Reina",
+        "priceRange": "100 EUR"
+      },
+      {
+        "@type": "Service",
+        "name": "Puestos de Caza y Aguardos a Medida",
+        "description": "Puestos de caza con panel sándwich en Talavera de la Reina",
+        "areaServed": "Talavera de la Reina",
+        "priceRange": "100 EUR"
+      }
     ]
   };
 

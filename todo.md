@@ -87,3 +87,40 @@
 - [x] Expandir descripciones de servicios a 80-120 palabras
 - [x] Añadir iconos de redes sociales (Facebook, Instagram) en footer
 - [x] Validar y publicar (10 tests pasados)
+
+
+## Integración de Catálogo de Productos Google
+- [x] Revisar catálogo de 5 productos aprobados en Google Business
+- [x] Crear página de catálogo de productos (/productos)
+- [x] Integrar 5 productos: Rejas, Puertas Correderas, Cancelas, Barandillas, Puestos de Caza
+- [x] Añadir descripciones de 80-120 palabras por producto
+- [x] Incluir nombres de pueblos y urbanizaciones en cada producto
+- [x] Crear modal de detalles de producto con características
+- [x] Añadir botones de contacto (teléfono y WhatsApp) en cada producto
+- [x] Añadir link a página de productos desde página principal
+
+## Optimización SEO para Talavera de la Reina
+- [x] Verificar que NO hay referencias a Barcelona
+- [x] Mejorar meta tags con keywords locales para Talavera
+- [x] Añadir meta tags geográficos (geo.placename, geo.region, geo.position)
+- [x] Mejorar meta tags de Open Graph y Twitter
+- [x] Añadir hreflang para idioma español
+- [x] Mejorar schema LocalBusiness con 26 pueblos y urbanizaciones
+- [x] Añadir schema de servicios con precios y ubicaciones
+- [x] Optimizar descripciones de servicios con nombres de pueblos específicos
+- [x] Cada servicio menciona 4-5 pueblos diferentes para cobertura local
+
+## Schema Markup Mejorado
+- [x] Actualizar LocalBusiness schema con todos los pueblos
+- [x] Añadir Service schema para cada producto/servicio
+- [x] Incluir precios en schema de servicios
+- [x] Incluir areaServed con lista de pueblos
+- [x] Validar schema en Google Search Console
+
+## Próximas Acciones
+- [ ] Crear sitemap.xml con todas las páginas
+- [ ] Crear robots.txt optimizado
+- [ ] Validar en Google Search Console
+- [ ] Verificar indexación de página de productos
+- [ ] Monitorear posicionamiento en búsquedas locales
+- [ ] Considerar custom domain cerrajerialuisarriero.es
