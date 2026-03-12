@@ -140,6 +140,11 @@
 - [x] Integrar imágenes con alt text optimizado
 - [x] Añadir títulos SEO para cada trabajo
 - [x] Enlazar desde página principal
+- [x] Crear componente ServiceCardWithGallery
+- [x] Añadir imagen de portada en tarjeta de Puertas Seccionales
+- [x] Crear modal interactivo con 8 imágenes
+- [x] Añadir navegación (anterior/siguiente) en modal
+- [x] Añadir miniaturas para saltar entre imágenes
 
 ## Próximas Acciones
 - [ ] Subir fotos reales al catálogo de WhatsApp Business

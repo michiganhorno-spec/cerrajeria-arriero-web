@@ -5,6 +5,7 @@ import { useState } from "react";
 import { useAuth } from "@/_core/hooks/useAuth";
 import ContactForm from "@/components/ContactForm";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import ServiceCardWithGallery from "@/components/ServiceCardWithGallery";
 
 const INDUSTRIAL_BG_1 = "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/industrial_background_sparks_d80625e8.jpg";
 const INDUSTRIAL_BG_2 = "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/metal_welding_close_up_aedbc5e1.jpg";
@@ -134,10 +135,53 @@ export default function Home() {
               description="Instalación de automatismos profesionales para puertas y portones en Talavera de la Reina, Cornicabral, Cervines, Las Nieves y Espinosillo. Sistemas de apertura suave, segura y controlada. Tecnología de última generación. Mandos a distancia y controles de acceso avanzados. Mantenimiento y reparación especializada. Seguridad garantizada para tu hogar o negocio. Instalación profesional y rápida."
             />
             
-            <ServiceCard
+            <ServiceCardWithGallery
               icon={<DoorOpen size={32} />}
               title="Puertas Seccionales a Medida en Talavera de la Reina"
               description="Puertas seccionales de alta calidad fabricadas a medida en Talavera de la Reina, Pepino, Cebolla y Mejorada. Sistemas de apertura suave y silenciosa con mecanismos de seguridad avanzados. Ideales para garajes, naves industriales y accesos comerciales. Fabricación en acero galvanizado y aluminio soldado con acabados profesionales. Instalación rápida y garantizada. Mantenimiento y reparación disponible."
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-talavera-reina-1_8e112a6e.jpg"
+              galleryImages={[
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-talavera-reina-1_8e112a6e.jpg",
+                  alt: "Puerta Seccional Talavera de la Reina - Acabado Profesional",
+                  title: "Puerta Seccional Talavera de la Reina"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-automatica-talavera-2_0bb6558e.jpg",
+                  alt: "Puerta Seccional Automática - Garaje Pepino",
+                  title: "Puerta Seccional Automática"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-garaje-talavera-3_965be917.jpg",
+                  alt: "Puerta Seccional para Garaje - Cebolla",
+                  title: "Puerta Seccional Garaje"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-metalica-talavera-4_7390da26.jpg",
+                  alt: "Puerta Seccional Metálica - Mejorada",
+                  title: "Puerta Seccional Metálica"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-hierro-talavera-5_9ed978ba.jpg",
+                  alt: "Puerta Seccional de Hierro - Talavera la Nueva",
+                  title: "Puerta Seccional Hierro"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-aluminio-talavera-6_b6e321dd.jpg",
+                  alt: "Puerta Seccional de Aluminio - Belvís de la Jara",
+                  title: "Puerta Seccional Aluminio"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-seguridad-talavera-7_ce76b07f.jpg",
+                  alt: "Puerta Seccional de Seguridad - Sevilleja",
+                  title: "Puerta Seccional Seguridad"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-personalizada-talavera-8_4001a2bf.jpg",
+                  alt: "Puerta Seccional Personalizada - Cervera de los Montes",
+                  title: "Puerta Seccional Personalizada"
+                }
+              ]}
             />
             
             <ServiceCard
