@@ -132,6 +132,15 @@
 - [x] Reemplazar catálogo de Google con redirección a WhatsApp Business
 - [x] Actualizar botón principal a "Ver Catálogo en WhatsApp"
 
+## Integración de Puertas Seccionales con Imágenes
+- [x] Descargar 8 imágenes de puertas seccionales
+- [x] Renombrar imágenes con nombres SEO para Talavera
+- [x] Subir imágenes a CDN
+- [x] Crear página de Trabajos Realizados con galería
+- [x] Integrar imágenes con alt text optimizado
+- [x] Añadir títulos SEO para cada trabajo
+- [x] Enlazar desde página principal
+
 ## Próximas Acciones
 - [ ] Subir fotos reales al catálogo de WhatsApp Business
 - [ ] Crear sitemap.xml con todas las páginas
