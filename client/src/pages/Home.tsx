@@ -168,7 +168,7 @@ export default function Home() {
             
             <ServiceCardWithGallery
               icon={<Zap size={32} />}
-              title="Puertas y Portones Automáticos en Talavera de la Reina"
+              title="Puertas y Portones en Talavera de la Reina"
               description="Puertas y portones automáticos de última generación en Talavera de la Reina, Cornicabral, Cervines, Las Nieves y Espinosillo. Sistemas de apertura suave, segura y controlada. Tecnología avanzada con mandos a distancia y controles de acceso. Fabricación en hierro y aluminio soldado. Mantenimiento y reparación especializada. Seguridad garantizada para tu hogar o negocio. Instalación profesional y rápida."
               coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-porton-automatico-talavera-1_46a7a963.jpg"
               galleryImages={[
@@ -246,8 +246,8 @@ export default function Home() {
             
             <ServiceCard
               icon={<Shield size={32} />}
-              title="Mobiliario Industrial de Hierro Soldado a Medida en Talavera de la Reina"
-              description="Mobiliario industrial de hierro soldado a medida en Talavera de la Reina, Playa, El Chaparral, Montecarlo y Prado del Arca. Estructuras robustas y duraderas para almacenes, fábricas y talleres. Mesas de trabajo, estanterías de carga pesada, armarios y racks personalizados. Fabricación artesanal con soldadura de calidad. Acabados profesionales. Diseño funcional y resistente. Instalación garantizada."
+              title="Cerramientos y Vallas Metálicas a Medida en Talavera de la Reina"
+              description="Cerramientos y vallas metálicas personalizadas en hierro y aluminio soldado en Talavera de la Reina, Oropesa, Lagartera, Puente del Arzobispo y Velada. Protección total para fincas, jardines, parcelas y accesos. Diseño moderno y tradicional adaptado a tu estilo. Fabricación robusta con acabados profesionales. Instalación rápida y garantizada. Resistencia a la intemperie. Diseño funcional y resistente. Instalación garantizada."
             />
             
             <ServiceCard
