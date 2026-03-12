@@ -121,8 +121,23 @@ export default function Home() {
                 },
                 {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-seguridad-mejorada-4_d03023be.jpg",
-                  title: "Reja de Seguridad Tradicional Mejorada - Hierro Negro Forjado Clásico",
-                  alt: "Reja de seguridad tradicional en Mejorada con hierro forjado negro, diseño clásico y protección garantizada para accesos"
+                  title: "Reja de Seguridad Tradicional Mejorada - Hierro Negro Forjado Clasico",
+                  alt: "Reja de seguridad tradicional en Mejorada con hierro forjado negro, diseño clasico y proteccion garantizada para accesos"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-aluminio-azul-talavera-reina_1d126599.jpg",
+                  title: "Reja de Seguridad Aluminio Azul Talavera de la Reina - Diseño Moderno Elegante",
+                  alt: "Reja de seguridad de aluminio lacado azul en Talavera de la Reina, diseño moderno y elegante para ventanas y balcones"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-hierro-amarillo-personalizada-talavera_dd27f2cf.jpg",
+                  title: "Reja de Seguridad Hierro Amarillo Personalizada Talavera - Acabado Lacado",
+                  alt: "Reja de seguridad personalizada en Talavera con hierro soldado lacado amarillo, proteccion y estilo combinados"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-hierro-gris-moderno-talavera_133b6b01.jpg",
+                  title: "Reja de Seguridad Hierro Gris Moderno Talavera - Diseño Contemporaneo",
+                  alt: "Reja de seguridad moderna en Talavera con hierro soldado lacado gris, diseño contemporaneo y proteccion profesional"
                 }
               ]}
             />
