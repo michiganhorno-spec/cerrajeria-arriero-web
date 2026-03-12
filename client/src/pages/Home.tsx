@@ -188,26 +188,6 @@ export default function Home() {
                   alt: "Puerta automática en Cebolla con control de acceso avanzado, mando a distancia y seguridad profesional"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-porton-automatico-talavera-4_30e33e02.jpg",
-                  title: "Puerta Automática Mejorada - Aluminio Lacado Motorizado",
-                  alt: "Puerta automática en Mejorada con aluminio lacado y motor profesional, diseño moderno y seguro"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-porton-automatico-talavera-5_47634f2f.jpg",
-                  title: "Portón Automático Talavera - Hierro Forjado Motorizado",
-                  alt: "Portón automático en Talavera de la Reina con hierro forjado y motor de última generación"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-porton-automatico-talavera-6_0be8a1b6.jpg",
-                  title: "Portón Automático Seguirilla - Sistema de Apertura Suave",
-                  alt: "Portón automático en Seguirilla con sistema de apertura suave y controlada, seguridad total"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-porton-automatico-talavera-7_b127f8bf.jpg",
-                  title: "Portón Automático Talavera la Nueva - Control Remoto Avanzado",
-                  alt: "Portón automático en Talavera la Nueva con control remoto avanzado y mando a distancia profesional"
-                },
-                {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-porton-automatico-talavera-8_f91d15c0.jpg",
                   title: "Puerta y Portón Automático Talavera - Instalación Profesional",
                   alt: "Puerta y portón automático en Talavera de la Reina con instalación profesional y mantenimiento garantizado"
