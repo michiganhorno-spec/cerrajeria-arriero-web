@@ -102,7 +102,7 @@ export default function Home() {
               icon={<Shield size={32} />}
               title="Rejas de Seguridad de Hierro a Medida en Talavera de la Reina"
               description="Rejas de seguridad personalizadas en hierro macizo y aluminio soldado para ventanas, balcones y accesos en Talavera de la Reina, Cebolla, Seguirilla, Mejorada y Talavera la Nueva. Máxima protección con diseños tradicionales y modernos adaptados a tu estilo arquitectónico. Fabricación artesanal con soldadura de calidad y acabados profesionales. Instalación segura y rápida. Resistencia garantizada contra intentos de robo. Confía en la experiencia de más de 40 años en carpintería metálica."
-              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-seguridad-talavera-reina-1_f3372f10.jpg"
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-hierro-negro-tradicional-talavera_b4b99360.jpg"
               galleryImages={[
                 {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-seguridad-talavera-reina-1_f3372f10.jpg",
