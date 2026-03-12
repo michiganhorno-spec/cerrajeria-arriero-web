@@ -166,10 +166,53 @@ export default function Home() {
               description="Mobiliario industrial personalizado en hierro y aluminio soldado en Talavera de la Reina, Hinojosa de San Vicente, Marrupe, Sotillo de las Palomas y Serranillos. Mesas, estanterías, armarios y estructuras robustas para tu negocio. Diseño funcional y profesional. Fabricación artesanal con acabados de calidad. Solución completa para almacenes, talleres y espacios industriales. Resistencia y durabilidad garantizadas. Personalizable según tus necesidades."
             />
             
-            <ServiceCard
+            <ServiceCardWithGallery
               icon={<Zap size={32} />}
-              title="Automatismos para Puertas y Portones en Talavera de la Reina"
-              description="Instalación de automatismos profesionales para puertas y portones en Talavera de la Reina, Cornicabral, Cervines, Las Nieves y Espinosillo. Sistemas de apertura suave, segura y controlada. Tecnología de última generación. Mandos a distancia y controles de acceso avanzados. Mantenimiento y reparación especializada. Seguridad garantizada para tu hogar o negocio. Instalación profesional y rápida."
+              title="Puertas y Portones Automáticos en Talavera de la Reina"
+              description="Puertas y portones automáticos de última generación en Talavera de la Reina, Cornicabral, Cervines, Las Nieves y Espinosillo. Sistemas de apertura suave, segura y controlada. Tecnología avanzada con mandos a distancia y controles de acceso. Fabricación en hierro y aluminio soldado. Mantenimiento y reparación especializada. Seguridad garantizada para tu hogar o negocio. Instalación profesional y rápida."
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-porton-automatico-talavera-1_46a7a963.jpg"
+              galleryImages={[
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-porton-automatico-talavera-1_46a7a963.jpg",
+                  title: "Puerta Automática Talavera de la Reina - Sistema Motorizado Profesional",
+                  alt: "Puerta automática en Talavera de la Reina con sistema motorizado profesional, apertura suave y controlada"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-porton-automatico-talavera-2_f1dd0fd1.jpg",
+                  title: "Puerta Automática Pepino - Hierro Soldado Motorizado",
+                  alt: "Puerta automática en Pepino con hierro soldado y sistema motorizado, seguridad y confort garantizados"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-porton-automatico-talavera-3_d7f6d033.jpg",
+                  title: "Puerta Automática Cebolla - Control de Acceso Avanzado",
+                  alt: "Puerta automática en Cebolla con control de acceso avanzado, mando a distancia y seguridad profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-porton-automatico-talavera-4_30e33e02.jpg",
+                  title: "Puerta Automática Mejorada - Aluminio Lacado Motorizado",
+                  alt: "Puerta automática en Mejorada con aluminio lacado y motor profesional, diseño moderno y seguro"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-porton-automatico-talavera-5_47634f2f.jpg",
+                  title: "Portón Automático Talavera - Hierro Forjado Motorizado",
+                  alt: "Portón automático en Talavera de la Reina con hierro forjado y motor de última generación"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-porton-automatico-talavera-6_0be8a1b6.jpg",
+                  title: "Portón Automático Seguirilla - Sistema de Apertura Suave",
+                  alt: "Portón automático en Seguirilla con sistema de apertura suave y controlada, seguridad total"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-porton-automatico-talavera-7_b127f8bf.jpg",
+                  title: "Portón Automático Talavera la Nueva - Control Remoto Avanzado",
+                  alt: "Portón automático en Talavera la Nueva con control remoto avanzado y mando a distancia profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-porton-automatico-talavera-8_f91d15c0.jpg",
+                  title: "Puerta y Portón Automático Talavera - Instalación Profesional",
+                  alt: "Puerta y portón automático en Talavera de la Reina con instalación profesional y mantenimiento garantizado"
+                }
+              ]}
             />
             
             <ServiceCardWithGallery
