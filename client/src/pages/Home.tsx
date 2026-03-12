@@ -215,12 +215,6 @@ export default function Home() {
               Ver Catálogo en WhatsApp
             </a>
             <a
-              href="/trabajos-realizados"
-              className="bg-gray-700 hover:bg-gray-800 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors"
-            >
-              Ver Trabajos Realizados
-            </a>
-            <a
               href="/blog"
               className="bg-gray-700 hover:bg-gray-800 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors"
             >

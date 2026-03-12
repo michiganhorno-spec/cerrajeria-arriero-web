@@ -151,6 +151,14 @@
 - [x] Añadir pueblos específicos en cada título (Talavera, Pepino, Cebolla, etc)
 - [x] Incluir acabados (Madera, Lacado al Horno RAL) en cada imagen
 - [x] Añadir "Automatizada con Motor" en alt text de todas las imágenes
+- [x] Quitar botón de "Trabajos Realizados" que daba error
+
+## Próximas Galerías SEO (45 fotos nuevas)
+- [ ] Recopilar 5 fotos por cada servicio (9 servicios = 45 fotos)
+- [ ] Subir fotos a CDN
+- [ ] Integrar galerías interactivas en cada tarjeta de servicio
+- [ ] Optimizar títulos y alt text con keywords locales
+- [ ] Aplicar mismo patrón SEO que Puertas Seccionales
 
 ## Próximas Acciones
 - [ ] Subir fotos reales al catálogo de WhatsApp Business
