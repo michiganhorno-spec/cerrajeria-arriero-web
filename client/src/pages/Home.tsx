@@ -105,19 +105,9 @@ export default function Home() {
               coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-hierro-negro-tradicional-talavera_b4b99360.jpg"
               galleryImages={[
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-seguridad-talavera-reina-1_f3372f10.jpg",
-                  title: "Reja de Seguridad Hierro Talavera de la Reina - Acabado Natural Protección Total",
-                  alt: "Reja de seguridad de hierro macizo en Talavera de la Reina con acabado natural, protección garantizada para ventanas y balcones"
-                },
-                {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-seguridad-pepino-2_3573bdd1.jpg",
                   title: "Reja de Seguridad Personalizada Pepino - Hierro Soldado Lacado Amarillo",
                   alt: "Reja de seguridad personalizada en Pepino con hierro soldado y acabado lacado amarillo, diseño moderno y resistente"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-seguridad-cebolla-3_8c8fcb58.jpg",
-                  title: "Reja de Seguridad Moderno Cebolla - Hierro Lacado Gris Profesional",
-                  alt: "Reja de seguridad moderna en Cebolla con hierro soldado lacado gris, acabado profesional y protección de máxima calidad"
                 },
                 {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-seguridad-mejorada-4_d03023be.jpg",
