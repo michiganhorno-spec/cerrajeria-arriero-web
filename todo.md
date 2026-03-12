@@ -145,6 +145,8 @@
 - [x] Crear modal interactivo con 8 imágenes
 - [x] Añadir navegación (anterior/siguiente) en modal
 - [x] Añadir miniaturas para saltar entre imágenes
+- [x] Eliminar página de Trabajos Realizados (mantener solo galerías en servicios)
+- [x] Eliminar ruta /trabajos-realizados del App.tsx
 
 ## Próximas Acciones
 - [ ] Subir fotos reales al catálogo de WhatsApp Business

@@ -8,7 +8,6 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Blog from "./pages/Blog";
 import Productos from "./pages/Productos";
-import TrabajosRealizados from "./pages/TrabajosRealizados";
 import StructuredData from "./components/StructuredData";
 
 function Router() {
@@ -16,7 +15,6 @@ function Router() {
   return (
     <Switch>
       <Route path={"/"} component={Home} />
-      <Route path={"/trabajos-realizados"} component={TrabajosRealizados} />
       <Route path={"/productos"} component={Productos} />
       <Route path={"/blog"} component={Blog} />
       <Route path={"/404"} component={NotFound} />
