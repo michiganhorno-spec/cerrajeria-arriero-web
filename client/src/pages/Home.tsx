@@ -105,11 +105,6 @@ export default function Home() {
               coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-hierro-negro-tradicional-talavera_b4b99360.jpg"
               galleryImages={[
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-seguridad-pepino-2_3573bdd1.jpg",
-                  title: "Reja de Seguridad Personalizada Pepino - Hierro Soldado Lacado Amarillo",
-                  alt: "Reja de seguridad personalizada en Pepino con hierro soldado y acabado lacado amarillo, diseño moderno y resistente"
-                },
-                {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-seguridad-mejorada-4_d03023be.jpg",
                   title: "Reja de Seguridad Tradicional Mejorada - Hierro Negro Forjado Clasico",
                   alt: "Reja de seguridad tradicional en Mejorada con hierro forjado negro, diseño clasico y proteccion garantizada para accesos"
