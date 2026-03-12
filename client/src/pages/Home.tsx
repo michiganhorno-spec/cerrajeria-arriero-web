@@ -123,6 +123,26 @@ export default function Home() {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-hierro-gris-moderno-talavera_133b6b01.jpg",
                   title: "Reja de Seguridad Hierro Gris Moderno Talavera - Diseño Contemporaneo",
                   alt: "Reja de seguridad moderna en Talavera con hierro soldado lacado gris, diseño contemporaneo y proteccion profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-barrotes-macizos-adornos-talavera-1_1e1e8d35.jpg",
+                  title: "Reja de Seguridad Barrotes Macizos con Adornos Talavera de la Reina - Hierro Forjado Artesanal",
+                  alt: "Reja de seguridad con barrotes macizos y adornos en Talavera de la Reina, hierro forjado artesanal, proteccion y elegancia"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-barrotes-adornos-lacado-al-horno-talavera-2_84822e12.jpg",
+                  title: "Reja de Seguridad Barrotes con Adornos Lacado al Horno Talavera - Acabado Profesional",
+                  alt: "Reja de seguridad con barrotes y adornos lacados al horno en Talavera, acabado profesional y resistencia garantizada"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-forja-tradicional-talavera-3_2453fb77.jpg",
+                  title: "Reja de Forja Tradicional Talavera de la Reina - Hierro Macizo Artesanal",
+                  alt: "Reja de forja tradicional en Talavera de la Reina, hierro macizo artesanal, diseño clasico y proteccion total"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-castellana-lacado-al-horno-talavera-4_4e8f0ee7.jpg",
+                  title: "Reja Modelo Castellana Lacado al Horno Talavera - Diseño Tradicional Elegante",
+                  alt: "Reja modelo castellana lacada al horno en Talavera de la Reina, diseño tradicional elegante, proteccion y estilo"
                 }
               ]}
             />
