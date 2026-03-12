@@ -147,6 +147,10 @@
 - [x] Añadir miniaturas para saltar entre imágenes
 - [x] Eliminar página de Trabajos Realizados (mantener solo galerías en servicios)
 - [x] Eliminar ruta /trabajos-realizados del App.tsx
+- [x] Optimizar títulos de 8 imágenes con keywords: Puerta Seccional + Panel Sándwich
+- [x] Añadir pueblos específicos en cada título (Talavera, Pepino, Cebolla, etc)
+- [x] Incluir acabados (Madera, Lacado al Horno RAL) en cada imagen
+- [x] Añadir "Automatizada con Motor" en alt text de todas las imágenes
 
 ## Próximas Acciones
 - [ ] Subir fotos reales al catálogo de WhatsApp Business

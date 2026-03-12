@@ -143,43 +143,43 @@ export default function Home() {
               galleryImages={[
                 {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-talavera-reina-1_8e112a6e.jpg",
-                  alt: "Puerta Seccional Talavera de la Reina - Acabado Profesional",
-                  title: "Puerta Seccional Talavera de la Reina"
+                  alt: "Puerta Seccional Panel Sandwich Talavera de la Reina - Acabado Madera Automatizada con Motor",
+                  title: "Puerta Seccional Panel Sandwich Talavera de la Reina - Acabado Madera Automatizada"
                 },
                 {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-automatica-talavera-2_0bb6558e.jpg",
-                  alt: "Puerta Seccional Automática - Garaje Pepino",
-                  title: "Puerta Seccional Automática"
+                  alt: "Puerta Seccional Panel Sandwich Pepino - Lacado al Horno RAL Automatizada con Motor",
+                  title: "Puerta Seccional Panel Sandwich Pepino - Lacado al Horno RAL Automatizada"
                 },
                 {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-garaje-talavera-3_965be917.jpg",
-                  alt: "Puerta Seccional para Garaje - Cebolla",
-                  title: "Puerta Seccional Garaje"
+                  alt: "Puerta Seccional Panel Sandwich Cebolla - Acabado Profesional Automatizada con Motor",
+                  title: "Puerta Seccional Panel Sandwich Cebolla - Acabado Profesional Automatizada"
                 },
                 {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-metalica-talavera-4_7390da26.jpg",
-                  alt: "Puerta Seccional Metálica - Mejorada",
-                  title: "Puerta Seccional Metálica"
+                  alt: "Puerta Seccional Panel Sandwich Mejorada - Lacado al Horno Automatizada con Motor",
+                  title: "Puerta Seccional Panel Sandwich Mejorada - Lacado al Horno Automatizada"
                 },
                 {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-hierro-talavera-5_9ed978ba.jpg",
-                  alt: "Puerta Seccional de Hierro - Talavera la Nueva",
-                  title: "Puerta Seccional Hierro"
+                  alt: "Puerta Seccional Panel Sandwich Talavera la Nueva - Acabado Madera Automatizada con Motor",
+                  title: "Puerta Seccional Panel Sandwich Talavera la Nueva - Acabado Madera Automatizada"
                 },
                 {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-aluminio-talavera-6_b6e321dd.jpg",
-                  alt: "Puerta Seccional de Aluminio - Belvís de la Jara",
-                  title: "Puerta Seccional Aluminio"
+                  alt: "Puerta Seccional Panel Sandwich Belvis de la Jara - Lacado al Horno RAL Automatizada con Motor",
+                  title: "Puerta Seccional Panel Sandwich Belvis de la Jara - Lacado al Horno RAL Automatizada"
                 },
                 {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-seguridad-talavera-7_ce76b07f.jpg",
-                  alt: "Puerta Seccional de Seguridad - Sevilleja",
-                  title: "Puerta Seccional Seguridad"
+                  alt: "Puerta Seccional Panel Sandwich Sevilleja - Acabado Profesional Automatizada con Motor",
+                  title: "Puerta Seccional Panel Sandwich Sevilleja - Acabado Profesional Automatizada"
                 },
                 {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-personalizada-talavera-8_4001a2bf.jpg",
-                  alt: "Puerta Seccional Personalizada - Cervera de los Montes",
-                  title: "Puerta Seccional Personalizada"
+                  alt: "Puerta Seccional Panel Sandwich Cervera de los Montes - Lacado al Horno Automatizada con Motor",
+                  title: "Puerta Seccional Panel Sandwich Cervera de los Montes - Lacado al Horno Automatizada"
                 }
               ]}
             />
