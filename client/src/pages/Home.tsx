@@ -130,11 +130,6 @@ export default function Home() {
                   alt: "Reja de seguridad de aluminio lacado azul en Talavera de la Reina, diseño moderno y elegante para ventanas y balcones"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-hierro-amarillo-personalizada-talavera_dd27f2cf.jpg",
-                  title: "Reja de Seguridad Hierro Amarillo Personalizada Talavera - Acabado Lacado",
-                  alt: "Reja de seguridad personalizada en Talavera con hierro soldado lacado amarillo, proteccion y estilo combinados"
-                },
-                {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-hierro-gris-moderno-talavera_133b6b01.jpg",
                   title: "Reja de Seguridad Hierro Gris Moderno Talavera - Diseño Contemporaneo",
                   alt: "Reja de seguridad moderna en Talavera con hierro soldado lacado gris, diseño contemporaneo y proteccion profesional"
