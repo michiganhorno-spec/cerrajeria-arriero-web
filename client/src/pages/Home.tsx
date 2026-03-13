@@ -144,8 +144,8 @@ export default function Home() {
             
             <ServiceCard
               icon={<DoorOpen size={32} />}
-              title="Puertas Automáticas de Hierro y Aluminio Soldado en Talavera de la Reina"
-              description="Puertas automáticas a medida de hierro y aluminio soldado con sistemas de apertura suave, silenciosa y segura en Talavera de la Reina, Montecarlo, Prado del Arca, Pueblanueva y El Chaparral. Soluciones personalizadas para garajes, accesos comerciales y residenciales. Sistemas de cierre automático y controlado para máxima seguridad y comodidad. Diseños modernos y tradicionales. Instalación profesional con garantía. Tecnología de última generación con mandos a distancia."
+              title="Puertas Correderas Automáticas de Hierro y Aluminio en Talavera de la Reina"
+              description="Puertas correderas automáticas a medida de hierro y aluminio soldado con sistemas de apertura suave, silenciosa y segura en Talavera de la Reina, Montecarlo, Prado del Arca, Pueblanueva y El Chaparral. Soluciones personalizadas para garajes, accesos comerciales y residenciales. Sistemas de cierre automático y controlado para máxima seguridad y comodidad. Diseños modernos y tradicionales. Instalación profesional con garantía. Tecnología de última generación con mandos a distancia."
             />
             
             <ServiceCard
@@ -162,8 +162,8 @@ export default function Home() {
             
             <ServiceCard
               icon={<Wrench size={32} />}
-              title="Mobiliario Industrial Metálico a Medida en Talavera de la Reina"
-              description="Mobiliario industrial personalizado en hierro y aluminio soldado en Talavera de la Reina, Hinojosa de San Vicente, Marrupe, Sotillo de las Palomas y Serranillos. Mesas, estanterías, armarios y estructuras robustas para tu negocio. Diseño funcional y profesional. Fabricación artesanal con acabados de calidad. Solución completa para almacenes, talleres y espacios industriales. Resistencia y durabilidad garantizadas. Personalizable según tus necesidades."
+              title="Cerramientos Industriales de Hierro y Cristal - Separadores de Espacio en Talavera de la Reina"
+              description="Cerramientos industriales de hierro y cristal para separadores de espacio en Talavera de la Reina, Hinojosa de San Vicente, Marrupe, Sotillo de las Palomas y Serranillos. Soluciones modernas para oficinas, almacenes, talleres y espacios industriales. Diseño funcional con estructura de hierro soldado y cristal templado. Permite visibilidad y aislamiento. Acabados profesionales de calidad. Instalación rápida y garantizada. Personalizable según tus necesidades de espacio."
             />
             
             <ServiceCardWithGallery
@@ -251,15 +251,15 @@ export default function Home() {
             />
             
             <ServiceCard
-              icon={<Shield size={32} />}
-              title="Cerramientos y Vallas Metálicas a Medida en Talavera de la Reina"
-              description="Cerramientos y vallas metálicas de seguridad a medida en Talavera de la Reina, Real de San Vicente, San Román, Pueblanueva y Castillo Bayuela. Combinan resistencia estructural con diseño profesional. Adaptados a cualquier estilo arquitectónico y necesidad de seguridad. Fabricación en hierro y aluminio soldado con acabados de calidad. Instalación rápida y segura. Protección total para parcelas, fincas, terrenos y accesos. Soluciones personalizadas para cada proyecto."
+              icon={<DoorOpen size={32} />}
+              title="Puertas de Entrada de Portales para Comunidades en Talavera de la Reina"
+              description="Puertas de entrada de portales para comunidades a medida en Talavera de la Reina, Pepino, Cebolla, Mejorada y comarca. Soluciones modernas y seguras para accesos comunitarios. Fabricación en hierro y aluminio soldado con cristal de seguridad. Diseño funcional y profesional. Sistemas de cierre automático y control de acceso. Acabados de calidad garantizados. Instalación rápida y profesional. Protección y seguridad para tu comunidad."
             />
             
             <ServiceCard
               icon={<Wrench size={32} />}
-              title="Barandillas y Balcones de Hierro a Medida en Talavera de la Reina"
-              description="Barandillas y balcones de hierro a medida con diseños clásicos y contemporáneos en Talavera de la Reina, Pepino, Castillo Bayuela, Mejorada y Cebolla. Fabricación artesanal en hierro soldado con acabados profesionales. Seguridad y estética garantizadas para tu hogar o negocio. Personalizable según tus preferencias de diseño. Resistencia estructural y durabilidad. Instalación profesional y rápida."
+              title="Barandillas, Balcones y Escaleras de Hierro a Medida en Talavera de la Reina"
+              description="Barandillas, balcones y escaleras de hierro a medida con diseños clásicos y contemporáneos en Talavera de la Reina, Pepino, Castillo Bayuela, Mejorada y Cebolla. Fabricación artesanal en hierro soldado con acabados profesionales. Seguridad y estética garantizadas para tu hogar o negocio. Personalizable según tus preferencias de diseño. Resistencia estructural y durabilidad. Instalación profesional y rápida."
             />
           </div>
           

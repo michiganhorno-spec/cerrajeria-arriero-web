@@ -168,3 +168,35 @@
 - [ ] Verificar indexación en Google Business Profile
 - [ ] Monitorear posicionamiento en búsquedas locales
 - [ ] Considerar custom domain cerrajerialuisarriero.es
+
+## Limpieza de Duplicados y Nuevo Servicio
+- [x] Eliminar duplicada de Cerramientos de Home.tsx
+- [x] Crear nuevo servicio: "Accesorios y Piezas Metálicas" (tapaderas de pozos, parrillas, rejillas, etc.)
+- [x] Cambiar servicio #2 a "Puertas Correderas Automáticas"
+- [x] Cambiar servicio #8 a "Cerramientos Industriales de Hierro y Cristal"
+- [x] Mantener 10 servicios únicos sin redundancias
+
+## Textos SEO Optimizados para Servicios (NUEVA TAREA)
+- [ ] Adaptar texto de Puertas Seccionales con pueblos específicos
+- [ ] Crear 9 textos SEO similares para otros servicios
+- [ ] Crear texto para nuevo servicio "Accesorios y Piezas Metálicas"
+- [ ] Integrar textos en páginas individuales de servicios
+- [ ] Cada texto con estructura: Intro + Ventajas (H2) + Instalación (H2) + Presupuesto (H2)
+- [ ] Incluir pueblos específicos: Talavera, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvis, Sevilleja, Cervera
+- [ ] Optimizar keywords y repetición estratégica para SEO local
+
+## Optimizaciones SEO Completadas
+- [x] Crear robots.txt para guiar a buscadores
+- [x] Crear sitemap.xml con todas las paginas
+- [x] Agregar meta tags adicionales en index.html (theme-color, apple-mobile-web-app)
+- [x] Mejorar y expandir catalogo de WhatsApp (CATALOGO_WHATSAPP_MEJORADO.md)
+- [x] Verificar schema markup LocalBusiness en index.html
+
+## Proximas Acciones
+- [ ] Recibir fotos de Cerramientos Industriales y Puertas de Portales
+- [ ] Crear paginas individuales de servicios con fotos + texto SEO
+- [ ] Integrar galerias interactivas en paginas de servicios
+- [ ] Crear checkpoint final
+- [ ] Publicar en dominio
+- [ ] Configurar Google Analytics 4
+- [ ] Configurar Google Search Console
