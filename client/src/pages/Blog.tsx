@@ -108,10 +108,8 @@ export default function Blog() {
       {/* Back Button */}
       <section className="py-8 border-t border-gray-700">
         <div className="container mx-auto px-4">
-          <Link href="/">
-            <a className="text-orange-500 hover:text-orange-400 font-semibold flex items-center gap-2">
-              ← Volver a Inicio
-            </a>
+          <Link href="/" className="text-orange-500 hover:text-orange-400 font-semibold flex items-center gap-2">
+            ← Volver a Inicio
           </Link>
         </div>
       </section>
