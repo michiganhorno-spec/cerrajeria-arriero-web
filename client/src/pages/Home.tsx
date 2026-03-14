@@ -245,15 +245,15 @@ export default function Home() {
             />
             
             <ServiceCard
-              icon={<Shield size={32} />}
-              title="Cerramientos y Vallas Metálicas a Medida en Talavera de la Reina"
-              description="Cerramientos y vallas metálicas personalizadas en hierro y aluminio soldado en Talavera de la Reina, Oropesa, Lagartera, Puente del Arzobispo y Velada. Protección total para fincas, jardines, parcelas y accesos. Diseño moderno y tradicional adaptado a tu estilo. Fabricación robusta con acabados profesionales. Instalación rápida y garantizada. Resistencia a la intemperie. Diseño funcional y resistente. Instalación garantizada."
+              icon={<DoorOpen size={32} />}
+              title="Puertas de Portales para Comunidades en Talavera de la Reina"
+              description="Puertas de portales para comunidades a medida en Talavera de la Reina, Pepino, Cebolla, Mejorada y comarca. Soluciones modernas y seguras para accesos comunitarios. Fabricación en hierro y aluminio soldado con cristal de seguridad. Diseño funcional y profesional. Sistemas de cierre automático y control de acceso. Acabados de calidad garantizados. Instalación rápida y profesional. Protección y seguridad para tu comunidad."
             />
             
             <ServiceCard
               icon={<DoorOpen size={32} />}
-              title="Puertas de Entrada de Portales para Comunidades en Talavera de la Reina"
-              description="Puertas de entrada de portales para comunidades a medida en Talavera de la Reina, Pepino, Cebolla, Mejorada y comarca. Soluciones modernas y seguras para accesos comunitarios. Fabricación en hierro y aluminio soldado con cristal de seguridad. Diseño funcional y profesional. Sistemas de cierre automático y control de acceso. Acabados de calidad garantizados. Instalación rápida y profesional. Protección y seguridad para tu comunidad."
+              title="Puertas de Entrada a Vivienda de Hierro y Aluminio en Talavera de la Reina"
+              description="Puertas de entrada a vivienda fabricadas a medida en hierro y aluminio soldado en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvís, Sevilleja y Cervera. Seguridad y elegancia para tu hogar. Diseños personalizados que se adaptan a cualquier fachada. Sistemas de cierre de seguridad avanzados. Acabados profesionales de calidad. Aislamiento térmico y acústico. Instalación rápida y garantizada. Protección total para tu entrada principal."
             />
             
             <ServiceCard
