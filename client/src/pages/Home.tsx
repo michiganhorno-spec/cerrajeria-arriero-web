@@ -157,7 +157,7 @@ export default function Home() {
                   alt: "Puerta corredera automática en Pepino con hierro soldado"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-puertas-correderas-automaticas-talavera-reina_5b3550f2.jpg",
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-puertas-correderas-automaticas-talavera-reina_e7681138.jpg",
                   title: "Puerta Corredera Automática Cebolla - Control de Acceso",
                   alt: "Puerta corredera automática en Cebolla con control de acceso"
                 },
@@ -176,17 +176,17 @@ export default function Home() {
               coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-cancelas-hierro-portada-talavera-reina_1558188b.jpg"
               galleryImages={[
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-cancelas-hierro-talavera-reina_8c4d7e8f.jpg",
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-cancelas-hierro-talavera-reina_5c124a04.jpg",
                   title: "Cancela de Hierro Talavera de la Reina - Diseño Tradicional",
                   alt: "Cancela de hierro en Talavera con diseño tradicional"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-cancelas-hierro-talavera-reina_f2b3c9a1.jpg",
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/10-cancelas-hierro-talavera-reina_1adf2291.jpg",
                   title: "Cancela de Hierro Pepino - Acabado Profesional",
                   alt: "Cancela de hierro en Pepino con acabado profesional"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-cancelas-hierro-talavera-reina_d1e5f7c2.jpg",
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/11-cancelas-hierro-talavera-reina_b89a2a1c.jpg",
                   title: "Cancela de Hierro Cebolla - Seguridad Garantizada",
                   alt: "Cancela de hierro en Cebolla con seguridad garantizada"
                 }
@@ -200,17 +200,17 @@ export default function Home() {
               coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-pergolas-cubiertas-portada-talavera-reina_36a7b11e.jpg"
               galleryImages={[
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-pergolas-cubiertas-talavera-reina_7f9e3d4c.jpg",
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-pergolas-cubiertas-talavera-reina_ccf48341.jpg",
                   title: "Pérgola y Cubierta Talavera de la Reina - Panel Sándwich",
                   alt: "Pérgola y cubierta en Talavera con panel sándwich"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-pergolas-cubiertas-talavera-reina_a3c1b6e8.jpg",
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-pergolas-cubiertas-talavera-reina_5bd5eeb7.jpg",
                   title: "Pérgola Pepino - Aislamiento Térmico",
                   alt: "Pérgola en Pepino con aislamiento térmico"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-pergolas-cubiertas-talavera-reina_b2d4e9f5.jpg",
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-pergolas-cubiertas-talavera-reina_368f8f76.jpg",
                   title: "Cubierta Cebolla - Protección Total",
                   alt: "Cubierta en Cebolla con protección total"
                 }
@@ -224,17 +224,17 @@ export default function Home() {
               coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-cerramientos-industriales-hierro-cristal-portada-talavera-reina_ecebc238.jpg"
               galleryImages={[
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-cerramientos-industriales-talavera-reina_5c2e8b1d.jpg",
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-cerramientos-industriales-hierro-cristal-talavera-reina_95c25621.jpg",
                   title: "Cerramiento Industrial Talavera de la Reina - Hierro y Cristal",
                   alt: "Cerramiento industrial en Talavera con hierro y cristal"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-cerramientos-industriales-talavera-reina_e4f6a2c9.jpg",
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-cerramientos-industriales-hierro-cristal-talavera-reina_be4a5729.jpg",
                   title: "Cerramiento Industrial Pepino - Separador de Espacio",
                   alt: "Cerramiento industrial en Pepino como separador de espacio"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-cerramientos-industriales-talavera-reina_d3a7f1b4.jpg",
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-cerramientos-industriales-hierro-cristal-talavera-reina_d258bc12.jpg",
                   title: "Cerramiento Industrial Cebolla - Cristal Templado",
                   alt: "Cerramiento industrial en Cebolla con cristal templado"
                 }
@@ -336,7 +336,7 @@ export default function Home() {
                   alt: "Puerta de portal en Pepino para seguridad comunitaria"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-puertas-portales-comunidad-talavera-reina_6bcd4955.jpg",
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-puertas-portales-comunidad-talavera-reina_6bcd4955.jpg",
                   title: "Puerta de Portal Cebolla - Cristal de Seguridad",
                   alt: "Puerta de portal en Cebolla con cristal de seguridad"
                 }
@@ -360,7 +360,7 @@ export default function Home() {
                   alt: "Puerta de entrada en Pepino con diseño elegante"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-puertas-entrada-vivienda-talavera-reina_eec65455.jpg",
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-puertas-entrada-vivienda-talavera-reina_eec65455.jpg",
                   title: "Puerta de Entrada Cebolla - Seguridad Garantizada",
                   alt: "Puerta de entrada en Cebolla con seguridad garantizada"
                 }
