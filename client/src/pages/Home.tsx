@@ -6,6 +6,8 @@ import { useAuth } from "@/_core/hooks/useAuth";
 import ContactForm from "@/components/ContactForm";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import ServiceCardWithGallery from "@/components/ServiceCardWithGallery";
+import { GoogleReviews } from "@/components/GoogleReviews";
+import { useGoogleReviews } from "@/hooks/useGoogleReviews";
 
 const INDUSTRIAL_BG_1 = "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/industrial_background_sparks_d80625e8.jpg";
 const INDUSTRIAL_BG_2 = "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/metal_welding_close_up_aedbc5e1.jpg";
@@ -13,6 +15,7 @@ const INDUSTRIAL_BG_2 = "https://d2xsxph8kpxj0f.cloudfront.net/31051966341629854
 export default function Home() {
   const { user } = useAuth();
   const [showContactForm, setShowContactForm] = useState(false);
+  const { reviews } = useGoogleReviews();
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -889,19 +892,22 @@ export default function Home() {
                 className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 text-lg"
               >
                 Solicitar Presupuesto Sin Compromiso
-              </Button>
+                     </Button>
             </div>
           )}
         </div>
       </section>
 
-      {/* Google Maps Section */}
-      <section className="py-16 md:py-24 bg-background">
+      {/* Google Reviews Section */}
+      {reviews.length > 0 && (
+        <GoogleReviews reviews={reviews} autoRotate={true} rotationInterval={5000} />
+      )}
+
+      {/* Location Section */}      <section className="py-16 bg-secondary border-t border-orange-600/30">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-white">
             📍 UBICACIÓN Y ZONA DE COBERTURA
-          </h2>
-          
+          </h2>      
           <p className="text-center text-gray-400 mb-12 text-lg max-w-2xl mx-auto">
             Visítanos en nuestro taller o solicita presupuesto para tu zona
           </p>
