@@ -96,31 +96,46 @@ export default function Home() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Service Cards */}
-                        <ServiceCardWithGallery
+            <ServiceCardWithGallery
               icon={<Shield size={32} />}
-              title="Rejas de Seguridad"
-              description="Servicios profesionales de rejas de seguridad en Talavera de la Reina y alrededores. Fabricación e instalación garantizada."
-              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/rejas-01-IMG20250120120057_7d60377b.jpg"
+              title="Rejas de Seguridad de Hierro a Medida en Talavera de la Reina"
+              description="Rejas de seguridad personalizadas en hierro macizo y aluminio soldado para ventanas, balcones y accesos en Talavera de la Reina, Cebolla, Seguirilla, Mejorada y Talavera la Nueva. Máxima protección con diseños tradicionales y modernos adaptados a tu estilo arquitectónico. Fabricación artesanal con soldadura de calidad y acabados profesionales. Instalación segura y rápida. Resistencia garantizada contra intentos de robo. Confía en la experiencia de más de 40 años en carpintería metálica."
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-hierro-negro-tradicional-talavera_b4b99360.jpg"
               galleryImages={[
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/rejas-01-IMG20250120120057_7d60377b.jpg",
-                  title: "Reja de Seguridad en Talavera de la Reina - Hierro Macizo",
-                  alt: "Reja de Seguridad en Talavera de la Reina Hierro Macizo"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-seguridad-mejorada-4_d03023be.jpg",
+                  title: "Reja de Seguridad Tradicional Mejorada - Hierro Negro Forjado Clasico",
+                  alt: "Reja de seguridad tradicional en Mejorada con hierro forjado negro, diseño clasico y proteccion garantizada para accesos"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/rejas-02-IMG_20160830_104814_846574e5.jpg",
-                  title: "Protección Ventana en Cebolla - Reja Personalizada",
-                  alt: "Protección Ventana en Cebolla Reja Personalizada"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-aluminio-azul-talavera-reina_1d126599.jpg",
+                  title: "Reja de Seguridad Aluminio Azul Talavera de la Reina - Diseño Moderno Elegante",
+                  alt: "Reja de seguridad de aluminio lacado azul en Talavera de la Reina, diseño moderno y elegante para ventanas y balcones"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/rejas-03-IMG_20210928_104226_4725745b.jpg",
-                  title: "Reja Profesional en Seguirilla - Acabado de Calidad",
-                  alt: "Reja Profesional en Seguirilla Acabado de Calidad"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-hierro-gris-moderno-talavera_133b6b01.jpg",
+                  title: "Reja de Seguridad Hierro Gris Moderno Talavera - Diseño Contemporaneo",
+                  alt: "Reja de seguridad moderna en Talavera con hierro soldado lacado gris, diseño contemporaneo y proteccion profesional"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/rejas-04-reja_d96fd5df.jpg",
-                  title: "Reja de Seguridad en Mejorada - Hierro Macizo",
-                  alt: "Reja de Seguridad en Mejorada Hierro Macizo"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-barrotes-macizos-adornos-talavera-1_1e1e8d35.jpg",
+                  title: "Reja de Seguridad Barrotes Macizos con Adornos Talavera de la Reina - Hierro Forjado Artesanal",
+                  alt: "Reja de seguridad con barrotes macizos y adornos en Talavera de la Reina, hierro forjado artesanal, proteccion y elegancia"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-barrotes-adornos-lacado-al-horno-talavera-2_84822e12.jpg",
+                  title: "Reja de Seguridad Barrotes con Adornos Lacado al Horno Talavera - Acabado Profesional",
+                  alt: "Reja de seguridad con barrotes y adornos lacados al horno en Talavera, acabado profesional y resistencia garantizada"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-forja-tradicional-talavera-3_2453fb77.jpg",
+                  title: "Reja de Forja Tradicional Talavera de la Reina - Hierro Macizo Artesanal",
+                  alt: "Reja de forja tradicional en Talavera de la Reina, hierro macizo artesanal, diseño clasico y proteccion total"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-castellana-lacado-al-horno-talavera-4_4e8f0ee7.jpg",
+                  title: "Reja Modelo Castellana Lacado al Horno Talavera - Diseño Tradicional Elegante",
+                  alt: "Reja modelo castellana lacada al horno en Talavera de la Reina, diseño tradicional elegante, proteccion y estilo"
                 }
               ]}
             />
@@ -154,159 +169,74 @@ export default function Home() {
               ]}
             />
             
-                        <ServiceCardWithGallery
+            <ServiceCardWithGallery
               icon={<Zap size={32} />}
-              title="Cancelas de Hierro"
-              description="Servicios profesionales de cancelas de hierro en Talavera de la Reina y alrededores. Fabricación e instalación garantizada."
-              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-01-52638728_407893416448731_5071050010733314048_n_c4cbce16.jpg"
+              title="Cancelas de Hierro a Medida en Talavera de la Reina"
+              description="Cancelas de hierro a medida en Talavera de la Reina, Real de San Vicente, San Román, Pueblanueva y Castillo Bayuela. Combinan resistencia estructural con diseño profesional. Adaptadas a cualquier estilo arquitectónico y necesidad de seguridad. Fabricación en hierro y aluminio soldado con acabados de calidad. Instalación rápida y segura. Protección total para parcelas, fincas, terrenos y accesos. Soluciones personalizadas."
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-cancelas-hierro-portada-talavera-reina_1558188b.jpg"
               galleryImages={[
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-01-52638728_407893416448731_5071050010733314048_n_c4cbce16.jpg",
-                  title: "Cancela de Hierro en Talavera de la Reina - Diseño Tradicional",
-                  alt: "Cancela de Hierro en Talavera de la Reina Diseño Tradicional"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-cancelas-hierro-talavera-reina_5c124a04.jpg",
+                  title: "Cancela de Hierro Talavera de la Reina - Diseño Tradicional",
+                  alt: "Cancela de hierro en Talavera con diseño tradicional"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-02-52806621_2230661347198210_4117361340224372736_n_97a75fc9.jpg",
-                  title: "Acceso Seguro en Real de San Vicente - Cancela Personalizada",
-                  alt: "Acceso Seguro en Real de San Vicente Cancela Personalizada"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/10-cancelas-hierro-talavera-reina_1adf2291.jpg",
+                  title: "Cancela de Hierro Pepino - Acabado Profesional",
+                  alt: "Cancela de hierro en Pepino con acabado profesional"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-03-IMG20250130095956_18f5aec0.jpg",
-                  title: "Cancela Automática en San Román - Protección Total",
-                  alt: "Cancela Automática en San Román Protección Total"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-04-IMG20250527103749_e7deb337.jpg",
-                  title: "Cancela de Hierro en Pueblanueva - Diseño Tradicional",
-                  alt: "Cancela de Hierro en Pueblanueva Diseño Tradicional"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-05-IMG_20141222_180107_f69eda09.jpg",
-                  title: "Acceso Seguro en Castillo Bayuela - Cancela Personalizada",
-                  alt: "Acceso Seguro en Castillo Bayuela Cancela Personalizada"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-06-IMG_20180131_110833_c1de96a9.jpg",
-                  title: "Cancela Automática en Talavera de la Reina - Protección Total",
-                  alt: "Cancela Automática en Talavera de la Reina Protección Total"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-07-IMG_20191025_103935_de712213.jpg",
-                  title: "Cancela de Hierro en Real de San Vicente - Diseño Tradicional",
-                  alt: "Cancela de Hierro en Real de San Vicente Diseño Tradicional"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-08-IMG_20230214_090314_e0230845.jpg",
-                  title: "Acceso Seguro en San Román - Cancela Personalizada",
-                  alt: "Acceso Seguro en San Román Cancela Personalizada"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-12-SAVE_20190506_174112_3841e933.jpg",
-                  title: "Cancela Automática en Pueblanueva - Protección Total",
-                  alt: "Cancela Automática en Pueblanueva Protección Total"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-13-big-es-puerta-con-ventanuco_bf070fa7.jpg",
-                  title: "Cancela de Hierro en Castillo Bayuela - Diseño Tradicional",
-                  alt: "Cancela de Hierro en Castillo Bayuela Diseño Tradicional"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-portada_6caf687a.jpg",
-                  title: "Acceso Seguro en Talavera de la Reina - Cancela Personalizada",
-                  alt: "Acceso Seguro en Talavera de la Reina Cancela Personalizada"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-09-P1010038_3fde97ba.JPG",
-                  title: "Cancela Automática en Real de San Vicente - Protección Total",
-                  alt: "Cancela Automática en Real de San Vicente Protección Total"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-10-P1010050_c3d21ccd.JPG",
-                  title: "Cancela de Hierro en San Román - Diseño Tradicional",
-                  alt: "Cancela de Hierro en San Román Diseño Tradicional"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-11-P1010052_72f8c412.JPG",
-                  title: "Acceso Seguro en Pueblanueva - Cancela Personalizada",
-                  alt: "Acceso Seguro en Pueblanueva Cancela Personalizada"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/11-cancelas-hierro-talavera-reina_b89a2a1c.jpg",
+                  title: "Cancela de Hierro Cebolla - Seguridad Garantizada",
+                  alt: "Cancela de hierro en Cebolla con seguridad garantizada"
                 }
               ]}
             />
             
-                        <ServiceCardWithGallery
+            <ServiceCardWithGallery
               icon={<Package size={32} />}
-              title="Pérgolas y Cubiertas"
-              description="Servicios profesionales de pérgolas y cubiertas en Talavera de la Reina y alrededores. Fabricación e instalación garantizada."
-              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/pergolas-01-IMG_20210305_103314_e87c9862.jpg"
+              title="Pérgolas y Cubiertas con Panel Sándwich en Talavera de la Reina"
+              description="Pérgolas metálicas y cubiertas con panel sándwich para ampliar tu espacio habitable con protección total en Talavera de la Reina, Belvís de la Jara, Sevilleja, Cervera de los Montes y Nuño Gómez. Excelente aislamiento térmico y acústico. Diseño moderno y funcional. Fabricación en hierro y aluminio soldado. Instalación profesional garantizada. Ideal para terrazas, patios y espacios exteriores. Resistencia a la intemperie. Aumenta el valor de tu propiedad."
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-pergolas-cubiertas-portada-talavera-reina_36a7b11e.jpg"
               galleryImages={[
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/pergolas-01-IMG_20210305_103314_e87c9862.jpg",
-                  title: "Pérgola Metálica en Talavera de la Reina - Panel Sándwich",
-                  alt: "Pérgola Metálica en Talavera de la Reina Panel Sándwich"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-pergolas-cubiertas-talavera-reina_ccf48341.jpg",
+                  title: "Pérgola y Cubierta Talavera de la Reina - Panel Sándwich",
+                  alt: "Pérgola y cubierta en Talavera con panel sándwich"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/pergolas-02-IMG_20210305_105443_517a3b2e.jpg",
-                  title: "Cubierta Profesional en Belvís de la Jara - Aislamiento Térmico",
-                  alt: "Cubierta Profesional en Belvís de la Jara Aislamiento Térmico"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-pergolas-cubiertas-talavera-reina_5bd5eeb7.jpg",
+                  title: "Pérgola Pepino - Aislamiento Térmico",
+                  alt: "Pérgola en Pepino con aislamiento térmico"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/pergolas-03-IMG_20210305_105509_e577ba33.jpg",
-                  title: "Pérgola Terraza en Sevilleja - Protección Total",
-                  alt: "Pérgola Terraza en Sevilleja Protección Total"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/pergolas-04-IMG_20211028_161903_fee72a7f.jpg",
-                  title: "Pérgola Metálica en Cervera de los Montes - Panel Sándwich",
-                  alt: "Pérgola Metálica en Cervera de los Montes Panel Sándwich"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/pergolas-portada_08ece2ac.jpg",
-                  title: "Cubierta Profesional en Nuño Gómez - Aislamiento Térmico",
-                  alt: "Cubierta Profesional en Nuño Gómez Aislamiento Térmico"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/pergolas-06-received_966731537436431_e3dad23c.jpeg",
-                  title: "Pérgola Terraza en Talavera de la Reina - Protección Total",
-                  alt: "Pérgola Terraza en Talavera de la Reina Protección Total"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-pergolas-cubiertas-talavera-reina_368f8f76.jpg",
+                  title: "Cubierta Cebolla - Protección Total",
+                  alt: "Cubierta en Cebolla con protección total"
                 }
               ]}
             />
             
-                        <ServiceCardWithGallery
+            <ServiceCardWithGallery
               icon={<Wrench size={32} />}
-              title="Cerramientos Industriales"
-              description="Servicios profesionales de cerramientos industriales en Talavera de la Reina y alrededores. Fabricación e instalación garantizada."
-              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cerramientos-01-IMG20241209171008_6c900aa9.jpg"
+              title="Cerramientos Industriales de Hierro y Cristal - Separadores de Espacio en Talavera de la Reina"
+              description="Cerramientos industriales de hierro y cristal para separadores de espacio en Talavera de la Reina, Hinojosa de San Vicente, Marrupe, Sotillo de las Palomas y Serranillos. Soluciones modernas para oficinas, almacenes, talleres y espacios industriales. Diseño funcional con estructura de hierro soldado y cristal templado. Permite visibilidad y aislamiento. Acabados profesionales de calidad. Instalación rápida y garantizada. Personalizable según tus necesidades de espacio."
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-cerramientos-industriales-hierro-cristal-portada-talavera-reina_ecebc238.jpg"
               galleryImages={[
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cerramientos-01-IMG20241209171008_6c900aa9.jpg",
-                  title: "Cerramiento Industrial en Talavera de la Reina - Hierro y Cristal",
-                  alt: "Cerramiento Industrial en Talavera de la Reina Hierro y Cristal"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-cerramientos-industriales-hierro-cristal-talavera-reina_95c25621.jpg",
+                  title: "Cerramiento Industrial Talavera de la Reina - Hierro y Cristal",
+                  alt: "Cerramiento industrial en Talavera con hierro y cristal"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cerramientos-02-IMG20250130114904_2c34635c.jpg",
-                  title: "Separador de Espacio en Hinojosa de San Vicente - Estructura Profesional",
-                  alt: "Separador de Espacio en Hinojosa de San Vicente Estructura Profesional"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-cerramientos-industriales-hierro-cristal-talavera-reina_be4a5729.jpg",
+                  title: "Cerramiento Industrial Pepino - Separador de Espacio",
+                  alt: "Cerramiento industrial en Pepino como separador de espacio"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cerramientos-03-IMG_20220217_181138_05ea9b0c.jpg",
-                  title: "Cerramiento de Oficina en Marrupe - Cristal Templado",
-                  alt: "Cerramiento de Oficina en Marrupe Cristal Templado"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cerramientos-05-cerramiento1_f3790f7d.jpg",
-                  title: "Cerramiento Industrial en Sotillo de las Palomas - Hierro y Cristal",
-                  alt: "Cerramiento Industrial en Sotillo de las Palomas Hierro y Cristal"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cerramientos-portada_82928217.jpg",
-                  title: "Separador de Espacio en Serranillos - Estructura Profesional",
-                  alt: "Separador de Espacio en Serranillos Estructura Profesional"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cerramientos-04-P1010032_da08a951.JPG",
-                  title: "Cerramiento de Oficina en Talavera de la Reina - Cristal Templado",
-                  alt: "Cerramiento de Oficina en Talavera de la Reina Cristal Templado"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-cerramientos-industriales-hierro-cristal-talavera-reina_d258bc12.jpg",
+                  title: "Cerramiento Industrial Cebolla - Cristal Templado",
+                  alt: "Cerramiento industrial en Cebolla con cristal templado"
                 }
               ]}
             />
@@ -413,135 +343,60 @@ export default function Home() {
               ]}
             />
             
-                        <ServiceCardWithGallery
+            <ServiceCardWithGallery
               icon={<DoorOpen size={32} />}
-              title="Puertas de Entrada"
-              description="Servicios profesionales de puertas de entrada en Talavera de la Reina y alrededores. Fabricación e instalación garantizada."
-              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-entrada-01-IMG-20190928-WA0012_93e4eca9.jpg"
+              title="Puertas de Entrada a Vivienda de Hierro y Aluminio en Talavera de la Reina"
+              description="Puertas de entrada a vivienda fabricadas a medida en hierro y aluminio soldado en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvís, Sevilleja y Cervera. Seguridad y elegancia para tu hogar. Diseños personalizados que se adaptan a cualquier fachada. Sistemas de cierre de seguridad avanzados. Acabados profesionales de calidad. Aislamiento térmico y acústico. Instalación rápida y garantizada. Protección total para tu entrada principal."
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-puertas-entrada-vivienda-talavera-reina_ce7f6c3f.jpg"
               galleryImages={[
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-entrada-01-IMG-20190928-WA0012_93e4eca9.jpg",
-                  title: "Puerta de Entrada en Talavera de la Reina - Seguridad Garantizada",
-                  alt: "Puerta de Entrada en Talavera de la Reina Seguridad Garantizada"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-puertas-entrada-vivienda-talavera-reina_ce7f6c3f.jpg",
+                  title: "Puerta de Entrada Talavera de la Reina - Hierro y Aluminio",
+                  alt: "Puerta de entrada en Talavera con hierro y aluminio"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-entrada-02-IMG-20201126-WA0011_38e2ac49.jpg",
-                  title: "Puerta Vivienda en Pepino - Hierro y Aluminio",
-                  alt: "Puerta Vivienda en Pepino Hierro y Aluminio"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-puertas-entrada-vivienda-talavera-reina_5d91fc72.jpg",
+                  title: "Puerta de Entrada Pepino - Diseño Elegante",
+                  alt: "Puerta de entrada en Pepino con diseño elegante"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-entrada-03-IMG20240201161500_1fb8b4e1.jpg",
-                  title: "Acceso Principal en Cebolla - Diseño Elegante",
-                  alt: "Acceso Principal en Cebolla Diseño Elegante"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-entrada-04-IMG_20190221_103245_974085a0.jpg",
-                  title: "Puerta de Entrada en Mejorada - Seguridad Garantizada",
-                  alt: "Puerta de Entrada en Mejorada Seguridad Garantizada"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-entrada-05-IMG_20210728_121954_00635ec4.jpg",
-                  title: "Puerta Vivienda en Talavera la Nueva - Hierro y Aluminio",
-                  alt: "Puerta Vivienda en Talavera la Nueva Hierro y Aluminio"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-entrada-06-IMG_20230615_191842_d02e05de.jpg",
-                  title: "Acceso Principal en Talavera de la Reina - Diseño Elegante",
-                  alt: "Acceso Principal en Talavera de la Reina Diseño Elegante"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-entrada-07-IMG_20231011_121100_4e41158a.jpg",
-                  title: "Puerta de Entrada en Pepino - Seguridad Garantizada",
-                  alt: "Puerta de Entrada en Pepino Seguridad Garantizada"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-entrada-08-IMG_20231011_121139_e7fd95e8.jpg",
-                  title: "Puerta Vivienda en Cebolla - Hierro y Aluminio",
-                  alt: "Puerta Vivienda en Cebolla Hierro y Aluminio"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-entrada-portada_938a5f08.jpg",
-                  title: "Acceso Principal en Mejorada - Diseño Elegante",
-                  alt: "Acceso Principal en Mejorada Diseño Elegante"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-puertas-entrada-vivienda-talavera-reina_eec65455.jpg",
+                  title: "Puerta de Entrada Cebolla - Seguridad Garantizada",
+                  alt: "Puerta de entrada en Cebolla con seguridad garantizada"
                 }
               ]}
             />
             
-                        <ServiceCardWithGallery
+            <ServiceCardWithGallery
               icon={<Wrench size={32} />}
-              title="Barandillas, Balcones y Escaleras"
-              description="Servicios profesionales de barandillas, balcones y escaleras en Talavera de la Reina y alrededores. Fabricación e instalación garantizada."
-              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-02-IMG-20200622-WA0006_e8d8ae34.jpg"
+              title="Barandillas, Balcones y Escaleras de Hierro a Medida en Talavera de la Reina"
+              description="Barandillas, balcones y escaleras de hierro a medida con diseños clásicos y contemporáneos en Talavera de la Reina, Pepino, Castillo Bayuela, Mejorada y Cebolla. Fabricación artesanal en hierro soldado con acabados profesionales. Seguridad y estética garantizadas para tu hogar o negocio. Personalizable según tus preferencias de diseño. Resistencia estructural y durabilidad. Instalación profesional y rápida."
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-barandillas-escaleras-portada-talavera-reina_be14427c.jpg"
               galleryImages={[
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-02-IMG-20200622-WA0006_e8d8ae34.jpg",
-                  title: "Barandilla de Hierro en Talavera de la Reina - Diseño Profesional",
-                  alt: "Barandilla de Hierro en Talavera de la Reina Diseño Profesional"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-barandillas-escaleras-talavera-reina_72e0db48.jpg",
+                  title: "Barandilla Escalera Hierro Talavera de la Reina - Diseño Profesional",
+                  alt: "Barandilla escalera de hierro en Talavera de la Reina con diseño profesional"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-03-IMG20250318091906_30de8bff.jpg",
-                  title: "Escalera de Hierro Forjado en Pepino - Seguridad Garantizada",
-                  alt: "Escalera de Hierro Forjado en Pepino Seguridad Garantizada"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/10-barandillas-escaleras-talavera-reina_44dc43fe.jpg",
+                  title: "Barandilla Escalera Interior Pepino - Hierro Forjado",
+                  alt: "Barandilla escalera interior en Pepino con hierro forjado"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-04-IMG20250429175425_63692a78.jpg",
-                  title: "Balcón de Hierro en Castillo Bayuela - Acabado Artesanal",
-                  alt: "Balcón de Hierro en Castillo Bayuela Acabado Artesanal"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/11-barandillas-escaleras-talavera-reina_bf8c8876.jpg",
+                  title: "Barandilla Escalera Exterior Cebolla - Seguridad Garantizada",
+                  alt: "Barandilla escalera exterior en Cebolla con seguridad garantizada"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-05-IMG20250821121520_04b51cdf.jpg",
-                  title: "Barandilla de Hierro en Mejorada - Diseño Profesional",
-                  alt: "Barandilla de Hierro en Mejorada Diseño Profesional"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/12-barandillas-escaleras-talavera-reina_acb5dce0.jpg",
+                  title: "Barandilla Balcón Mejorada - Diseño Elegante",
+                  alt: "Barandilla balcón en Mejorada con diseño elegante"
                 },
                 {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-06-IMG20251028140545_38019670.jpg",
-                  title: "Escalera de Hierro Forjado en Cebolla - Seguridad Garantizada",
-                  alt: "Escalera de Hierro Forjado en Cebolla Seguridad Garantizada"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-07-IMG_20181008_110245_236ab001.jpg",
-                  title: "Balcón de Hierro en Talavera de la Reina - Acabado Artesanal",
-                  alt: "Balcón de Hierro en Talavera de la Reina Acabado Artesanal"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-08-IMG_20200326_101236_67adbae6.jpg",
-                  title: "Barandilla de Hierro en Pepino - Diseño Profesional",
-                  alt: "Barandilla de Hierro en Pepino Diseño Profesional"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-09-IMG_20210909_104059_b09014b7.jpg",
-                  title: "Escalera de Hierro Forjado en Castillo Bayuela - Seguridad Garantizada",
-                  alt: "Escalera de Hierro Forjado en Castillo Bayuela Seguridad Garantizada"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-10-IMG_20210909_104557_c03b3357.jpg",
-                  title: "Balcón de Hierro en Mejorada - Acabado Artesanal",
-                  alt: "Balcón de Hierro en Mejorada Acabado Artesanal"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-11-IMG_20211130_174548_9fc903d2.jpg",
-                  title: "Barandilla de Hierro en Cebolla - Diseño Profesional",
-                  alt: "Barandilla de Hierro en Cebolla Diseño Profesional"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-12-IMG_20220211_111103_26635661.jpg",
-                  title: "Escalera de Hierro Forjado en Talavera de la Reina - Seguridad Garantizada",
-                  alt: "Escalera de Hierro Forjado en Talavera de la Reina Seguridad Garantizada"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-13-SAVE_20210524_192203_dbe83cce.jpg",
-                  title: "Balcón de Hierro en Pepino - Acabado Artesanal",
-                  alt: "Balcón de Hierro en Pepino Acabado Artesanal"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-portada_3563df1c.jpg",
-                  title: "Barandilla de Hierro en Castillo Bayuela - Diseño Profesional",
-                  alt: "Barandilla de Hierro en Castillo Bayuela Diseño Profesional"
-                },
-                {
-                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-01-DSC03751_f3ad262a.JPG",
-                  title: "Escalera de Hierro Forjado en Mejorada - Seguridad Garantizada",
-                  alt: "Escalera de Hierro Forjado en Mejorada Seguridad Garantizada"
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/13-barandillas-escaleras-talavera-reina_e263396e.jpg",
+                  title: "Barandilla Escalera Profesional Castillo Bayuela - Acabado Artesanal",
+                  alt: "Barandilla escalera profesional en Castillo Bayuela con acabado artesanal"
                 }
               ]}
             />
