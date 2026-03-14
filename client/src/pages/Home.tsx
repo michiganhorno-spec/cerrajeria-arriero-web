@@ -142,28 +142,105 @@ export default function Home() {
               ]}
             />
             
-            <ServiceCard
+            <ServiceCardWithGallery
               icon={<DoorOpen size={32} />}
-              title="Puertas Correderas Automáticas de Hierro y Aluminio en Talavera de la Reina" slug="puertas-correderas-automaticas"
+              title="Puertas Correderas Automáticas de Hierro y Aluminio en Talavera de la Reina"
               description="Puertas correderas automáticas a medida de hierro y aluminio soldado con sistemas de apertura suave, silenciosa y segura en Talavera de la Reina, Montecarlo, Prado del Arca, Pueblanueva y El Chaparral. Soluciones personalizadas para garajes, accesos comerciales y residenciales. Sistemas de cierre automático y controlado para máxima seguridad y comodidad. Diseños modernos y tradicionales. Instalación profesional con garantía. Tecnología de última generación con mandos a distancia."
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-puertas-correderas-automaticas-portada-talavera-reina_93c6539c.jpg"
+              galleryImages={[
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-puertas-correderas-automaticas-talavera-reina_bcd8e5ee.jpg",
+                  title: "Puerta Corredera Automática Talavera de la Reina - Sistema Motorizado",
+                  alt: "Puerta corredera automática en Talavera con sistema motorizado profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-puertas-correderas-automaticas-talavera-reina_08f0a94d.jpg",
+                  title: "Puerta Corredera Automática Pepino - Hierro Soldado",
+                  alt: "Puerta corredera automática en Pepino con hierro soldado"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-puertas-correderas-automaticas-talavera-reina_5b3550f2.jpg",
+                  title: "Puerta Corredera Automática Cebolla - Control de Acceso",
+                  alt: "Puerta corredera automática en Cebolla con control de acceso"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-puertas-correderas-automaticas-talavera-reina_5b3550f2.jpg",
+                  title: "Puerta Corredera Automática Mejorada - Instalación Profesional",
+                  alt: "Puerta corredera automática en Mejorada con instalación profesional"
+                }
+              ]}
             />
             
-            <ServiceCard
+            <ServiceCardWithGallery
               icon={<Zap size={32} />}
-              title="Cancelas de Hierro a Medida en Talavera de la Reina" slug="cancelas-hierro"
+              title="Cancelas de Hierro a Medida en Talavera de la Reina"
               description="Cancelas de hierro a medida en Talavera de la Reina, Real de San Vicente, San Román, Pueblanueva y Castillo Bayuela. Combinan resistencia estructural con diseño profesional. Adaptadas a cualquier estilo arquitectónico y necesidad de seguridad. Fabricación en hierro y aluminio soldado con acabados de calidad. Instalación rápida y segura. Protección total para parcelas, fincas, terrenos y accesos. Soluciones personalizadas."
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-cancelas-hierro-portada-talavera-reina_8c4d7e8f.jpg"
+              galleryImages={[
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-cancelas-hierro-talavera-reina_8c4d7e8f.jpg",
+                  title: "Cancela de Hierro Talavera de la Reina - Diseño Tradicional",
+                  alt: "Cancela de hierro en Talavera con diseño tradicional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-cancelas-hierro-talavera-reina_f2b3c9a1.jpg",
+                  title: "Cancela de Hierro Pepino - Acabado Profesional",
+                  alt: "Cancela de hierro en Pepino con acabado profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-cancelas-hierro-talavera-reina_d1e5f7c2.jpg",
+                  title: "Cancela de Hierro Cebolla - Seguridad Garantizada",
+                  alt: "Cancela de hierro en Cebolla con seguridad garantizada"
+                }
+              ]}
             />
             
-            <ServiceCard
+            <ServiceCardWithGallery
               icon={<Package size={32} />}
-              title="Pérgolas y Cubiertas con Panel Sándwich en Talavera de la Reina" slug="pergolas-cubiertas"
+              title="Pérgolas y Cubiertas con Panel Sándwich en Talavera de la Reina"
               description="Pérgolas metálicas y cubiertas con panel sándwich para ampliar tu espacio habitable con protección total en Talavera de la Reina, Belvís de la Jara, Sevilleja, Cervera de los Montes y Nuño Gómez. Excelente aislamiento térmico y acústico. Diseño moderno y funcional. Fabricación en hierro y aluminio soldado. Instalación profesional garantizada. Ideal para terrazas, patios y espacios exteriores. Resistencia a la intemperie. Aumenta el valor de tu propiedad."
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-pergolas-cubiertas-portada-talavera-reina_7f9e3d4c.jpg"
+              galleryImages={[
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-pergolas-cubiertas-talavera-reina_7f9e3d4c.jpg",
+                  title: "Pérgola y Cubierta Talavera de la Reina - Panel Sándwich",
+                  alt: "Pérgola y cubierta en Talavera con panel sándwich"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-pergolas-cubiertas-talavera-reina_a3c1b6e8.jpg",
+                  title: "Pérgola Pepino - Aislamiento Térmico",
+                  alt: "Pérgola en Pepino con aislamiento térmico"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-pergolas-cubiertas-talavera-reina_b2d4e9f5.jpg",
+                  title: "Cubierta Cebolla - Protección Total",
+                  alt: "Cubierta en Cebolla con protección total"
+                }
+              ]}
             />
             
-            <ServiceCard
+            <ServiceCardWithGallery
               icon={<Wrench size={32} />}
-              title="Cerramientos Industriales de Hierro y Cristal - Separadores de Espacio en Talavera de la Reina" slug="cerramientos-industriales"
+              title="Cerramientos Industriales de Hierro y Cristal - Separadores de Espacio en Talavera de la Reina"
               description="Cerramientos industriales de hierro y cristal para separadores de espacio en Talavera de la Reina, Hinojosa de San Vicente, Marrupe, Sotillo de las Palomas y Serranillos. Soluciones modernas para oficinas, almacenes, talleres y espacios industriales. Diseño funcional con estructura de hierro soldado y cristal templado. Permite visibilidad y aislamiento. Acabados profesionales de calidad. Instalación rápida y garantizada. Personalizable según tus necesidades de espacio."
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-cerramientos-industriales-portada-talavera-reina_5c2e8b1d.jpg"
+              galleryImages={[
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-cerramientos-industriales-talavera-reina_5c2e8b1d.jpg",
+                  title: "Cerramiento Industrial Talavera de la Reina - Hierro y Cristal",
+                  alt: "Cerramiento industrial en Talavera con hierro y cristal"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-cerramientos-industriales-talavera-reina_e4f6a2c9.jpg",
+                  title: "Cerramiento Industrial Pepino - Separador de Espacio",
+                  alt: "Cerramiento industrial en Pepino como separador de espacio"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-cerramientos-industriales-talavera-reina_d3a7f1b4.jpg",
+                  title: "Cerramiento Industrial Cebolla - Cristal Templado",
+                  alt: "Cerramiento industrial en Cebolla con cristal templado"
+                }
+              ]}
             />
             
             <ServiceCardWithGallery
@@ -244,16 +321,52 @@ export default function Home() {
               ]}
             />
             
-            <ServiceCard
+            <ServiceCardWithGallery
               icon={<DoorOpen size={32} />}
-              title="Puertas de Portales para Comunidades en Talavera de la Reina" slug="puertas-portales-comunidad"
+              title="Puertas de Portales para Comunidades en Talavera de la Reina"
               description="Puertas de portales para comunidades a medida en Talavera de la Reina, Pepino, Cebolla, Mejorada y comarca. Soluciones modernas y seguras para accesos comunitarios. Fabricación en hierro y aluminio soldado con cristal de seguridad. Diseño funcional y profesional. Sistemas de cierre automático y control de acceso. Acabados de calidad garantizados. Instalación rápida y profesional. Protección y seguridad para tu comunidad."
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-puertas-portales-comunidad-portada-talavera-reina_be99162f.jpg"
+              galleryImages={[
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-puertas-portales-comunidad-talavera-reina_b52351ee.jpg",
+                  title: "Puerta de Portal Talavera de la Reina - Acceso Comunitario",
+                  alt: "Puerta de portal en Talavera para acceso comunitario"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-puertas-portales-comunidad-talavera-reina_a6a20823.jpg",
+                  title: "Puerta de Portal Pepino - Seguridad Comunitaria",
+                  alt: "Puerta de portal en Pepino para seguridad comunitaria"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-puertas-portales-comunidad-talavera-reina_6bcd4955.jpg",
+                  title: "Puerta de Portal Cebolla - Cristal de Seguridad",
+                  alt: "Puerta de portal en Cebolla con cristal de seguridad"
+                }
+              ]}
             />
             
-            <ServiceCard
+            <ServiceCardWithGallery
               icon={<DoorOpen size={32} />}
               title="Puertas de Entrada a Vivienda de Hierro y Aluminio en Talavera de la Reina"
               description="Puertas de entrada a vivienda fabricadas a medida en hierro y aluminio soldado en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvís, Sevilleja y Cervera. Seguridad y elegancia para tu hogar. Diseños personalizados que se adaptan a cualquier fachada. Sistemas de cierre de seguridad avanzados. Acabados profesionales de calidad. Aislamiento térmico y acústico. Instalación rápida y garantizada. Protección total para tu entrada principal."
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-puertas-entrada-vivienda-portada-talavera-reina_ce7f6c3f.jpg"
+              galleryImages={[
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-puertas-entrada-vivienda-talavera-reina_ce7f6c3f.jpg",
+                  title: "Puerta de Entrada Talavera de la Reina - Hierro y Aluminio",
+                  alt: "Puerta de entrada en Talavera con hierro y aluminio"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-puertas-entrada-vivienda-talavera-reina_5d91fc72.jpg",
+                  title: "Puerta de Entrada Pepino - Diseño Elegante",
+                  alt: "Puerta de entrada en Pepino con diseño elegante"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-puertas-entrada-vivienda-talavera-reina_eec65455.jpg",
+                  title: "Puerta de Entrada Cebolla - Seguridad Garantizada",
+                  alt: "Puerta de entrada en Cebolla con seguridad garantizada"
+                }
+              ]}
             />
             
             <ServiceCard
