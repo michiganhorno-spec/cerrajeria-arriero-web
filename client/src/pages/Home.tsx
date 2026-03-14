@@ -1013,15 +1013,7 @@ export default function Home() {
             <p className="text-orange-400 font-semibold">Carpinteria Metalica Profesional</p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8 mb-8">
-            <div>
-              <h3 className="text-white font-bold mb-4">Contacto</h3>
-              <p className="mb-2">📞 925 70 17 92</p>
-              <p className="mb-2">💬 661 62 21 60 (WhatsApp)</p>
-              <p className="mb-2">✉️ <a href="mailto:cerrajeria_l.arriero@hotmail.com" className="text-orange-400 hover:text-orange-300">cerrajeria_l.arriero@hotmail.com</a></p>
-              <p>📍 Pol. Ind. Valdefuentes, Pepino, Toledo</p>
-            </div>
-            
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
               <h3 className="text-white font-bold mb-4">Horario</h3>
               <p className="mb-2">Lunes - Viernes: 8:00 - 19:30</p>
