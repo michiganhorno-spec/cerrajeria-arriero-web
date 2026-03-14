@@ -70,7 +70,7 @@ Realizamos la instalación de rejas de seguridad en Talavera de la Reina, Pepino
 ## Presupuesto para rejas de seguridad
 
 Contacta con nosotros para solicitar presupuesto sin compromiso para tus rejas de seguridad.`,
-    coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-rejas-seguridad-talavera-reina_0ec3a907.jpg",
+    coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-rejas-seguridad-talavera-reina_7a87f623.jpg",
     galleryImages: [
       { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-rejas-seguridad-talavera-reina_7a87f623.jpg", title: "Reja 1", alt: "Reja de seguridad" },
       { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-rejas-seguridad-talavera-reina_f82c9529.jpg", title: "Reja 2", alt: "Reja de seguridad" },
@@ -103,7 +103,7 @@ Realizamos la instalación de puertas de entrada en Talavera de la Reina, Pepino
 ## Presupuesto para puertas de entrada
 
 Contacta con nosotros para solicitar presupuesto sin compromiso para tus puertas de entrada.`,
-    coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-puertas-entrada-vivienda-talavera-reina_24c3acc1.jpg",
+    coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-puertas-entrada-vivienda-talavera-reina_3b266544.jpg",
     galleryImages: [
       { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-puertas-entrada-vivienda-talavera-reina_b9071fb7.jpg", title: "Puerta 1", alt: "Puerta de entrada" },
       { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-puertas-entrada-vivienda-talavera-reina_3b266544.jpg", title: "Puerta 2", alt: "Puerta de entrada" },
