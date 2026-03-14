@@ -30,9 +30,7 @@ export default function Home() {
         
         {/* Content */}
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-          <div className="mb-6 inline-block">
-            <span className="text-6xl">🔒</span>
-          </div>
+
           
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
             Cerrajería L. Arriero

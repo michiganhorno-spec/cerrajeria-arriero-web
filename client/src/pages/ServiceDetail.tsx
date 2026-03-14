@@ -1,8 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { useLocation } from 'wouter';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { useLocation, Link } from 'wouter';
+import { ChevronLeft, ChevronRight, Home } from 'lucide-react';
 
 const serviceData = {
   'puertas-correderas-automaticas': {
@@ -144,6 +144,13 @@ export default function ServiceDetail() {
   return (
     <div className="min-h-screen bg-background py-12">
       <div className="container max-w-4xl">
+        {/* Header with Logo and Back Button */}
+        <div className="flex items-center justify-between mb-8">
+          <Link href="/" className="flex items-center gap-2 text-orange-500 hover:text-orange-600 transition">
+            <Home size={24} />
+            <span className="font-bold text-xl">Cerrajería L. Arriero</span>
+          </Link>
+        </div>
         <h1 className="text-4xl font-bold mb-4">{service.title}</h1>
         <p className="text-lg text-muted-foreground mb-8">{service.description}</p>
 
