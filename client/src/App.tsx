@@ -8,7 +8,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Blog from "./pages/Blog";
 import Productos from "./pages/Productos";
-import { ServiceDetail } from "./pages/ServiceDetail";
+import ServiceDetail from "./pages/ServiceDetail";
 import StructuredData from "./components/StructuredData";
 
 function Router() {
