@@ -137,6 +137,27 @@ export default function Home() {
                   title: "Reja Modelo Castellana Lacado al Horno Talavera - Diseño Tradicional Elegante",
                   alt: "Reja modelo castellana lacada al horno en Talavera de la Reina, diseño tradicional elegante, proteccion y estilo"
                 }
+              ,
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/rejas-01-IMG20250120120057_7d60377b.jpg",
+                  title: "Reja de Seguridad en Talavera de la Reina - Hierro Macizo",
+                  alt: "Reja de Seguridad en Talavera de la Reina Hierro Macizo"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/rejas-02-IMG_20160830_104814_846574e5.jpg",
+                  title: "Protección Ventana en Cebolla - Reja Personalizada",
+                  alt: "Protección Ventana en Cebolla Reja Personalizada"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/rejas-03-IMG_20210928_104226_4725745b.jpg",
+                  title: "Reja Profesional en Seguirilla - Acabado de Calidad",
+                  alt: "Reja Profesional en Seguirilla Acabado de Calidad"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/rejas-04-reja_d96fd5df.jpg",
+                  title: "Reja de Seguridad en Mejorada - Hierro Macizo",
+                  alt: "Reja de Seguridad en Mejorada Hierro Macizo"
+                }
               ]}
             />
             
@@ -166,6 +187,72 @@ export default function Home() {
                   title: "Puerta Corredera Automática Mejorada - Instalación Profesional",
                   alt: "Puerta corredera automática en Mejorada con instalación profesional"
                 }
+              ,
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-correderas-01-52588611_2179120735443021_5408929809394827264_n_bd693a87.jpg",
+                  title: "Puerta Corredera Automática en Talavera de la Reina - Control de Acceso",
+                  alt: "Puerta Corredera Automática en Talavera de la Reina Control de Acceso"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-correderas-03-IMG-20201126-WA0010_e9309add.jpg",
+                  title: "Puerta Corredera Motorizada en Montecarlo - Sistema Profesional",
+                  alt: "Puerta Corredera Motorizada en Montecarlo Sistema Profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-correderas-04-IMG20240213153926_af510ccf.jpg",
+                  title: "Acceso Automático en Prado del Arca - Puerta Corredera Segura",
+                  alt: "Acceso Automático en Prado del Arca Puerta Corredera Segura"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-correderas-05-IMG20240213154204_3726e8e1.jpg",
+                  title: "Puerta Corredera Automática en Pueblanueva - Control de Acceso",
+                  alt: "Puerta Corredera Automática en Pueblanueva Control de Acceso"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-correderas-06-IMG20250612112032_5fe008fc.jpg",
+                  title: "Puerta Corredera Motorizada en El Chaparral - Sistema Profesional",
+                  alt: "Puerta Corredera Motorizada en El Chaparral Sistema Profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-correderas-07-IMG20250626115424_0bcde9e1.jpg",
+                  title: "Acceso Automático en Talavera de la Reina - Puerta Corredera Segura",
+                  alt: "Acceso Automático en Talavera de la Reina Puerta Corredera Segura"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-correderas-08-IMG_20160714_144644_3078dbb7.jpg",
+                  title: "Puerta Corredera Automática en Montecarlo - Control de Acceso",
+                  alt: "Puerta Corredera Automática en Montecarlo Control de Acceso"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-correderas-09-IMG_20191009_164611_285e9e90.jpg",
+                  title: "Puerta Corredera Motorizada en Prado del Arca - Sistema Profesional",
+                  alt: "Puerta Corredera Motorizada en Prado del Arca Sistema Profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-correderas-10-IMG_20211018_115325_3acacc26.jpg",
+                  title: "Acceso Automático en Pueblanueva - Puerta Corredera Segura",
+                  alt: "Acceso Automático en Pueblanueva Puerta Corredera Segura"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-correderas-11-IMG_20221028_101439_1314bcf0.jpg",
+                  title: "Puerta Corredera Automática en El Chaparral - Control de Acceso",
+                  alt: "Puerta Corredera Automática en El Chaparral Control de Acceso"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-correderas-12-IMG_20230206_114525_e1cd3f63.jpg",
+                  title: "Puerta Corredera Motorizada en Talavera de la Reina - Sistema Profesional",
+                  alt: "Puerta Corredera Motorizada en Talavera de la Reina Sistema Profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-correderas-portada_24f45dd5.jpg",
+                  title: "Acceso Automático en Montecarlo - Puerta Corredera Segura",
+                  alt: "Acceso Automático en Montecarlo Puerta Corredera Segura"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-correderas-02-DSC03837_e35f0e44.JPG",
+                  title: "Puerta Corredera Automática en Prado del Arca - Control de Acceso",
+                  alt: "Puerta Corredera Automática en Prado del Arca Control de Acceso"
+                }
               ]}
             />
             
@@ -189,6 +276,77 @@ export default function Home() {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/11-cancelas-hierro-talavera-reina_b89a2a1c.jpg",
                   title: "Cancela de Hierro Cebolla - Seguridad Garantizada",
                   alt: "Cancela de hierro en Cebolla con seguridad garantizada"
+                }
+              ,
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-01-52638728_407893416448731_5071050010733314048_n_c4cbce16.jpg",
+                  title: "Cancela de Hierro en Talavera de la Reina - Diseño Tradicional",
+                  alt: "Cancela de Hierro en Talavera de la Reina Diseño Tradicional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-02-52806621_2230661347198210_4117361340224372736_n_97a75fc9.jpg",
+                  title: "Acceso Seguro en Real de San Vicente - Cancela Personalizada",
+                  alt: "Acceso Seguro en Real de San Vicente Cancela Personalizada"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-03-IMG20250130095956_18f5aec0.jpg",
+                  title: "Cancela Automática en San Román - Protección Total",
+                  alt: "Cancela Automática en San Román Protección Total"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-04-IMG20250527103749_e7deb337.jpg",
+                  title: "Cancela de Hierro en Pueblanueva - Diseño Tradicional",
+                  alt: "Cancela de Hierro en Pueblanueva Diseño Tradicional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-05-IMG_20141222_180107_f69eda09.jpg",
+                  title: "Acceso Seguro en Castillo Bayuela - Cancela Personalizada",
+                  alt: "Acceso Seguro en Castillo Bayuela Cancela Personalizada"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-06-IMG_20180131_110833_c1de96a9.jpg",
+                  title: "Cancela Automática en Talavera de la Reina - Protección Total",
+                  alt: "Cancela Automática en Talavera de la Reina Protección Total"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-07-IMG_20191025_103935_de712213.jpg",
+                  title: "Cancela de Hierro en Real de San Vicente - Diseño Tradicional",
+                  alt: "Cancela de Hierro en Real de San Vicente Diseño Tradicional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-08-IMG_20230214_090314_e0230845.jpg",
+                  title: "Acceso Seguro en San Román - Cancela Personalizada",
+                  alt: "Acceso Seguro en San Román Cancela Personalizada"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-12-SAVE_20190506_174112_3841e933.jpg",
+                  title: "Cancela Automática en Pueblanueva - Protección Total",
+                  alt: "Cancela Automática en Pueblanueva Protección Total"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-13-big-es-puerta-con-ventanuco_bf070fa7.jpg",
+                  title: "Cancela de Hierro en Castillo Bayuela - Diseño Tradicional",
+                  alt: "Cancela de Hierro en Castillo Bayuela Diseño Tradicional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-portada_6caf687a.jpg",
+                  title: "Acceso Seguro en Talavera de la Reina - Cancela Personalizada",
+                  alt: "Acceso Seguro en Talavera de la Reina Cancela Personalizada"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-09-P1010038_3fde97ba.JPG",
+                  title: "Cancela Automática en Real de San Vicente - Protección Total",
+                  alt: "Cancela Automática en Real de San Vicente Protección Total"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-10-P1010050_c3d21ccd.JPG",
+                  title: "Cancela de Hierro en San Román - Diseño Tradicional",
+                  alt: "Cancela de Hierro en San Román Diseño Tradicional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cancelas-11-P1010052_72f8c412.JPG",
+                  title: "Acceso Seguro en Pueblanueva - Cancela Personalizada",
+                  alt: "Acceso Seguro en Pueblanueva Cancela Personalizada"
                 }
               ]}
             />
@@ -214,6 +372,37 @@ export default function Home() {
                   title: "Cubierta Cebolla - Protección Total",
                   alt: "Cubierta en Cebolla con protección total"
                 }
+              ,
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/pergolas-01-IMG_20210305_103314_e87c9862.jpg",
+                  title: "Pérgola Metálica en Talavera de la Reina - Panel Sándwich",
+                  alt: "Pérgola Metálica en Talavera de la Reina Panel Sándwich"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/pergolas-02-IMG_20210305_105443_517a3b2e.jpg",
+                  title: "Cubierta Profesional en Belvís de la Jara - Aislamiento Térmico",
+                  alt: "Cubierta Profesional en Belvís de la Jara Aislamiento Térmico"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/pergolas-03-IMG_20210305_105509_e577ba33.jpg",
+                  title: "Pérgola Terraza en Sevilleja - Protección Total",
+                  alt: "Pérgola Terraza en Sevilleja Protección Total"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/pergolas-04-IMG_20211028_161903_fee72a7f.jpg",
+                  title: "Pérgola Metálica en Cervera de los Montes - Panel Sándwich",
+                  alt: "Pérgola Metálica en Cervera de los Montes Panel Sándwich"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/pergolas-portada_08ece2ac.jpg",
+                  title: "Cubierta Profesional en Nuño Gómez - Aislamiento Térmico",
+                  alt: "Cubierta Profesional en Nuño Gómez Aislamiento Térmico"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/pergolas-06-received_966731537436431_e3dad23c.jpeg",
+                  title: "Pérgola Terraza en Talavera de la Reina - Protección Total",
+                  alt: "Pérgola Terraza en Talavera de la Reina Protección Total"
+                }
               ]}
             />
             
@@ -237,6 +426,37 @@ export default function Home() {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-cerramientos-industriales-hierro-cristal-talavera-reina_d258bc12.jpg",
                   title: "Cerramiento Industrial Cebolla - Cristal Templado",
                   alt: "Cerramiento industrial en Cebolla con cristal templado"
+                }
+              ,
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cerramientos-01-IMG20241209171008_6c900aa9.jpg",
+                  title: "Cerramiento Industrial en Talavera de la Reina - Hierro y Cristal",
+                  alt: "Cerramiento Industrial en Talavera de la Reina Hierro y Cristal"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cerramientos-02-IMG20250130114904_2c34635c.jpg",
+                  title: "Separador de Espacio en Hinojosa de San Vicente - Estructura Profesional",
+                  alt: "Separador de Espacio en Hinojosa de San Vicente Estructura Profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cerramientos-03-IMG_20220217_181138_05ea9b0c.jpg",
+                  title: "Cerramiento de Oficina en Marrupe - Cristal Templado",
+                  alt: "Cerramiento de Oficina en Marrupe Cristal Templado"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cerramientos-05-cerramiento1_f3790f7d.jpg",
+                  title: "Cerramiento Industrial en Sotillo de las Palomas - Hierro y Cristal",
+                  alt: "Cerramiento Industrial en Sotillo de las Palomas Hierro y Cristal"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cerramientos-portada_82928217.jpg",
+                  title: "Separador de Espacio en Serranillos - Estructura Profesional",
+                  alt: "Separador de Espacio en Serranillos Estructura Profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/cerramientos-04-P1010032_da08a951.JPG",
+                  title: "Cerramiento de Oficina en Talavera de la Reina - Cristal Templado",
+                  alt: "Cerramiento de Oficina en Talavera de la Reina Cristal Templado"
                 }
               ]}
             />
@@ -266,6 +486,57 @@ export default function Home() {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-porton-automatico-talavera-8_f91d15c0.jpg",
                   title: "Puerta y Portón Automático Talavera - Instalación Profesional",
                   alt: "Puerta y portón automático en Talavera de la Reina con instalación profesional y mantenimiento garantizado"
+                }
+              ,
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-portones-02-IMG-20201215-WA0001_07853c16.jpg",
+                  title: "Puerta Portón en Talavera de la Reina - Automatismo Profesional",
+                  alt: "Puerta Portón en Talavera de la Reina Automatismo Profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-portones-03-IMG-20230214-WA0005_e414fdfa.jpg",
+                  title: "Portón Garaje en Cornicabral - Seguridad Máxima",
+                  alt: "Portón Garaje en Cornicabral Seguridad Máxima"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-portones-04-IMG20250430171643_965b1d38.jpg",
+                  title: "Puerta Automática en Cervines - Sistema Motorizado",
+                  alt: "Puerta Automática en Cervines Sistema Motorizado"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-portones-05-IMG_20190522_122246_34b6a8ef.jpg",
+                  title: "Puerta Portón en Las Nieves - Automatismo Profesional",
+                  alt: "Puerta Portón en Las Nieves Automatismo Profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-portones-06-IMG_20200806_125505_463b2013.jpg",
+                  title: "Portón Garaje en Espinosillo - Seguridad Máxima",
+                  alt: "Portón Garaje en Espinosillo Seguridad Máxima"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-portones-07-IMG_20200916_104417_06f52457.jpg",
+                  title: "Puerta Automática en Talavera de la Reina - Sistema Motorizado",
+                  alt: "Puerta Automática en Talavera de la Reina Sistema Motorizado"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-portones-08-IMG_20230412_113102_ceb0839b.jpg",
+                  title: "Puerta Portón en Cornicabral - Automatismo Profesional",
+                  alt: "Puerta Portón en Cornicabral Automatismo Profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-portones-portada_daae3efc.jpg",
+                  title: "Portón Garaje en Cervines - Seguridad Máxima",
+                  alt: "Portón Garaje en Cervines Seguridad Máxima"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-portones-01-DSC03835_061ed6f2.JPG",
+                  title: "Puerta Automática en Las Nieves - Sistema Motorizado",
+                  alt: "Puerta Automática en Las Nieves Sistema Motorizado"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-portones-09-P1010034_589b62f2.JPG",
+                  title: "Puerta Portón en Espinosillo - Automatismo Profesional",
+                  alt: "Puerta Portón en Espinosillo Automatismo Profesional"
                 }
               ]}
             />
@@ -340,6 +611,47 @@ export default function Home() {
                   title: "Puerta de Portal Cebolla - Cristal de Seguridad",
                   alt: "Puerta de portal en Cebolla con cristal de seguridad"
                 }
+              ,
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/portales-01-DSC03849_fda6941e.jpg",
+                  title: "Puerta de Portal en Talavera de la Reina - Cristal de Seguridad",
+                  alt: "Puerta de Portal en Talavera de la Reina Cristal de Seguridad"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/portales-02-IMG-20230228-WA0000_9512e82f.jpg",
+                  title: "Acceso Comunitario en Pepino - Control Profesional",
+                  alt: "Acceso Comunitario en Pepino Control Profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/portales-03-IMG20240704130233_77dd07c2.jpg",
+                  title: "Puerta Automática en Cebolla - Sistema de Acceso",
+                  alt: "Puerta Automática en Cebolla Sistema de Acceso"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/portales-04-IMG_20160207_182031_83c11f22.jpg",
+                  title: "Puerta de Portal en Mejorada - Cristal de Seguridad",
+                  alt: "Puerta de Portal en Mejorada Cristal de Seguridad"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/portales-05-IMG_20170808_160746_7bc2b5bd.jpg",
+                  title: "Acceso Comunitario en Comarca - Control Profesional",
+                  alt: "Acceso Comunitario en Comarca Control Profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/portales-06-IMG_20190306_152416_99a1d93f.jpg",
+                  title: "Puerta Automática en Talavera de la Reina - Sistema de Acceso",
+                  alt: "Puerta Automática en Talavera de la Reina Sistema de Acceso"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/portales-07-IMG_20211020_174002_c704d935.jpg",
+                  title: "Puerta de Portal en Pepino - Cristal de Seguridad",
+                  alt: "Puerta de Portal en Pepino Cristal de Seguridad"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/portales-portada_5383c39f.jpg",
+                  title: "Acceso Comunitario en Cebolla - Control Profesional",
+                  alt: "Acceso Comunitario en Cebolla Control Profesional"
+                }
               ]}
             />
             
@@ -363,6 +675,52 @@ export default function Home() {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-puertas-entrada-vivienda-talavera-reina_eec65455.jpg",
                   title: "Puerta de Entrada Cebolla - Seguridad Garantizada",
                   alt: "Puerta de entrada en Cebolla con seguridad garantizada"
+                }
+              ,
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-entrada-01-IMG-20190928-WA0012_93e4eca9.jpg",
+                  title: "Puerta de Entrada en Talavera de la Reina - Seguridad Garantizada",
+                  alt: "Puerta de Entrada en Talavera de la Reina Seguridad Garantizada"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-entrada-02-IMG-20201126-WA0011_38e2ac49.jpg",
+                  title: "Puerta Vivienda en Pepino - Hierro y Aluminio",
+                  alt: "Puerta Vivienda en Pepino Hierro y Aluminio"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-entrada-03-IMG20240201161500_1fb8b4e1.jpg",
+                  title: "Acceso Principal en Cebolla - Diseño Elegante",
+                  alt: "Acceso Principal en Cebolla Diseño Elegante"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-entrada-04-IMG_20190221_103245_974085a0.jpg",
+                  title: "Puerta de Entrada en Mejorada - Seguridad Garantizada",
+                  alt: "Puerta de Entrada en Mejorada Seguridad Garantizada"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-entrada-05-IMG_20210728_121954_00635ec4.jpg",
+                  title: "Puerta Vivienda en Talavera la Nueva - Hierro y Aluminio",
+                  alt: "Puerta Vivienda en Talavera la Nueva Hierro y Aluminio"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-entrada-06-IMG_20230615_191842_d02e05de.jpg",
+                  title: "Acceso Principal en Talavera de la Reina - Diseño Elegante",
+                  alt: "Acceso Principal en Talavera de la Reina Diseño Elegante"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-entrada-07-IMG_20231011_121100_4e41158a.jpg",
+                  title: "Puerta de Entrada en Pepino - Seguridad Garantizada",
+                  alt: "Puerta de Entrada en Pepino Seguridad Garantizada"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-entrada-08-IMG_20231011_121139_e7fd95e8.jpg",
+                  title: "Puerta Vivienda en Cebolla - Hierro y Aluminio",
+                  alt: "Puerta Vivienda en Cebolla Hierro y Aluminio"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-entrada-portada_938a5f08.jpg",
+                  title: "Acceso Principal en Mejorada - Diseño Elegante",
+                  alt: "Acceso Principal en Mejorada Diseño Elegante"
                 }
               ]}
             />
@@ -397,6 +755,77 @@ export default function Home() {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/13-barandillas-escaleras-talavera-reina_e263396e.jpg",
                   title: "Barandilla Escalera Profesional Castillo Bayuela - Acabado Artesanal",
                   alt: "Barandilla escalera profesional en Castillo Bayuela con acabado artesanal"
+                }
+              ,
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-02-IMG-20200622-WA0006_e8d8ae34.jpg",
+                  title: "Barandilla de Hierro en Talavera de la Reina - Diseño Profesional",
+                  alt: "Barandilla de Hierro en Talavera de la Reina Diseño Profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-03-IMG20250318091906_30de8bff.jpg",
+                  title: "Escalera de Hierro Forjado en Pepino - Seguridad Garantizada",
+                  alt: "Escalera de Hierro Forjado en Pepino Seguridad Garantizada"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-04-IMG20250429175425_63692a78.jpg",
+                  title: "Balcón de Hierro en Castillo Bayuela - Acabado Artesanal",
+                  alt: "Balcón de Hierro en Castillo Bayuela Acabado Artesanal"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-05-IMG20250821121520_04b51cdf.jpg",
+                  title: "Barandilla de Hierro en Mejorada - Diseño Profesional",
+                  alt: "Barandilla de Hierro en Mejorada Diseño Profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-06-IMG20251028140545_38019670.jpg",
+                  title: "Escalera de Hierro Forjado en Cebolla - Seguridad Garantizada",
+                  alt: "Escalera de Hierro Forjado en Cebolla Seguridad Garantizada"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-07-IMG_20181008_110245_236ab001.jpg",
+                  title: "Balcón de Hierro en Talavera de la Reina - Acabado Artesanal",
+                  alt: "Balcón de Hierro en Talavera de la Reina Acabado Artesanal"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-08-IMG_20200326_101236_67adbae6.jpg",
+                  title: "Barandilla de Hierro en Pepino - Diseño Profesional",
+                  alt: "Barandilla de Hierro en Pepino Diseño Profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-09-IMG_20210909_104059_b09014b7.jpg",
+                  title: "Escalera de Hierro Forjado en Castillo Bayuela - Seguridad Garantizada",
+                  alt: "Escalera de Hierro Forjado en Castillo Bayuela Seguridad Garantizada"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-10-IMG_20210909_104557_c03b3357.jpg",
+                  title: "Balcón de Hierro en Mejorada - Acabado Artesanal",
+                  alt: "Balcón de Hierro en Mejorada Acabado Artesanal"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-11-IMG_20211130_174548_9fc903d2.jpg",
+                  title: "Barandilla de Hierro en Cebolla - Diseño Profesional",
+                  alt: "Barandilla de Hierro en Cebolla Diseño Profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-12-IMG_20220211_111103_26635661.jpg",
+                  title: "Escalera de Hierro Forjado en Talavera de la Reina - Seguridad Garantizada",
+                  alt: "Escalera de Hierro Forjado en Talavera de la Reina Seguridad Garantizada"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-13-SAVE_20210524_192203_dbe83cce.jpg",
+                  title: "Balcón de Hierro en Pepino - Acabado Artesanal",
+                  alt: "Balcón de Hierro en Pepino Acabado Artesanal"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-portada_3563df1c.jpg",
+                  title: "Barandilla de Hierro en Castillo Bayuela - Diseño Profesional",
+                  alt: "Barandilla de Hierro en Castillo Bayuela Diseño Profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barandillas-01-DSC03751_f3ad262a.JPG",
+                  title: "Escalera de Hierro Forjado en Mejorada - Seguridad Garantizada",
+                  alt: "Escalera de Hierro Forjado en Mejorada Seguridad Garantizada"
                 }
               ]}
             />
