@@ -6,6 +6,46 @@ import { ChevronLeft, ChevronRight, Home } from 'lucide-react';
 
 const serviceData = {
   'puertas-correderas-automaticas': {
+    seo_content: `## Puertas Correderas Automáticas Profesionales en Talavera de la Reina
+
+Fabricamos e instalamos puertas correderas automáticas de hierro y aluminio soldado con tecnología de última generación. Sistemas de apertura suave, silenciosa y segura para garajes, accesos comerciales y residenciales.
+
+### Características de Nuestras Puertas Correderas Automáticas
+
+- **Sistemas Motorizados**: Apertura automática suave y silenciosa
+- **Control Remoto**: Mandos a distancia profesionales incluidos
+- **Hierro y Aluminio Soldado**: Fabricación resistente y duradera
+- **Seguridad Garantizada**: Sistemas de cierre automático y controlado
+- **Instalación Profesional**: Equipo especializado con garantía
+
+### Servicios en Talavera de la Reina
+
+Instalamos puertas correderas automáticas en Talavera de la Reina, Montecarlo, Prado del Arca, Pueblanueva, El Chaparral y pueblos cercanos. Soluciones personalizadas para cada proyecto.
+
+### Aplicaciones
+
+- Garajes residenciales y comerciales
+- Accesos a naves industriales
+- Puertas de entrada a comercios
+- Cerramientos de aparcamientos
+- Accesos de seguridad controlada
+
+### Tecnología Incluida
+
+- Motores de última generación
+- Sistemas de seguridad avanzados
+- Control remoto profesional
+- Sensores de movimiento opcionales
+- Sistemas de emergencia manual
+
+### Mantenimiento y Reparación
+
+Ofrecemos servicios de mantenimiento preventivo y reparación especializada para todas las puertas correderas automáticas.
+
+### Contacta con Nosotros
+
+Solicita presupuesto para tu puerta corredera automática personalizada. Más de 40 años de experiencia en carpintería metálica.`,
+    
     title: 'Puertas Correderas Automáticas',
     description: 'Puertas correderas automáticas de hierro y aluminio soldado. Fabricación e instalación profesional en Talavera de la Reina y pueblos cercanos.',
     gallery: [
@@ -25,6 +65,43 @@ const serviceData = {
     ]
   },
   'rejas-seguridad': {
+    seo_content: `## Rejas de Seguridad Profesionales en Talavera de la Reina
+
+Ofrecemos rejas de seguridad personalizadas fabricadas en hierro macizo y aluminio soldado de la más alta calidad. Nuestras rejas combinan protección máxima con diseño profesional adaptado a tu estilo arquitectónico.
+
+### Características de Nuestras Rejas de Seguridad
+
+- **Hierro Macizo Forjado**: Fabricación artesanal con soldadura de calidad profesional
+- **Diseños Personalizados**: Adaptamos cada reja a tus necesidades y preferencias estéticas
+- **Acabados Profesionales**: Lacado al horno y tratamientos anticorrosión garantizados
+- **Instalación Segura**: Equipo profesional con garantía de instalación rápida
+- **Resistencia Total**: Protección garantizada contra intentos de robo y vandalismo
+
+### Servicios de Rejas en Talavera de la Reina
+
+Fabricamos e instalamos rejas de seguridad en Talavera de la Reina, Cebolla, Seguirilla, Mejorada, Talavera la Nueva y pueblos cercanos. Nuestro equipo se desplaza a cualquier zona para realizar trabajos personalizados.
+
+### Tipos de Rejas que Fabricamos
+
+- Rejas para ventanas de hierro forjado
+- Rejas para puertas y balcones
+- Rejas de seguridad con diseño tradicional
+- Rejas modernas y contemporáneas
+- Rejas con adornos y detalles artesanales
+- Rejas de aluminio lacado
+
+### Proceso de Fabricación
+
+Cada reja se fabrica de forma artesanal, respetando los estándares de calidad más exigentes. Utilizamos hierro macizo de primera calidad, soldadura profesional y acabados de larga duración.
+
+### Garantía y Mantenimiento
+
+Todas nuestras rejas incluyen garantía de fabricación e instalación. Ofrecemos servicios de mantenimiento y reparación especializada.
+
+### Contacta con Nosotros
+
+Solicita presupuesto sin compromiso para tu reja de seguridad personalizada. Más de 40 años de experiencia en carpintería metálica en Talavera de la Reina.`,
+    
     title: 'Rejas de Seguridad',
     description: 'Rejas de seguridad de hierro soldado a medida. Protección profesional para ventanas y puertas en Talavera de la Reina.',
     gallery: [
@@ -35,6 +112,46 @@ const serviceData = {
     ]
   },
   'puertas-entrada-vivienda': {
+    seo_content: `## Puertas de Entrada a Vivienda en Talavera de la Reina
+
+Fabricamos puertas de entrada a vivienda personalizadas en hierro y aluminio soldado. Seguridad y elegancia para tu hogar con diseños adaptados a cualquier fachada.
+
+### Características de Nuestras Puertas de Entrada
+
+- **Hierro y Aluminio Soldado**: Fabricación resistente y profesional
+- **Diseños Personalizados**: Adaptados a tu fachada y preferencias
+- **Seguridad Avanzada**: Sistemas de cierre de seguridad profesionales
+- **Aislamiento Térmico y Acústico**: Confort garantizado
+- **Instalación Profesional**: Equipo especializado con garantía
+
+### Servicios en Talavera de la Reina
+
+Fabricamos puertas de entrada en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvís, Sevilleja, Cervera y pueblos cercanos.
+
+### Tipos de Puertas
+
+- Puertas de entrada de hierro forjado
+- Puertas de entrada de aluminio
+- Puertas con cristales de seguridad
+- Puertas con diseños personalizados
+- Puertas con acabados profesionales
+
+### Ventajas de Nuestras Puertas
+
+- Seguridad total para tu hogar
+- Diseño elegante y moderno
+- Aislamiento térmico superior
+- Reducción de ruido exterior
+- Durabilidad garantizada
+
+### Garantía y Mantenimiento
+
+Todas nuestras puertas de entrada incluyen garantía de fabricación e instalación. Ofrecemos servicios de mantenimiento especializado.
+
+### Contacta con Nosotros
+
+Solicita presupuesto para tu puerta de entrada personalizada. Más de 40 años de experiencia en carpintería metálica.`,
+    
     title: 'Puertas de Entrada a Vivienda',
     description: 'Puertas de entrada a vivienda de hierro y aluminio. Seguridad y diseño personalizado para tu hogar en Talavera de la Reina.',
     gallery: [
@@ -50,6 +167,46 @@ const serviceData = {
     ]
   },
   'puertas-portones': {
+    seo_content: `## Puertas y Portones Automáticos en Talavera de la Reina
+
+Fabricamos puertas y portones automáticos de última generación en hierro y aluminio soldado. Sistemas de apertura suave, segura y controlada para garajes y accesos.
+
+### Características de Nuestras Puertas y Portones
+
+- **Sistemas Automáticos**: Apertura automática con control remoto
+- **Hierro y Aluminio Soldado**: Fabricación resistente y duradera
+- **Seguridad Avanzada**: Sistemas de cierre automático y controlado
+- **Instalación Profesional**: Equipo especializado con garantía
+- **Tecnología Moderna**: Mandos a distancia y controles de acceso
+
+### Servicios en Talavera de la Reina
+
+Instalamos puertas y portones en Talavera de la Reina, Cornicabral, Cervines, Las Nieves, Espinosillo y pueblos cercanos.
+
+### Aplicaciones
+
+- Garajes residenciales y comerciales
+- Accesos a naves industriales
+- Puertas de entrada a comercios
+- Cerramientos de aparcamientos
+- Accesos de seguridad controlada
+
+### Tecnología Incluida
+
+- Motores de última generación
+- Sistemas de seguridad avanzados
+- Control remoto profesional
+- Sensores de movimiento opcionales
+- Sistemas de emergencia manual
+
+### Mantenimiento y Reparación
+
+Ofrecemos servicios de mantenimiento preventivo y reparación especializada para todas las puertas y portones automáticos.
+
+### Contacta con Nosotros
+
+Solicita presupuesto para tu puerta o portón automático personalizado. Más de 40 años de experiencia en carpintería metálica.`,
+    
     title: 'Puertas y Portones',
     description: 'Puertas y portones de hierro y aluminio a medida. Fabricación profesional para garajes y accesos en Talavera de la Reina.',
     gallery: [
@@ -66,6 +223,46 @@ const serviceData = {
     ]
   },
   'puertas-portales-comunidad': {
+    seo_content: `## Puertas de Portales para Comunidades en Talavera de la Reina
+
+Diseñamos y fabricamos puertas de portales para comunidades con sistemas de seguridad y control de acceso. Soluciones modernas y seguras para edificios residenciales.
+
+### Características de Nuestras Puertas de Portal
+
+- **Hierro y Aluminio Soldado**: Fabricación resistente y profesional
+- **Cristal de Seguridad**: Protección y visibilidad garantizadas
+- **Control de Acceso**: Sistemas modernos de seguridad
+- **Instalación Profesional**: Equipo especializado con garantía
+- **Diseño Funcional**: Adaptado a comunidades residenciales
+
+### Servicios en Talavera de la Reina
+
+Instalamos puertas de portal en Talavera de la Reina, Pepino, Cebolla, Mejorada, comarca y pueblos cercanos.
+
+### Características de Seguridad
+
+- Cristal templado de seguridad
+- Sistemas de cierre automático
+- Control de acceso profesional
+- Cerraduras de seguridad
+- Sistemas de intercomunicación
+
+### Ventajas de Nuestras Puertas
+
+- Seguridad garantizada
+- Diseño moderno y funcional
+- Fácil mantenimiento
+- Durabilidad garantizada
+- Acabados de calidad
+
+### Garantía y Mantenimiento
+
+Todas nuestras puertas de portal incluyen garantía de fabricación e instalación. Ofrecemos servicios de mantenimiento especializado.
+
+### Contacta con Nosotros
+
+Solicita presupuesto para tu puerta de portal personalizada. Más de 40 años de experiencia en carpintería metálica.`,
+    
     title: 'Puertas de Portales para Comunidades',
     description: 'Puertas de portales para comunidades de hierro y aluminio. Seguridad y control de acceso profesional en Talavera de la Reina.',
     gallery: [
@@ -80,6 +277,46 @@ const serviceData = {
     ]
   },
   'cerramientos-industriales': {
+    seo_content: `## Cerramientos Industriales de Hierro y Cristal en Talavera de la Reina
+
+Diseñamos y fabricamos cerramientos industriales de hierro y cristal para separadores de espacio. Soluciones modernas para oficinas, almacenes y espacios industriales.
+
+### Características de Nuestros Cerramientos
+
+- **Estructura de Hierro Soldado**: Fabricación resistente y profesional
+- **Cristal Templado**: Seguridad y visibilidad garantizadas
+- **Diseño Funcional**: Adaptado a tus necesidades de espacio
+- **Instalación Profesional**: Equipo especializado con garantía
+- **Acabados de Calidad**: Resistencia y durabilidad garantizadas
+
+### Servicios en Talavera de la Reina
+
+Instalamos cerramientos en Talavera de la Reina, Hinojosa de San Vicente, Marrupe, Sotillo de las Palomas, Serranillos y pueblos cercanos.
+
+### Aplicaciones
+
+- Oficinas y despachos
+- Almacenes y naves
+- Talleres industriales
+- Laboratorios
+- Espacios comerciales
+
+### Ventajas de Nuestros Cerramientos
+
+- Visibilidad interior y exterior
+- Aislamiento acústico
+- Fácil instalación y desmontaje
+- Diseño profesional
+- Bajo mantenimiento
+
+### Garantía y Mantenimiento
+
+Todos nuestros cerramientos incluyen garantía de fabricación e instalación. Ofrecemos servicios de mantenimiento especializado.
+
+### Contacta con Nosotros
+
+Solicita presupuesto para tu cerramiento industrial personalizado. Más de 40 años de experiencia en carpintería metálica.`,
+    
     title: 'Cerramientos Industriales de Hierro y Cristal',
     description: 'Cerramientos industriales de hierro y cristal para separadores de espacio. Diseño profesional para oficinas y fábricas en Talavera de la Reina.',
     gallery: [
@@ -92,6 +329,46 @@ const serviceData = {
     ]
   },
   'pergolas-cubiertas': {
+    seo_content: `## Pérgolas y Cubiertas con Panel Sándwich en Talavera de la Reina
+
+Fabricamos pérgolas metálicas y cubiertas con panel sándwich para ampliar tu espacio habitable con protección total. Excelente aislamiento térmico y acústico para terrazas y patios.
+
+### Características de Nuestras Pérgolas
+
+- **Panel Sándwich Aislante**: Excelente aislamiento térmico y acústico
+- **Estructura de Hierro y Aluminio**: Fabricación resistente y duradera
+- **Diseño Moderno**: Funcional y adaptado a tu espacio
+- **Instalación Profesional**: Equipo especializado con garantía
+- **Protección Total**: Resistencia a la intemperie garantizada
+
+### Servicios en Talavera de la Reina
+
+Instalamos pérgolas en Talavera de la Reina, Belvís de la Jara, Sevilleja, Cervera de los Montes, Nuño Gómez y pueblos cercanos.
+
+### Aplicaciones
+
+- Terrazas residenciales
+- Patios y espacios exteriores
+- Zonas de descanso
+- Aparcamientos cubiertos
+- Espacios comerciales
+
+### Ventajas del Panel Sándwich
+
+- Aislamiento térmico superior
+- Reducción de ruido exterior
+- Durabilidad garantizada
+- Bajo mantenimiento
+- Estética moderna
+
+### Garantía y Mantenimiento
+
+Todas nuestras pérgolas incluyen garantía de fabricación e instalación. Ofrecemos servicios de mantenimiento especializado.
+
+### Contacta con Nosotros
+
+Solicita presupuesto para tu pérgola personalizada. Más de 40 años de experiencia en carpintería metálica.`,
+    
     title: 'Pérgolas y Cubiertas con Panel Sándwich',
     description: 'Pérgolas y cubiertas con panel sándwich de hierro y aluminio. Protección total para terrazas y patios en Talavera de la Reina.',
     gallery: [
@@ -104,6 +381,42 @@ const serviceData = {
     ]
   },
   'cancelas-hierro': {
+    seo_content: `## Cancelas de Hierro a Medida en Talavera de la Reina
+
+Diseñamos y fabricamos cancelas de hierro personalizadas para fincas, propiedades y accesos residenciales. Combinan resistencia estructural con diseño profesional adaptado a tu estilo.
+
+### Características de Nuestras Cancelas
+
+- **Hierro Macizo**: Fabricación resistente y duradera
+- **Diseños Personalizados**: Adaptados a tu arquitectura y necesidades
+- **Acabados Profesionales**: Lacado al horno y tratamientos anticorrosión
+- **Instalación Segura**: Equipo profesional con garantía
+- **Protección Total**: Seguridad y elegancia para tu propiedad
+
+### Servicios en Talavera de la Reina
+
+Fabricamos cancelas en Talavera de la Reina, Real de San Vicente, San Román, Pueblanueva, Castillo Bayuela y pueblos cercanos.
+
+### Tipos de Cancelas
+
+- Cancelas tradicionales de hierro forjado
+- Cancelas modernas y contemporáneas
+- Cancelas con automatismos
+- Cancelas de doble hoja
+- Cancelas con diseños personalizados
+
+### Proceso de Fabricación
+
+Cada cancela se fabrica artesanalmente con hierro de primera calidad, soldadura profesional y acabados de larga duración.
+
+### Garantía y Mantenimiento
+
+Todas nuestras cancelas incluyen garantía de fabricación e instalación. Ofrecemos servicios de mantenimiento y reparación especializada.
+
+### Contacta con Nosotros
+
+Solicita presupuesto para tu cancela de hierro personalizada. Más de 40 años de experiencia en carpintería metálica.`,
+    
     title: 'Cancelas de Hierro',
     description: 'Cancelas de hierro a medida. Acceso seguro y elegante para fincas y propiedades en Talavera de la Reina.',
     gallery: [
@@ -116,6 +429,54 @@ const serviceData = {
     ]
   },
   'barandillas-escaleras': {
+    seo_content: `## Barandillas, Balcones y Escaleras de Hierro en Talavera de la Reina
+
+Diseñamos y fabricamos barandillas, balcones y escaleras de hierro a medida con diseños clásicos y contemporáneos. Seguridad y estética garantizadas para tu hogar o negocio.
+
+### Características de Nuestras Barandillas
+
+- **Hierro Soldado**: Fabricación artesanal con soldadura profesional
+- **Diseños Personalizados**: Clásicos y contemporáneos
+- **Acabados Profesionales**: Lacado al horno y tratamientos anticorrosión
+- **Instalación Segura**: Equipo profesional con garantía
+- **Resistencia Estructural**: Durabilidad garantizada
+
+### Servicios en Talavera de la Reina
+
+Fabricamos barandillas en Talavera de la Reina, Pepino, Castillo Bayuela, Mejorada, Cebolla y pueblos cercanos.
+
+### Tipos de Barandillas
+
+- Barandillas de hierro forjado tradicional
+- Barandillas modernas y contemporáneas
+- Barandillas para escaleras
+- Barandillas para balcones
+- Barandillas para terrazas
+
+### Aplicaciones
+
+- Escaleras interiores y exteriores
+- Balcones residenciales
+- Terrazas y patios
+- Espacios comerciales
+- Edificios públicos
+
+### Ventajas de Nuestras Barandillas
+
+- Seguridad total garantizada
+- Diseño elegante y funcional
+- Fabricación artesanal de calidad
+- Acabados profesionales
+- Bajo mantenimiento
+
+### Garantía y Mantenimiento
+
+Todas nuestras barandillas incluyen garantía de fabricación e instalación. Ofrecemos servicios de mantenimiento especializado.
+
+### Contacta con Nosotros
+
+Solicita presupuesto para tu barandilla personalizada. Más de 40 años de experiencia en carpintería metálica.`,
+    
     title: 'Barandillas, Balcones y Escaleras',
     description: 'Barandillas, balcones y escaleras de hierro forjado. Seguridad y diseño profesional para interiores y exteriores en Talavera de la Reina.',
     gallery: [
@@ -209,6 +570,45 @@ export default function ServiceDetail() {
         <div className="bg-card p-6 rounded-lg mb-8">
           <p className="text-lg font-semibold text-foreground">{currentPhoto.title}</p>
         </div>
+
+        {/* SEO Content */}
+        {service.seo_content && (
+          <div className="bg-card p-8 rounded-lg mb-8 prose prose-invert max-w-none">
+            <div className="text-foreground space-y-4 leading-relaxed">
+              {service.seo_content.split('\n\n').map((paragraph, index) => {
+                if (paragraph.startsWith('##')) {
+                  return (
+                    <h2 key={index} className="text-2xl font-bold mt-6 mb-4 text-orange-500">
+                      {paragraph.replace(/^#+\s/, '')}
+                    </h2>
+                  );
+                } else if (paragraph.startsWith('###')) {
+                  return (
+                    <h3 key={index} className="text-xl font-semibold mt-4 mb-2 text-orange-400">
+                      {paragraph.replace(/^#+\s/, '')}
+                    </h3>
+                  );
+                } else if (paragraph.startsWith('-')) {
+                  return (
+                    <ul key={index} className="list-disc list-inside space-y-1 ml-4">
+                      {paragraph.split('\n').map((item, i) => (
+                        <li key={i} className="text-gray-300">
+                          {item.replace(/^-\s/, '')}
+                        </li>
+                      ))}
+                    </ul>
+                  );
+                } else {
+                  return (
+                    <p key={index} className="text-gray-300 text-base">
+                      {paragraph}
+                    </p>
+                  );
+                }
+              })}
+            </div>
+          </div>
+        )}
 
         {/* Contact Section */}
         <div className="bg-orange-500 text-white p-8 rounded-lg text-center">

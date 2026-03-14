@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
+import { Link } from "wouter";
 import { Card } from "@/components/ui/card";
 
 interface ServiceCardWithGalleryProps {
@@ -7,6 +8,7 @@ interface ServiceCardWithGalleryProps {
   title: string;
   description: string;
   coverImage: string;
+  slug: string;
   galleryImages: Array<{
     url: string;
     alt: string;
@@ -19,6 +21,7 @@ export default function ServiceCardWithGallery({
   title,
   description,
   coverImage,
+  slug,
   galleryImages,
 }: ServiceCardWithGalleryProps) {
   const [showGallery, setShowGallery] = useState(false);
@@ -38,7 +41,7 @@ export default function ServiceCardWithGallery({
 
   return (
     <>
-      <Card className="bg-gray-900 border-orange-600/30 hover:border-orange-600 transition-colors p-6 h-full flex flex-col">
+      <Card className="bg-gray-900 border-orange-600/30 hover:border-orange-600 transition-colors p-6 h-full flex flex-col cursor-pointer" onClick={() => window.location.href = `/servicios/${slug}`}>
         {/* Icon */}
         <div className="text-orange-500 mb-4">{icon}</div>
 
@@ -59,7 +62,8 @@ export default function ServiceCardWithGallery({
 
         {/* Gallery Button */}
         <button
-          onClick={() => {
+          onClick={(e) => {
+            e.stopPropagation();
             setShowGallery(true);
             setCurrentImageIndex(0);
           }}
