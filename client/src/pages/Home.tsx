@@ -144,25 +144,25 @@ export default function Home() {
             
             <ServiceCard
               icon={<DoorOpen size={32} />}
-              title="Puertas Correderas Automáticas de Hierro y Aluminio en Talavera de la Reina"
+              title="Puertas Correderas Automáticas de Hierro y Aluminio en Talavera de la Reina" slug="puertas-correderas-automaticas"
               description="Puertas correderas automáticas a medida de hierro y aluminio soldado con sistemas de apertura suave, silenciosa y segura en Talavera de la Reina, Montecarlo, Prado del Arca, Pueblanueva y El Chaparral. Soluciones personalizadas para garajes, accesos comerciales y residenciales. Sistemas de cierre automático y controlado para máxima seguridad y comodidad. Diseños modernos y tradicionales. Instalación profesional con garantía. Tecnología de última generación con mandos a distancia."
             />
             
             <ServiceCard
               icon={<Zap size={32} />}
-              title="Cancelas de Hierro a Medida en Talavera de la Reina"
+              title="Cancelas de Hierro a Medida en Talavera de la Reina" slug="cancelas-hierro"
               description="Cancelas de hierro a medida en Talavera de la Reina, Real de San Vicente, San Román, Pueblanueva y Castillo Bayuela. Combinan resistencia estructural con diseño profesional. Adaptadas a cualquier estilo arquitectónico y necesidad de seguridad. Fabricación en hierro y aluminio soldado con acabados de calidad. Instalación rápida y segura. Protección total para parcelas, fincas, terrenos y accesos. Soluciones personalizadas."
             />
             
             <ServiceCard
               icon={<Package size={32} />}
-              title="Pérgolas y Cubiertas con Panel Sándwich en Talavera de la Reina"
+              title="Pérgolas y Cubiertas con Panel Sándwich en Talavera de la Reina" slug="pergolas-cubiertas"
               description="Pérgolas metálicas y cubiertas con panel sándwich para ampliar tu espacio habitable con protección total en Talavera de la Reina, Belvís de la Jara, Sevilleja, Cervera de los Montes y Nuño Gómez. Excelente aislamiento térmico y acústico. Diseño moderno y funcional. Fabricación en hierro y aluminio soldado. Instalación profesional garantizada. Ideal para terrazas, patios y espacios exteriores. Resistencia a la intemperie. Aumenta el valor de tu propiedad."
             />
             
             <ServiceCard
               icon={<Wrench size={32} />}
-              title="Cerramientos Industriales de Hierro y Cristal - Separadores de Espacio en Talavera de la Reina"
+              title="Cerramientos Industriales de Hierro y Cristal - Separadores de Espacio en Talavera de la Reina" slug="cerramientos-industriales"
               description="Cerramientos industriales de hierro y cristal para separadores de espacio en Talavera de la Reina, Hinojosa de San Vicente, Marrupe, Sotillo de las Palomas y Serranillos. Soluciones modernas para oficinas, almacenes, talleres y espacios industriales. Diseño funcional con estructura de hierro soldado y cristal templado. Permite visibilidad y aislamiento. Acabados profesionales de calidad. Instalación rápida y garantizada. Personalizable según tus necesidades de espacio."
             />
             
@@ -246,7 +246,7 @@ export default function Home() {
             
             <ServiceCard
               icon={<DoorOpen size={32} />}
-              title="Puertas de Portales para Comunidades en Talavera de la Reina"
+              title="Puertas de Portales para Comunidades en Talavera de la Reina" slug="puertas-portales-comunidad"
               description="Puertas de portales para comunidades a medida en Talavera de la Reina, Pepino, Cebolla, Mejorada y comarca. Soluciones modernas y seguras para accesos comunitarios. Fabricación en hierro y aluminio soldado con cristal de seguridad. Diseño funcional y profesional. Sistemas de cierre automático y control de acceso. Acabados de calidad garantizados. Instalación rápida y profesional. Protección y seguridad para tu comunidad."
             />
             
@@ -258,7 +258,7 @@ export default function Home() {
             
             <ServiceCard
               icon={<Wrench size={32} />}
-              title="Barandillas, Balcones y Escaleras de Hierro a Medida en Talavera de la Reina"
+              title="Barandillas, Balcones y Escaleras de Hierro a Medida en Talavera de la Reina" slug="barandillas-escaleras"
               description="Barandillas, balcones y escaleras de hierro a medida con diseños clásicos y contemporáneos en Talavera de la Reina, Pepino, Castillo Bayuela, Mejorada y Cebolla. Fabricación artesanal en hierro soldado con acabados profesionales. Seguridad y estética garantizadas para tu hogar o negocio. Personalizable según tus preferencias de diseño. Resistencia estructural y durabilidad. Instalación profesional y rápida."
             />
           </div>
@@ -484,9 +484,18 @@ export default function Home() {
   );
 }
 
-function ServiceCard({ icon, title, description, image }: { icon: React.ReactNode; title: string; description: string; image?: string }) {
+function ServiceCard({ icon, title, description, image, slug }: { icon: React.ReactNode; title: string; description: string; image?: string; slug?: string }) {
+  const handleClick = () => {
+    if (slug) {
+      window.location.href = `/servicios/${slug}`;
+    }
+  };
+
   return (
-    <Card className="bg-secondary border-orange-600/30 hover:border-orange-500 transition-colors p-6 overflow-hidden">
+    <Card 
+      onClick={handleClick}
+      className={`bg-secondary border-orange-600/30 hover:border-orange-500 transition-colors p-6 overflow-hidden ${slug ? 'cursor-pointer hover:shadow-lg hover:shadow-orange-500/20' : ''}`}
+    >
       {image && (
         <div className="mb-4 -mx-6 -mt-6 h-40 overflow-hidden rounded-t-lg">
           <img 
@@ -499,6 +508,11 @@ function ServiceCard({ icon, title, description, image }: { icon: React.ReactNod
       <div className="text-orange-500 mb-4">{icon}</div>
       <h3 className="text-xl font-bold text-white mb-3">{title}</h3>
       <p className="text-gray-400">{description}</p>
+      {slug && (
+        <div className="mt-4 text-orange-500 font-semibold text-sm hover:text-orange-400">
+          Ver más →
+        </div>
+      )}
     </Card>
   );
 }

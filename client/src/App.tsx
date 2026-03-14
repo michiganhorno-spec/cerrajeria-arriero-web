@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Blog from "./pages/Blog";
 import Productos from "./pages/Productos";
+import ServiceDetail from "./pages/ServiceDetail";
 import StructuredData from "./components/StructuredData";
 
 function Router() {
@@ -17,6 +18,7 @@ function Router() {
       <Route path={"/"} component={Home} />
       <Route path={"/productos"} component={Productos} />
       <Route path={"/blog"} component={Blog} />
+      <Route path={"/servicios/:slug"} component={ServiceDetail} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
