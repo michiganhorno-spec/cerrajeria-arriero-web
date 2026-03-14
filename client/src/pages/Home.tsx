@@ -867,8 +867,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <TestimonialsSection />
+      {/* Testimonials Section - Removed, using GoogleReviews instead */}
 
       {/* Contact Section */}
       <section className="py-16 md:py-24 bg-secondary">
@@ -891,10 +890,10 @@ export default function Home() {
             <div className="text-center">
               <Button
                 onClick={() => setShowContactForm(true)}
-                className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 text-lg"
+                className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 text-lg font-bold"
               >
                 Solicitar Presupuesto Sin Compromiso
-                     </Button>
+              </Button>
             </div>
           )}
         </div>
