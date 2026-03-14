@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { useRoute } from "wouter";
 
-// Datos de servicios con URLs de CDN (TODAS las fotos)
+// Datos de servicios con URLs de CDN (FOTOS CORRECTAS)
 const servicios: Record<string, any> = {
   "puertas-correderas-automaticas": {
     title: "Puertas Correderas Automáticas de Hierro y Aluminio en Talavera de la Reina",
@@ -35,15 +35,7 @@ Solicita presupuesto sin compromiso para tus puertas correderas automáticas. As
       { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-puertas-correderas-automaticas-talavera-reina.jpg", title: "Puerta Corredera Automática Talavera", alt: "Puerta corredera automática en Talavera" },
       { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-puertas-correderas-automaticas-talavera-reina.jpg", title: "Puerta Corredera Automática Pepino", alt: "Puerta corredera automática en Pepino" },
       { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-puertas-correderas-automaticas-talavera-reina.jpg", title: "Puerta Corredera Automática Cebolla", alt: "Puerta corredera automática en Cebolla" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-puertas-correderas-automaticas-talavera-reina.jpg", title: "Puerta Corredera Automática Mejorada", alt: "Puerta corredera automática en Mejorada" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-puertas-correderas-automaticas-talavera-reina.jpg", title: "Puerta Corredera Automática Sistema Avanzado", alt: "Puerta corredera automática con sistema avanzado" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/6-puertas-correderas-automaticas-talavera-reina.jpg", title: "Puerta Corredera Automática Control de Acceso", alt: "Puerta corredera automática con control de acceso" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/7-puertas-correderas-automaticas-talavera-reina.jpg", title: "Puerta Corredera Automática Instalación", alt: "Instalación de puerta corredera automática" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/8-puertas-correderas-automaticas-talavera-reina.jpg", title: "Puerta Corredera Automática Acabado", alt: "Acabado profesional de puerta corredera automática" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/9-puertas-correderas-automaticas-talavera-reina.jpg", title: "Puerta Corredera Automática Detalle", alt: "Detalle de puerta corredera automática" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/10-puertas-correderas-automaticas-talavera-reina.jpg", title: "Puerta Corredera Automática Seguridad", alt: "Sistema de seguridad puerta corredera" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/11-puertas-correderas-automaticas-talavera-reina.jpg", title: "Puerta Corredera Automática Mantenimiento", alt: "Mantenimiento puerta corredera automática" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/12-puertas-correderas-automaticas-talavera-reina.jpg", title: "Puerta Corredera Automática Profesional", alt: "Puerta corredera automática profesional" }
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-puertas-correderas-automaticas-talavera-reina.jpg", title: "Puerta Corredera Automática Mejorada", alt: "Puerta corredera automática en Mejorada" }
     ]
   },
   "rejas-seguridad": {
@@ -75,8 +67,7 @@ Contacta con nosotros para solicitar presupuesto sin compromiso para tus rejas d
     galleryImages: [
       { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-rejas-seguridad-talavera-reina.jpg", title: "Reja de Seguridad Talavera", alt: "Reja de seguridad en Talavera" },
       { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-rejas-seguridad-talavera-reina.jpg", title: "Reja de Seguridad Pepino", alt: "Reja de seguridad en Pepino" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-rejas-seguridad-talavera-reina.jpg", title: "Reja de Seguridad Cebolla", alt: "Reja de seguridad en Cebolla" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-rejas-seguridad-talavera-reina.jpg", title: "Reja de Seguridad Mejorada", alt: "Reja de seguridad en Mejorada" }
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-rejas-seguridad-talavera-reina.jpg", title: "Reja de Seguridad Cebolla", alt: "Reja de seguridad en Cebolla" }
     ]
   },
   "puertas-entrada-vivienda": {
@@ -114,8 +105,7 @@ Contacta con nosotros para solicitar presupuesto sin compromiso para tus puertas
       { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-puertas-entrada-vivienda-talavera-reina.jpg", title: "Puerta de Entrada Diseño", alt: "Diseño puerta de entrada" },
       { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/6-puertas-entrada-vivienda-talavera-reina.jpg", title: "Puerta de Entrada Seguridad", alt: "Puerta de entrada con seguridad" },
       { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/7-puertas-entrada-vivienda-talavera-reina.jpg", title: "Puerta de Entrada Acabado", alt: "Acabado puerta de entrada" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/8-puertas-entrada-vivienda-talavera-reina.jpg", title: "Puerta de Entrada Profesional", alt: "Puerta de entrada profesional" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/9-puertas-entrada-vivienda-talavera-reina.jpg", title: "Puerta de Entrada Detalle", alt: "Detalle puerta de entrada" }
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/8-puertas-entrada-vivienda-talavera-reina.jpg", title: "Puerta de Entrada Profesional", alt: "Puerta de entrada profesional" }
     ]
   },
   "puertas-portones": {
@@ -296,15 +286,7 @@ Contacta con nosotros para solicitar presupuesto sin compromiso para tus cancela
       { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-cancelas-hierro-talavera-reina.jpg", title: "Cancela de Hierro Pepino", alt: "Cancela de hierro en Pepino" },
       { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-cancelas-hierro-talavera-reina.jpg", title: "Cancela de Hierro Cebolla", alt: "Cancela de hierro en Cebolla" },
       { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-cancelas-hierro-talavera-reina.jpg", title: "Cancela de Hierro Mejorada", alt: "Cancela de hierro en Mejorada" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-cancelas-hierro-talavera-reina.jpg", title: "Cancela de Hierro Diseño", alt: "Cancela de hierro diseño" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/6-cancelas-hierro-talavera-reina.jpg", title: "Cancela de Hierro Seguridad", alt: "Cancela de hierro seguridad" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/7-cancelas-hierro-talavera-reina.jpg", title: "Cancela de Hierro Acabado", alt: "Cancela de hierro acabado" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/8-cancelas-hierro-talavera-reina.jpg", title: "Cancela de Hierro Instalación", alt: "Instalación cancela de hierro" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/9-cancelas-hierro-talavera-reina.jpg", title: "Cancela de Hierro Profesional", alt: "Cancela de hierro profesional" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/10-cancelas-hierro-talavera-reina.jpg", title: "Cancela de Hierro Detalle", alt: "Detalle cancela de hierro" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/11-cancelas-hierro-talavera-reina.jpg", title: "Cancela de Hierro Finca", alt: "Cancela de hierro para finca" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/12-cancelas-hierro-talavera-reina.jpg", title: "Cancela de Hierro Parcela", alt: "Cancela de hierro para parcela" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/13-cancelas-hierro-talavera-reina.jpg", title: "Cancela de Hierro Acceso", alt: "Cancela de hierro para acceso" }
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-cancelas-hierro-talavera-reina.jpg", title: "Cancela de Hierro Profesional", alt: "Cancela de hierro profesional" }
     ]
   },
   "barandillas-escaleras": {
@@ -339,15 +321,7 @@ Contacta con nosotros para solicitar presupuesto sin compromiso para tus barandi
       { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-barandillas-escaleras-talavera-reina.jpg", title: "Barandilla Pepino", alt: "Barandilla en Pepino" },
       { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-barandillas-escaleras-talavera-reina.jpg", title: "Barandilla Cebolla", alt: "Barandilla en Cebolla" },
       { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-barandillas-escaleras-talavera-reina.jpg", title: "Barandilla Mejorada", alt: "Barandilla en Mejorada" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-barandillas-escaleras-talavera-reina.jpg", title: "Escalera Talavera", alt: "Escalera en Talavera" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/6-barandillas-escaleras-talavera-reina.jpg", title: "Escalera Pepino", alt: "Escalera en Pepino" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/7-barandillas-escaleras-talavera-reina.jpg", title: "Escalera Cebolla", alt: "Escalera en Cebolla" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/8-barandillas-escaleras-talavera-reina.jpg", title: "Balcón Talavera", alt: "Balcón en Talavera" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/9-barandillas-escaleras-talavera-reina.jpg", title: "Balcón Pepino", alt: "Balcón en Pepino" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/10-barandillas-escaleras-talavera-reina.jpg", title: "Balcón Cebolla", alt: "Balcón en Cebolla" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/11-barandillas-escaleras-talavera-reina.jpg", title: "Barandilla Diseño", alt: "Barandilla diseño" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/12-barandillas-escaleras-talavera-reina.jpg", title: "Barandilla Profesional", alt: "Barandilla profesional" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/13-barandillas-escaleras-talavera-reina.jpg", title: "Barandilla Acabado", alt: "Acabado barandilla" }
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-barandillas-escaleras-talavera-reina.jpg", title: "Escalera Talavera", alt: "Escalera en Talavera" }
     ]
   }
 };
