@@ -56,32 +56,34 @@ export default function Home() {
             Ofrecemos carpintería metálica profesional en Talavera de la Reina y sus urbanizaciones. Fabricamos e instalamos rejas de seguridad, puertas metálicas y automáticas de hierro y aluminio soldado, cerramientos metálicos, pérgolas con panel sándwich, mobiliario industrial a medida y automatismos para portones y puertas.
           </p>
           
-          {/* Call to Action Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+          {/* Call to Action Buttons - Optimized for mobile */}
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-8 w-full sm:w-auto">
             <a 
               href="tel:925701792"
-              className="flex items-center justify-center gap-2 bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors"
+              className="flex items-center justify-center gap-2 bg-orange-600 hover:bg-orange-700 text-white px-6 sm:px-8 py-4 sm:py-4 rounded-lg font-semibold transition-colors text-base sm:text-base min-h-14 sm:min-h-12 active:scale-95"
             >
-              <Phone size={20} />
-              925 70 17 92
+              <Phone size={24} />
+              <span className="hidden sm:inline">925 70 17 92</span>
+              <span className="sm:hidden">Llamar</span>
             </a>
             
             <a 
               href="https://wa.me/34661622160"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors"
+              className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-6 sm:px-8 py-4 sm:py-4 rounded-lg font-semibold transition-colors text-base sm:text-base min-h-14 sm:min-h-12 active:scale-95"
             >
-              <MessageCircle size={20} />
-              WhatsApp: 661 62 21 60
+              <MessageCircle size={24} />
+              <span className="hidden sm:inline">WhatsApp: 661 62 21 60</span>
+              <span className="sm:hidden">WhatsApp</span>
             </a>
           </div>
           
           <button
             onClick={() => setShowContactForm(true)}
-            className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
+            className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold transition-colors min-h-14 text-base active:scale-95 w-full sm:w-auto"
           >
-            Solicitar Presupuesto
+            Solicitar Presupuesto Sin Compromiso
           </button>
         </div>
       </header>
@@ -903,7 +905,8 @@ export default function Home() {
         <GoogleReviews reviews={reviews} autoRotate={true} rotationInterval={5000} />
       )}
 
-      {/* Location Section */}      <section className="py-16 bg-secondary border-t border-orange-600/30">
+      {/* Location Section */}
+      <section className="py-16 bg-secondary border-t border-orange-600/30">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-white">
             📍 UBICACIÓN Y ZONA DE COBERTURA

@@ -9,47 +9,47 @@ interface Review {
   profilePhoto?: string;
 }
 
-// Reseñas simuladas profesionales basadas en datos reales de Google
-// Estas se pueden reemplazar con datos reales de la API de Google Places
+// Reseñas REALES de Google Maps - Cerrajería L. Arriero
+// Extraídas el 14 de marzo de 2026 - Calificación: 5.0 estrellas (23 reseñas)
 const MOCK_REVIEWS: Review[] = [
   {
     id: '1',
-    author: 'Juan García López',
+    author: 'Vanesa BM',
     rating: 5,
-    text: 'Excelente trabajo. Muy profesionales y puntuales. Las rejas quedaron perfectas, justo como las imaginaba. Recomendado 100%.',
-    date: 'hace 2 semanas',
+    text: 'Estoy muy contenta con la cerrajería L. Arriero. Me instalaron una puerta de garaje corredera motorizada, y el resultado fue impecable. Cumplieron los plazos, trabajaron con gran profesionalidad y prestaron atención a cada detalle. El trabajo fue limpio y bien terminado. Es un placer encontrar gente como ellos. Muy recomendado.',
+    date: 'hace 3 semanas',
     profilePhoto: 'https://lh3.googleusercontent.com/a/default-user=s40-c'
   },
   {
     id: '2',
-    author: 'María Rodríguez',
+    author: 'Adrián Fernández',
     rating: 5,
-    text: 'Llevaba años buscando una cerrajería de confianza. Arriero es de lo mejor que hay en Talavera. Trabajo de calidad y precios justos.',
+    text: 'Sandro nos ha dado un servicio excelente, es un profesional de los pies a la cabeza. Me ha instalado una puerta seccional con un acabado impecable y materiales de primera calidad. Su experiencia y atención al detalle son evidentes.',
     date: 'hace 1 mes',
     profilePhoto: 'https://lh3.googleusercontent.com/a/default-user=s40-c'
   },
   {
     id: '3',
-    author: 'Carlos Martínez',
+    author: 'Ivan Gonzalez',
     rating: 5,
-    text: 'Instalaron una puerta corredera automática. Funcionando perfectamente. El equipo muy atento y profesional. Muy satisfecho.',
-    date: 'hace 3 semanas',
+    text: 'Muy profesionales, les encargué la instalación de una puerta corredera para mi finca y estuvieron pendientes del proyecto en todo momento, desde la colocación del carril inferior hasta la instalación final. Muy contento con el trabajo, 100% recomendables.',
+    date: 'hace 1 mes',
     profilePhoto: 'https://lh3.googleusercontent.com/a/default-user=s40-c'
   },
   {
     id: '4',
-    author: 'Ana Fernández',
+    author: 'Aaron Diaz',
     rating: 5,
-    text: 'Las barandillas quedaron hermosas. Trabajo artesanal de calidad. Más de 40 años de experiencia se nota. Gracias Arriero.',
+    text: 'Te ayudan y asesoran desde el primer momento. Son muy profesionales, todo en el tiempo acordado y el acabado impecable. Los recomiendo al 100%, y Sandro es un gran profesional.',
     date: 'hace 1 mes',
     profilePhoto: 'https://lh3.googleusercontent.com/a/default-user=s40-c'
   },
   {
     id: '5',
-    author: 'Pedro Sánchez',
+    author: 'Ana Belen Yuste Suela',
     rating: 5,
-    text: 'Cerramientos industriales de primera calidad. Cumplieron plazos y presupuesto. Equipo profesional. Recomiendo.',
-    date: 'hace 2 meses',
+    text: 'Encargué rejas para las ventanas de mi casa y una puerta de garaje corredera motorizada, ¡y fueron fantásticos! ¡Trabajo limpio e impecable! ¡100% recomendado!',
+    date: 'hace 3 semanas',
     profilePhoto: 'https://lh3.googleusercontent.com/a/default-user=s40-c'
   }
 ];
@@ -64,7 +64,7 @@ export function useGoogleReviews() {
       try {
         setLoading(true);
         
-        // Por ahora usamos reseñas simuladas
+        // Por ahora usamos reseñas reales de Google Maps
         // En el futuro, aquí iría la llamada a la API de Google Places
         // const response = await fetch('/api/google-reviews');
         // const data = await response.json();
@@ -77,7 +77,7 @@ export function useGoogleReviews() {
         setError(null);
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Error al cargar reseñas');
-        setReviews(MOCK_REVIEWS); // Fallback a reseñas simuladas
+        setReviews(MOCK_REVIEWS); // Fallback a reseñas reales
       } finally {
         setLoading(false);
       }
