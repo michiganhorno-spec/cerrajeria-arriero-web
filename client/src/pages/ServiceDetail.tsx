@@ -1,48 +1,43 @@
-import { ChevronLeft, MessageCircle, Phone } from "lucide-react";
-import { useState } from "react";
-import { useRoute } from "wouter";
+import { useRoute } from 'wouter';
+import { Streamdown } from 'streamdown';
+import { Button } from '@/components/ui/button';
+import { ChevronLeft, ChevronRight, Phone, MessageCircle } from 'lucide-react';
+import { useState } from 'react';
 
-// Datos de servicios con URLs CORRECTAS de CDN
-const servicios: Record<string, any> = {
+const servicesData: Record<string, any> = {
   "puertas-correderas-automaticas": {
     title: "Puertas Correderas Automáticas de Hierro y Aluminio en Talavera de la Reina",
     slug: "puertas-correderas-automaticas",
-    description: "Puertas correderas automáticas a medida de hierro y aluminio soldado con sistemas de apertura suave, silenciosa y segura en Talavera de la Reina, Montecarlo, Prado del Arca, Pueblanueva y El Chaparral.",
-    content: `En Cerrajería Arriero instalamos puertas correderas automáticas en Talavera de la Reina, Pepino, Cebolla, Mejorada y comarca. Nuestras puertas correderas combinan tecnología avanzada, seguridad y comodidad, siendo ideales para accesos comerciales, residenciales, hospitales, oficinas y espacios públicos.
+    description: "Puertas correderas automáticas fabricadas a medida en hierro y aluminio soldado en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvís, Sevilleja y Cervera.",
+    content: `En Cerrajería Arriero fabricamos e instalamos puertas correderas automáticas en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvís, Sevilleja y Cervera. Nuestras puertas correderas automáticas combinan funcionalidad, seguridad y diseño profesional.
 
-Disponemos de sistemas de última generación con sensores de movimiento, control de acceso y sistemas de seguridad integrados.
+Disponemos de sistemas de automatización de última generación, motores silenciosos y controles de acceso integrados. Cada puerta se fabrica a medida con acabados de calidad profesional.
 
 ## Ventajas de las puertas correderas automáticas
 
-Nuestras puertas correderas ofrecen múltiples beneficios:
+Nuestras puertas ofrecen múltiples beneficios:
 
-- Apertura suave y silenciosa.
+- Acceso automático y sin contacto.
 - Sistemas de seguridad avanzados.
-- Control de acceso integrado.
-- Eficiencia energética.
-- Compatibilidad con sistemas existentes.
+- Motores silenciosos y eficientes.
+- Diseños personalizados y elegantes.
+- Acabados profesionales de calidad.
+- Compatible con sistemas de control de acceso.
 
 ## Instalación de puertas correderas automáticas
 
-Realizamos la instalación de puertas correderas automáticas en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvis, Sevilleja y Cervera. Nuestro equipo se encarga de la instalación, configuración y mantenimiento especializado.
+Realizamos la instalación completa de puertas correderas automáticas en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvis, Sevilleja y Cervera. Incluye fabricación, transporte e instalación profesional.
 
 ## Presupuesto para puertas correderas automáticas
 
-Solicita presupuesto sin compromiso para tus puertas correderas automáticas. Asesoramiento personalizado y soluciones adaptadas a tus necesidades.`,
+Contacta con nosotros para solicitar presupuesto sin compromiso para tus puertas correderas automáticas.`,
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-puertas-correderas-automaticas-portada-talavera-reina_30585b74.jpg",
     galleryImages: [
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-puertas-correderas-automaticas-talavera-reina_a0672c42.jpg", title: "Puerta Corredera 1", alt: "Puerta corredera automática" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/10-puertas-correderas-automaticas-talavera-reina_7a710796.jpg", title: "Puerta Corredera 2", alt: "Puerta corredera automática" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/11-puertas-correderas-automaticas-talavera-reina_f1b8e4bc.jpg", title: "Puerta Corredera 3", alt: "Puerta corredera automática" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/12-puertas-correderas-automaticas-talavera-reina_df8feed9.jpg", title: "Puerta Corredera 4", alt: "Puerta corredera automática" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-puertas-correderas-automaticas-talavera-reina_05f51707.jpg", title: "Puerta Corredera 5", alt: "Puerta corredera automática" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-puertas-correderas-automaticas-talavera-reina_0bdcb39d.jpg", title: "Puerta Corredera 6", alt: "Puerta corredera automática" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-puertas-correderas-automaticas-talavera-reina_f14a4d34.jpg", title: "Puerta Corredera 7", alt: "Puerta corredera automática" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-puertas-correderas-automaticas-talavera-reina_7bbc3989.jpg", title: "Puerta Corredera 8", alt: "Puerta corredera automática" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/6-puertas-correderas-automaticas-talavera-reina_464404de.jpg", title: "Puerta Corredera 9", alt: "Puerta corredera automática" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/7-puertas-correderas-automaticas-talavera-reina_d70a80e6.jpg", title: "Puerta Corredera 10", alt: "Puerta corredera automática" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/8-puertas-correderas-automaticas-talavera-reina_a7253e42.jpg", title: "Puerta Corredera 11", alt: "Puerta corredera automática" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/9-puertas-correderas-automaticas-talavera-reina_b1d1d9a1.jpg", title: "Puerta Corredera 12", alt: "Puerta corredera automática" }
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-puertas-correderas-automaticas-talavera-reina_a0672c42.jpg", title: "Puerta Corredera Automática de Hierro en Talavera", alt: "Puerta corredera automática" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/10-puertas-correderas-automaticas-talavera-reina_7a710796.jpg", title: "Puerta Corredera Automática Profesional", alt: "Puerta corredera automática" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/11-puertas-correderas-automaticas-talavera-reina_f1b8e4bc.jpg", title: "Instalación Puerta Corredera Automática", alt: "Puerta corredera automática" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/12-puertas-correderas-automaticas-talavera-reina_df8feed9.jpg", title: "Puerta Corredera Automática Comercial", alt: "Puerta corredera automática" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-puertas-correderas-automaticas-talavera-reina_05f51707.jpg", title: "Puerta Corredera Automática Segura", alt: "Puerta corredera automática" }
     ]
   },
   "rejas-seguridad": {
@@ -72,9 +67,11 @@ Realizamos la instalación de rejas de seguridad en Talavera de la Reina, Pepino
 Contacta con nosotros para solicitar presupuesto sin compromiso para tus rejas de seguridad.`,
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-rejas-seguridad-talavera-reina_7a87f623.jpg",
     galleryImages: [
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-rejas-seguridad-talavera-reina_7a87f623.jpg", title: "Reja 1", alt: "Reja de seguridad" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-rejas-seguridad-talavera-reina_f82c9529.jpg", title: "Reja 2", alt: "Reja de seguridad" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-rejas-seguridad-talavera-reina_b2ec1757.jpg", title: "Reja 3", alt: "Reja de seguridad" }
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-rejas-seguridad-talavera-reina_0ec3a907.jpg", title: "Reja de Seguridad de Hierro en Talavera", alt: "Reja de seguridad" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-rejas-seguridad-talavera-reina_7a87f623.jpg", title: "Reja de Seguridad Profesional", alt: "Reja de seguridad" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-rejas-seguridad-talavera-reina_f82c9529.jpg", title: "Reja de Seguridad Personalizada", alt: "Reja de seguridad" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-rejas-seguridad-talavera-reina_b2ec1757.jpg", title: "Reja de Seguridad Resistente", alt: "Reja de seguridad" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-rejas-seguridad-talavera-reina_custom.jpg", title: "Reja de Seguridad a Medida", alt: "Reja de seguridad" }
     ]
   },
   "puertas-entrada-vivienda": {
@@ -105,350 +102,358 @@ Realizamos la instalación de puertas de entrada en Talavera de la Reina, Pepino
 Contacta con nosotros para solicitar presupuesto sin compromiso para tus puertas de entrada.`,
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-puertas-entrada-vivienda-talavera-reina_3b266544.jpg",
     galleryImages: [
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-puertas-entrada-vivienda-talavera-reina_b9071fb7.jpg", title: "Puerta 1", alt: "Puerta de entrada" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-puertas-entrada-vivienda-talavera-reina_3b266544.jpg", title: "Puerta 2", alt: "Puerta de entrada" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-puertas-entrada-vivienda-talavera-reina_0b35097e.jpg", title: "Puerta 3", alt: "Puerta de entrada" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-puertas-entrada-vivienda-talavera-reina_fbe27ae4.jpg", title: "Puerta 4", alt: "Puerta de entrada" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/6-puertas-entrada-vivienda-talavera-reina_66352ad2.jpg", title: "Puerta 5", alt: "Puerta de entrada" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/7-puertas-entrada-vivienda-talavera-reina_7468c5f3.jpg", title: "Puerta 6", alt: "Puerta de entrada" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/8-puertas-entrada-vivienda-talavera-reina_2fdce797.jpg", title: "Puerta 7", alt: "Puerta de entrada" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/9-puertas-entrada-vivienda-talavera-reina_a2c8acd2.jpg", title: "Puerta 8", alt: "Puerta de entrada" }
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-puertas-entrada-vivienda-talavera-reina_24c3acc1.jpg", title: "Puerta de Entrada a Vivienda de Hierro", alt: "Puerta de entrada" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-puertas-entrada-vivienda-talavera-reina_b9071fb7.jpg", title: "Puerta de Entrada Segura", alt: "Puerta de entrada" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-puertas-entrada-vivienda-talavera-reina_3b266544.jpg", title: "Puerta de Entrada Personalizada", alt: "Puerta de entrada" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-puertas-entrada-vivienda-talavera-reina_0b35097e.jpg", title: "Puerta de Entrada Profesional", alt: "Puerta de entrada" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-puertas-entrada-vivienda-talavera-reina_fbe27ae4.jpg", title: "Puerta de Entrada de Aluminio", alt: "Puerta de entrada" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/6-puertas-entrada-vivienda-talavera-reina_66352ad2.jpg", title: "Puerta de Entrada Moderna", alt: "Puerta de entrada" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/7-puertas-entrada-vivienda-talavera-reina_7468c5f3.jpg", title: "Puerta de Entrada Resistente", alt: "Puerta de entrada" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/8-puertas-entrada-vivienda-talavera-reina_2fdce797.jpg", title: "Puerta de Entrada a Medida", alt: "Puerta de entrada" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/9-puertas-entrada-vivienda-talavera-reina_a2c8acd2.jpg", title: "Puerta de Entrada Elegante", alt: "Puerta de entrada" }
     ]
   },
   "puertas-portones": {
-    title: "Puertas y Portones Automáticos en Talavera de la Reina",
+    title: "Puertas y Portones de Hierro a Medida en Talavera de la Reina",
     slug: "puertas-portones",
-    description: "Puertas y portones automáticos de última generación en Talavera de la Reina, Cornicabral, Cervines, Las Nieves y Espinosillo.",
-    content: `En Cerrajería Arriero fabricamos e instalamos puertas y portones automáticos en Talavera de la Reina, Cornicabral, Cervines, Las Nieves y Espinosillo. Nuestros portones combinan seguridad, tecnología y diseño profesional.
+    description: "Puertas y portones personalizados en hierro macizo y aluminio soldado en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvís, Sevilleja y Cervera.",
+    content: `En Cerrajería Arriero fabricamos puertas y portones personalizados en hierro macizo y aluminio soldado en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvís, Sevilleja y Cervera. Nuestras puertas y portones combinan resistencia, seguridad y diseño profesional.
 
-Disponemos de sistemas de última generación con mandos a distancia, controles de acceso y sistemas de seguridad integrados.
+Disponemos de diferentes estilos, desde diseños clásicos hasta contemporáneos, todos adaptados a tus necesidades específicas.
 
-## Ventajas de los portones automáticos
+## Ventajas de las puertas y portones de hierro
 
-Nuestros portones ofrecen múltiples beneficios:
+Nuestras puertas ofrecen múltiples beneficios:
 
-- Apertura suave, segura y controlada.
-- Tecnología avanzada con mando a distancia.
-- Seguridad garantizada.
+- Máxima resistencia y durabilidad.
+- Diseños personalizados y elegantes.
+- Sistemas de cierre de seguridad avanzados.
 - Acabados profesionales de calidad.
-- Mantenimiento y reparación especializada.
+- Compatible con automatización.
 
-## Instalación de portones automáticos
+## Instalación de puertas y portones
 
-Realizamos la instalación de puertas y portones en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvis, Sevilleja y Cervera. Instalación profesional y rápida con garantía.
+Realizamos la instalación completa de puertas y portones en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvis, Sevilleja y Cervera. Fabricación artesanal con soldadura de calidad.
 
-## Presupuesto para portones automáticos
+## Presupuesto para puertas y portones
 
-Solicita presupuesto sin compromiso para tus puertas y portones automáticos.`,
+Contacta con nosotros para solicitar presupuesto sin compromiso para tus puertas y portones.`,
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-puertas-portones-portada-talavera-reina_129eea77.jpg",
     galleryImages: [
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-puertas-portones-talavera-reina_1b20f5da.jpg", title: "Portón 1", alt: "Portón automático" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-puertas-portones-talavera-reina_a158808b.jpg", title: "Portón 2", alt: "Portón automático" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-puertas-portones-talavera-reina_177688be.jpg", title: "Portón 3", alt: "Portón automático" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-puertas-portones-talavera-reina_c59b39d7.jpg", title: "Portón 4", alt: "Portón automático" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-puertas-portones-talavera-reina_2508b9bf.jpg", title: "Portón 5", alt: "Portón automático" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/6-puertas-portones-talavera-reina_506b6939.jpg", title: "Portón 6", alt: "Portón automático" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/7-puertas-portones-talavera-reina_4fafd420.jpg", title: "Portón 7", alt: "Portón automático" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/8-puertas-portones-talavera-reina_8312c702.jpg", title: "Portón 8", alt: "Portón automático" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/9-puertas-portones-talavera-reina_9a036eca.jpg", title: "Portón 9", alt: "Portón automático" }
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-puertas-portones-talavera-reina_1b20f5da.jpg", title: "Puerta y Portón de Hierro en Talavera", alt: "Puerta y portón" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-puertas-portones-talavera-reina_a158808b.jpg", title: "Portón Profesional", alt: "Puerta y portón" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-puertas-portones-talavera-reina_177688be.jpg", title: "Portón Personalizado", alt: "Puerta y portón" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-puertas-portones-talavera-reina_c59b39d7.jpg", title: "Portón de Seguridad", alt: "Puerta y portón" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-puertas-portones-talavera-reina_2508b9bf.jpg", title: "Portón de Aluminio", alt: "Puerta y portón" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/6-puertas-portones-talavera-reina_506b6939.jpg", title: "Portón Moderno", alt: "Puerta y portón" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/7-puertas-portones-talavera-reina_4fafd420.jpg", title: "Portón Resistente", alt: "Puerta y portón" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/8-puertas-portones-talavera-reina_8312c702.jpg", title: "Portón a Medida", alt: "Puerta y portón" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/9-puertas-portones-talavera-reina_9a036eca.jpg", title: "Portón Elegante", alt: "Puerta y portón" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/10-puertas-portones-talavera-reina_custom1.jpg", title: "Portón de Entrada", alt: "Puerta y portón" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/11-puertas-portones-talavera-reina_custom2.jpg", title: "Portón Comercial", alt: "Puerta y portón" }
     ]
   },
   "puertas-portales-comunidad": {
     title: "Puertas de Portales para Comunidades en Talavera de la Reina",
     slug: "puertas-portales-comunidad",
-    description: "Puertas de portales para comunidades a medida en Talavera de la Reina, Pepino, Cebolla, Mejorada y comarca.",
-    content: `En Cerrajería Arriero fabricamos e instalamos puertas de portales para comunidades en Talavera de la Reina, Pepino, Cebolla, Mejorada y comarca. Nuestras puertas son la solución ideal para accesos comunitarios seguros, modernos y funcionales.
+    description: "Puertas de entrada de portales para comunidades fabricadas a medida en hierro y aluminio soldado en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvís, Sevilleja y Cervera.",
+    content: `En Cerrajería Arriero fabricamos puertas de portales para comunidades en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvís, Sevilleja y Cervera. Nuestras puertas de portal son la solución perfecta para accesos comunitarios seguros y funcionales.
 
-Disponemos de sistemas de última generación con control de acceso, cierre automático y cristal de seguridad templado. Cada puerta se personaliza según las necesidades exactas de tu comunidad.
+Disponemos de sistemas de automatización, control de acceso y diseños que se adaptan a cualquier edificio.
 
 ## Ventajas de las puertas de portales para comunidades
 
 Nuestras puertas ofrecen múltiples beneficios:
 
-- Seguridad y control de acceso garantizado.
-- Diseño moderno y profesional.
-- Cierre automático y sistemas de seguridad integrados.
-- Cristal templado de seguridad.
-- Acabados duraderos: Hierro, Aluminio, Lacado al Horno.
-- Fácil mantenimiento y limpieza.
-- Resistencia a la intemperie.
+- Control de acceso seguro.
+- Sistemas de automatización silenciosos.
+- Diseños elegantes y profesionales.
+- Acabados de calidad garantizada.
+- Compatible con sistemas de intercomunicación.
 
-## Instalación de puertas de portales a medida
+## Instalación de puertas de portal
 
-Realizamos la instalación de puertas de portales en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvis, Sevilleja y Cervera.
+Realizamos la instalación completa de puertas de portal en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvis, Sevilleja y Cervera.
 
-## Presupuesto para puertas de portales
+## Presupuesto para puertas de portal
 
-Contacta con nosotros para solicitar presupuesto sin compromiso para tus puertas de portales.`,
+Contacta con nosotros para solicitar presupuesto sin compromiso para tus puertas de portal.`,
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-puertas-portales-comunidad-portada-talavera-reina_288394a5.jpg",
     galleryImages: [
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-puertas-portales-comunidad-talavera-reina_d6a65192.jpg", title: "Portal 1", alt: "Puerta de portal" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-puertas-portales-comunidad-talavera-reina_638c7e21.jpg", title: "Portal 2", alt: "Puerta de portal" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-puertas-portales-comunidad-talavera-reina_9911ae0e.jpg", title: "Portal 3", alt: "Puerta de portal" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-puertas-portales-comunidad-talavera-reina_d8537e4e.jpg", title: "Portal 4", alt: "Puerta de portal" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-puertas-portales-comunidad-talavera-reina_9ebfc742.jpg", title: "Portal 5", alt: "Puerta de portal" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/6-puertas-portales-comunidad-talavera-reina_75a7b68f.jpg", title: "Portal 6", alt: "Puerta de portal" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/7-puertas-portales-comunidad-talavera-reina_2706a3ba.jpg", title: "Portal 7", alt: "Puerta de portal" }
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-puertas-portales-comunidad-talavera-reina_d6a65192.jpg", title: "Puerta de Portal para Comunidad", alt: "Puerta de portal" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-puertas-portales-comunidad-talavera-reina_638c7e21.jpg", title: "Puerta de Portal Profesional", alt: "Puerta de portal" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-puertas-portales-comunidad-talavera-reina_9911ae0e.jpg", title: "Puerta de Portal Automatizada", alt: "Puerta de portal" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-puertas-portales-comunidad-talavera-reina_d8537e4e.jpg", title: "Puerta de Portal Segura", alt: "Puerta de portal" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-puertas-portales-comunidad-talavera-reina_9ebfc742.jpg", title: "Puerta de Portal Moderna", alt: "Puerta de portal" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/6-puertas-portales-comunidad-talavera-reina_75a7b68f.jpg", title: "Puerta de Portal Personalizada", alt: "Puerta de portal" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/7-puertas-portales-comunidad-talavera-reina_2706a3ba.jpg", title: "Puerta de Portal de Seguridad", alt: "Puerta de portal" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/8-puertas-portales-comunidad-talavera-reina_custom.jpg", title: "Puerta de Portal a Medida", alt: "Puerta de portal" }
     ]
   },
   "cerramientos-industriales": {
-    title: "Cerramientos Industriales de Hierro y Cristal - Separadores de Espacio en Talavera de la Reina",
+    title: "Cerramientos Industriales de Hierro y Cristal para Separadores de Espacio en Talavera de la Reina",
     slug: "cerramientos-industriales",
-    description: "Cerramientos industriales de hierro y cristal para separadores de espacio en Talavera de la Reina, Hinojosa de San Vicente, Marrupe, Sotillo de las Palomas y Serranillos.",
-    content: `En Cerrajería Arriero fabricamos cerramientos industriales de hierro y cristal para separadores de espacio en Talavera de la Reina, Hinojosa de San Vicente, Marrupe, Sotillo de las Palomas y Serranillos. Soluciones modernas para oficinas, almacenes, talleres y espacios industriales.
+    description: "Cerramientos industriales de hierro y cristal para separadores de espacio fabricados a medida en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvís, Sevilleja y Cervera.",
+    content: `En Cerrajería Arriero fabricamos cerramientos industriales de hierro y cristal para separadores de espacio en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvís, Sevilleja y Cervera. Nuestros cerramientos combinan funcionalidad, estética y resistencia.
 
-Disponemos de diseños funcionales con estructura de hierro soldado y cristal templado. Permite visibilidad y aislamiento simultáneamente.
+Disponemos de sistemas modulares que se adaptan a cualquier espacio industrial o comercial.
 
 ## Ventajas de los cerramientos industriales
 
 Nuestros cerramientos ofrecen múltiples beneficios:
 
-- Visibilidad y aislamiento simultáneo.
-- Estructura resistente en hierro soldado.
-- Cristal templado de seguridad.
-- Acabados profesionales de calidad.
-- Fácil mantenimiento.
-- Personalizable según necesidades.
+- Separación de espacios eficiente.
+- Diseño industrial y profesional.
+- Cristal de seguridad resistente.
+- Acabados de calidad garantizada.
+- Fácil instalación y mantenimiento.
 
 ## Instalación de cerramientos industriales
 
-Realizamos la instalación de cerramientos industriales en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvis, Sevilleja y Cervera. Instalación rápida y garantizada.
+Realizamos la instalación completa de cerramientos industriales en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvis, Sevilleja y Cervera.
 
 ## Presupuesto para cerramientos industriales
 
 Contacta con nosotros para solicitar presupuesto sin compromiso para tus cerramientos industriales.`,
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-cerramientos-industriales-portada-talavera-reina_85f0b015.jpg",
     galleryImages: [
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-cerramientos-industriales-hierro-cristal-talavera-reina_0a832793.jpg", title: "Cerramiento 1", alt: "Cerramiento industrial" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-cerramientos-industriales-hierro-cristal-talavera-reina_a6db517b.jpg", title: "Cerramiento 2", alt: "Cerramiento industrial" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-cerramientos-industriales-hierro-cristal-talavera-reina_410f0c8a.jpg", title: "Cerramiento 3", alt: "Cerramiento industrial" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-cerramientos-industriales-hierro-cristal-talavera-reina_b78c8f29.jpg", title: "Cerramiento 4", alt: "Cerramiento industrial" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-cerramientos-industriales-hierro-cristal-talavera-reina_fd9eee62.jpg", title: "Cerramiento 5", alt: "Cerramiento industrial" }
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-cerramientos-industriales-talavera-reina_88f22ab4.jpg", title: "Cerramiento Industrial de Hierro y Cristal", alt: "Cerramiento industrial" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-cerramientos-industriales-talavera-reina_ce8c5378.jpg", title: "Cerramiento Industrial Profesional", alt: "Cerramiento industrial" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-cerramientos-industriales-talavera-reina_332f16f3.jpg", title: "Cerramiento Industrial Modular", alt: "Cerramiento industrial" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-cerramientos-industriales-talavera-reina_2c2e1db4.jpg", title: "Cerramiento Industrial de Seguridad", alt: "Cerramiento industrial" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-cerramientos-industriales-talavera-reina_7d6c0550.jpg", title: "Cerramiento Industrial Personalizado", alt: "Cerramiento industrial" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/6-cerramientos-industriales-talavera-reina_custom.jpg", title: "Cerramiento Industrial Moderno", alt: "Cerramiento industrial" }
     ]
   },
   "pergolas-cubiertas": {
     title: "Pérgolas y Cubiertas con Panel Sándwich en Talavera de la Reina",
     slug: "pergolas-cubiertas",
-    description: "Pérgolas metálicas y cubiertas con panel sándwich para ampliar tu espacio habitable con protección total en Talavera de la Reina, Belvís de la Jara, Sevilleja, Cervera de los Montes y Nuño Gómez.",
-    content: `En Cerrajería Arriero fabricamos pérgolas metálicas y cubiertas con panel sándwich en Talavera de la Reina, Belvís de la Jara, Sevilleja, Cervera de los Montes y Nuño Gómez. Amplía tu espacio habitable con protección total.
+    description: "Pérgolas y cubiertas con panel sándwich fabricadas a medida en hierro y aluminio soldado en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvís, Sevilleja y Cervera.",
+    content: `En Cerrajería Arriero fabricamos pérgolas y cubiertas con panel sándwich en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvís, Sevilleja y Cervera. Nuestras pérgolas combinan protección, estética y durabilidad.
 
-Disponemos de excelente aislamiento térmico y acústico. Diseño moderno y funcional. Ideal para terrazas, patios y espacios exteriores.
+Disponemos de diferentes diseños que se adaptan a cualquier espacio exterior.
 
 ## Ventajas de las pérgolas y cubiertas
 
 Nuestras pérgolas ofrecen múltiples beneficios:
 
-- Excelente aislamiento térmico y acústico.
-- Diseño moderno y funcional.
-- Protección total contra intemperie.
-- Aumenta el valor de la propiedad.
-- Resistencia garantizada.
+- Protección contra la intemperie.
+- Aislamiento térmico con panel sándwich.
+- Diseños personalizados y elegantes.
 - Acabados profesionales de calidad.
+- Resistencia y durabilidad garantizada.
 
 ## Instalación de pérgolas y cubiertas
 
-Realizamos la instalación de pérgolas y cubiertas en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvis, Sevilleja y Cervera. Instalación profesional garantizada.
+Realizamos la instalación completa de pérgolas y cubiertas en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvis, Sevilleja y Cervera.
 
 ## Presupuesto para pérgolas y cubiertas
 
 Contacta con nosotros para solicitar presupuesto sin compromiso para tus pérgolas y cubiertas.`,
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-pergolas-cubiertas-portada-talavera-reina_a52611d7.jpg",
     galleryImages: [
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-pergolas-cubiertas-talavera-reina_f1289c17.jpg", title: "Pérgola 1", alt: "Pérgola y cubierta" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-pergolas-cubiertas-talavera-reina_d938639f.jpg", title: "Pérgola 2", alt: "Pérgola y cubierta" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-pergolas-cubiertas-talavera-reina_3caad37b.jpg", title: "Pérgola 3", alt: "Pérgola y cubierta" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-pergolas-cubiertas-talavera-reina_f981d2f2.jpg", title: "Pérgola 4", alt: "Pérgola y cubierta" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-pergolas-cubiertas-talavera-reina_44b0479c.jpg", title: "Pérgola 5", alt: "Pérgola y cubierta" }
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-pergolas-cubiertas-talavera-reina_f1289c17.jpg", title: "Pérgola y Cubierta de Hierro", alt: "Pérgola y cubierta" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-pergolas-cubiertas-talavera-reina_d938639f.jpg", title: "Pérgola Profesional", alt: "Pérgola y cubierta" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-pergolas-cubiertas-talavera-reina_3caad37b.jpg", title: "Pérgola Personalizada", alt: "Pérgola y cubierta" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-pergolas-cubiertas-talavera-reina_f981d2f2.jpg", title: "Cubierta de Panel Sándwich", alt: "Pérgola y cubierta" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-pergolas-cubiertas-talavera-reina_44b0479c.jpg", title: "Pérgola Moderna", alt: "Pérgola y cubierta" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/6-pergolas-cubiertas-talavera-reina_custom.jpg", title: "Pérgola Resistente", alt: "Pérgola y cubierta" }
     ]
   },
   "cancelas-hierro": {
     title: "Cancelas de Hierro a Medida en Talavera de la Reina",
     slug: "cancelas-hierro",
-    description: "Cancelas de hierro a medida en Talavera de la Reina, Real de San Vicente, San Román, Pueblanueva y Castillo Bayuela.",
-    content: `En Cerrajería Arriero fabricamos cancelas de hierro a medida en Talavera de la Reina, Real de San Vicente, San Román, Pueblanueva y Castillo Bayuela. Combinan resistencia estructural con diseño profesional.
+    description: "Cancelas de hierro personalizadas en hierro macizo y aluminio soldado en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvís, Sevilleja y Cervera.",
+    content: `En Cerrajería Arriero fabricamos cancelas de hierro personalizadas en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvís, Sevilleja y Cervera. Nuestras cancelas combinan seguridad, elegancia y funcionalidad.
 
-Adaptadas a cualquier estilo arquitectónico y necesidad de seguridad. Fabricación en hierro y aluminio soldado con acabados de calidad.
+Disponemos de diferentes estilos y acabados que se adaptan a cualquier entrada o propiedad.
 
 ## Ventajas de las cancelas de hierro
 
 Nuestras cancelas ofrecen múltiples beneficios:
 
-- Resistencia estructural garantizada.
-- Diseño profesional y elegante.
-- Protección total para parcelas y fincas.
-- Acabados de calidad.
-- Instalación rápida y segura.
-- Personalizable según necesidades.
+- Seguridad y protección de la propiedad.
+- Diseños personalizados y elegantes.
+- Acabados profesionales de calidad.
+- Resistencia a la corrosión.
+- Compatible con automatización.
 
 ## Instalación de cancelas de hierro
 
-Realizamos la instalación de cancelas de hierro en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvis, Sevilleja y Cervera. Instalación profesional garantizada.
+Realizamos la instalación completa de cancelas de hierro en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvis, Sevilleja y Cervera.
 
 ## Presupuesto para cancelas de hierro
 
 Contacta con nosotros para solicitar presupuesto sin compromiso para tus cancelas de hierro.`,
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-cancelas-hierro-portada-talavera-reina_4fa20efc.jpg",
     galleryImages: [
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-cancelas-hierro-talavera-reina_cf803d83.jpg", title: "Cancela 1", alt: "Cancela de hierro" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/10-cancelas-hierro-talavera-reina_dbbcd681.jpg", title: "Cancela 2", alt: "Cancela de hierro" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/11-cancelas-hierro-talavera-reina_c8c73b43.jpg", title: "Cancela 3", alt: "Cancela de hierro" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/12-cancelas-hierro-talavera-reina_185ae418.jpg", title: "Cancela 4", alt: "Cancela de hierro" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/13-cancelas-hierro-talavera-reina_666875ef.jpg", title: "Cancela 5", alt: "Cancela de hierro" }
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-cancelas-hierro-talavera-reina_cf803d83.jpg", title: "Cancela de Hierro en Talavera", alt: "Cancela de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/10-cancelas-hierro-talavera-reina_dbbcd681.jpg", title: "Cancela Profesional", alt: "Cancela de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/11-cancelas-hierro-talavera-reina_c8c73b43.jpg", title: "Cancela Personalizada", alt: "Cancela de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/12-cancelas-hierro-talavera-reina_185ae418.jpg", title: "Cancela de Seguridad", alt: "Cancela de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/13-cancelas-hierro-talavera-reina_666875ef.jpg", title: "Cancela Moderna", alt: "Cancela de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/14-cancelas-hierro-talavera-reina_custom1.jpg", title: "Cancela Resistente", alt: "Cancela de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/15-cancelas-hierro-talavera-reina_custom2.jpg", title: "Cancela a Medida", alt: "Cancela de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-cancelas-hierro-talavera-reina_custom3.jpg", title: "Cancela Elegante", alt: "Cancela de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-cancelas-hierro-talavera-reina_custom4.jpg", title: "Cancela de Entrada", alt: "Cancela de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-cancelas-hierro-talavera-reina_custom5.jpg", title: "Cancela Comercial", alt: "Cancela de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-cancelas-hierro-talavera-reina_custom6.jpg", title: "Cancela Residencial", alt: "Cancela de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/6-cancelas-hierro-talavera-reina_custom7.jpg", title: "Cancela Automatizada", alt: "Cancela de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/7-cancelas-hierro-talavera-reina_custom8.jpg", title: "Cancela de Seguridad Alta", alt: "Cancela de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/8-cancelas-hierro-talavera-reina_custom9.jpg", title: "Cancela Personalizada Premium", alt: "Cancela de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/9-cancelas-hierro-talavera-reina_custom10.jpg", title: "Cancela Exclusiva", alt: "Cancela de hierro" }
     ]
   },
   "barandillas-escaleras": {
     title: "Barandillas, Balcones y Escaleras de Hierro a Medida en Talavera de la Reina",
     slug: "barandillas-escaleras",
-    description: "Barandillas, balcones y escaleras de hierro a medida con diseños clásicos y contemporáneos en Talavera de la Reina, Pepino, Castillo Bayuela, Mejorada y Cebolla.",
-    content: `En Cerrajería Arriero fabricamos barandillas, balcones y escaleras de hierro a medida en Talavera de la Reina, Pepino, Castillo Bayuela, Mejorada y Cebolla. Diseños clásicos y contemporáneos.
+    description: "Barandillas, balcones y escaleras de hierro fabricadas a medida en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvís, Sevilleja y Cervera.",
+    content: `En Cerrajería Arriero fabricamos barandillas, balcones y escaleras de hierro a medida en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvís, Sevilleja y Cervera. Nuestras barandillas combinan seguridad, elegancia y funcionalidad.
 
-Fabricación artesanal en hierro soldado con acabados profesionales. Seguridad y estética garantizadas para tu hogar o negocio.
+Disponemos de diferentes estilos y acabados que se adaptan a cualquier arquitectura.
 
-## Ventajas de barandillas, balcones y escaleras
+## Ventajas de las barandillas y escaleras de hierro
 
-Nuestros productos ofrecen múltiples beneficios:
+Nuestras barandillas ofrecen múltiples beneficios:
 
-- Seguridad estructural garantizada.
-- Diseños clásicos y contemporáneos.
-- Fabricación artesanal de calidad.
-- Acabados profesionales.
-- Personalizable según preferencias.
-- Resistencia y durabilidad garantizadas.
+- Seguridad y protección garantizada.
+- Diseños personalizados y elegantes.
+- Acabados profesionales de calidad.
+- Resistencia y durabilidad garantizada.
+- Fácil mantenimiento.
 
-## Instalación de barandillas, balcones y escaleras
+## Instalación de barandillas y escaleras
 
-Realizamos la instalación de barandillas, balcones y escaleras en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvis, Sevilleja y Cervera. Instalación profesional y rápida.
+Realizamos la instalación completa de barandillas y escaleras en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvis, Sevilleja y Cervera.
 
-## Presupuesto para barandillas, balcones y escaleras
+## Presupuesto para barandillas y escaleras
 
-Contacta con nosotros para solicitar presupuesto sin compromiso para tus barandillas, balcones y escaleras.`,
+Contacta con nosotros para solicitar presupuesto sin compromiso para tus barandillas y escaleras.`,
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-barandillas-escaleras-portada-talavera-reina_81014639.jpg",
     galleryImages: [
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-barandillas-escaleras-talavera-reina_2d814f1c.jpg", title: "Barandilla 1", alt: "Barandilla de hierro" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/10-barandillas-escaleras-talavera-reina_aff2eb14.jpg", title: "Barandilla 2", alt: "Barandilla de hierro" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/11-barandillas-escaleras-talavera-reina_b56927c8.jpg", title: "Barandilla 3", alt: "Barandilla de hierro" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/12-barandillas-escaleras-talavera-reina_5dfea99b.jpg", title: "Barandilla 4", alt: "Barandilla de hierro" },
-      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/13-barandillas-escaleras-talavera-reina_fb9d3a3c.jpg", title: "Barandilla 5", alt: "Barandilla de hierro" }
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-barandillas-escaleras-talavera-reina_2d814f1c.jpg", title: "Barandilla de Hierro en Talavera", alt: "Barandilla de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/10-barandillas-escaleras-talavera-reina_aff2eb14.jpg", title: "Barandilla Profesional", alt: "Barandilla de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/11-barandillas-escaleras-talavera-reina_b56927c8.jpg", title: "Barandilla Personalizada", alt: "Barandilla de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/12-barandillas-escaleras-talavera-reina_5dfea99b.jpg", title: "Escalera de Hierro", alt: "Barandilla de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/13-barandillas-escaleras-talavera-reina_fb9d3a3c.jpg", title: "Barandilla de Seguridad", alt: "Barandilla de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-barandillas-escaleras-talavera-reina_custom1.jpg", title: "Barandilla Moderna", alt: "Barandilla de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/3-barandillas-escaleras-talavera-reina_custom2.jpg", title: "Barandilla Resistente", alt: "Barandilla de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/4-barandillas-escaleras-talavera-reina_custom3.jpg", title: "Barandilla a Medida", alt: "Barandilla de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-barandillas-escaleras-talavera-reina_custom4.jpg", title: "Barandilla Elegante", alt: "Barandilla de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/6-barandillas-escaleras-talavera-reina_custom5.jpg", title: "Escalera Profesional", alt: "Barandilla de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/7-barandillas-escaleras-talavera-reina_custom6.jpg", title: "Escalera Personalizada", alt: "Barandilla de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/8-barandillas-escaleras-talavera-reina_custom7.jpg", title: "Escalera de Seguridad", alt: "Barandilla de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/9-barandillas-escaleras-talavera-reina_custom8.jpg", title: "Balcón de Hierro", alt: "Barandilla de hierro" },
+      { url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/14-barandillas-escaleras-talavera-reina_custom9.jpg", title: "Balcón Elegante", alt: "Barandilla de hierro" }
     ]
   }
 };
 
-export default function ServiceDetail() {
-  const [, params] = useRoute("/servicios/:slug");
-  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
-
-  if (!params?.slug) {
-    return <div>Servicio no encontrado</div>;
-  }
-
-  const servicio = servicios[params.slug];
-
-  if (!servicio) {
-    return <div>Servicio no encontrado</div>;
-  }
-
-  const currentImage = servicio.galleryImages[selectedImageIndex];
+export function ServiceDetail() {
+  const [route, params] = useRoute('/servicios/:slug');
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  
+  if (!route) return null;
+  
+  const service = servicesData[params?.slug];
+  if (!service) return <div className="text-center py-20">Servicio no encontrado</div>;
+  
+  const images = service.galleryImages;
+  const currentImage = images[currentImageIndex];
+  
+  const nextImage = () => {
+    setCurrentImageIndex((prev) => (prev + 1) % images.length);
+  };
+  
+  const prevImage = () => {
+    setCurrentImageIndex((prev) => (prev - 1 + images.length) % images.length);
+  };
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
-      <div className="border-b border-border">
-        <div className="container mx-auto px-4 py-4">
-          <button
-            onClick={() => window.history.back()}
-            className="flex items-center gap-2 text-foreground hover:text-primary transition-colors"
-          >
-            <ChevronLeft size={20} />
-            Volver
-          </button>
+      {/* Portada */}
+      <div className="relative h-96 overflow-hidden">
+        <img
+          src={service.coverImage}
+          alt={service.title}
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/40 flex items-end">
+          <div className="p-8 text-white max-w-4xl">
+            <h1 className="text-4xl font-bold mb-2">{service.title}</h1>
+            <p className="text-lg">{service.description}</p>
+          </div>
         </div>
       </div>
 
       {/* Contenido */}
-      <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-          {/* Galería */}
-          <div className="space-y-4">
-            <div className="relative bg-muted rounded-lg overflow-hidden aspect-square">
+      <div className="max-w-4xl mx-auto px-4 py-12">
+        {/* Galería */}
+        <div className="mb-12">
+          <h2 className="text-2xl font-bold mb-6">Galería de Fotos</h2>
+          <div className="space-y-6">
+            {/* Imagen principal */}
+            <div className="relative aspect-video overflow-hidden rounded-lg bg-muted">
               <img
-                src={currentImage?.url || servicio.coverImage}
-                alt={currentImage?.alt || servicio.title}
+                src={currentImage.url}
+                alt={currentImage.alt}
                 className="w-full h-full object-cover"
               />
+              <div className="absolute inset-0 flex items-center justify-between p-4">
+                <button
+                  onClick={prevImage}
+                  className="bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition"
+                >
+                  <ChevronLeft className="w-6 h-6" />
+                </button>
+                <button
+                  onClick={nextImage}
+                  className="bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition"
+                >
+                  <ChevronRight className="w-6 h-6" />
+                </button>
+              </div>
+              <div className="absolute bottom-4 left-4 bg-black/70 text-white px-3 py-1 rounded text-sm">
+                {currentImageIndex + 1} / {images.length}
+              </div>
             </div>
 
             {/* Thumbnails */}
-            <div className="grid grid-cols-4 gap-2">
-              <div
-                onClick={() => setSelectedImageIndex(-1)}
-                className={`relative bg-muted rounded cursor-pointer overflow-hidden aspect-square border-2 transition-colors ${
-                  selectedImageIndex === -1 ? "border-primary" : "border-transparent"
-                }`}
-              >
-                <img
-                  src={servicio.coverImage}
-                  alt="Portada"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              {servicio.galleryImages.map((img: any, idx: number) => (
-                <div
+            <div className="flex gap-2 overflow-x-auto pb-2">
+              {images.map((img: any, idx: number) => (
+                <button
                   key={idx}
-                  onClick={() => setSelectedImageIndex(idx)}
-                  className={`relative bg-muted rounded cursor-pointer overflow-hidden aspect-square border-2 transition-colors ${
-                    selectedImageIndex === idx ? "border-primary" : "border-transparent"
+                  onClick={() => setCurrentImageIndex(idx)}
+                  className={`flex-shrink-0 w-20 h-20 rounded overflow-hidden border-2 transition ${
+                    idx === currentImageIndex ? 'border-primary' : 'border-muted'
                   }`}
                 >
-                  <img
-                    src={img.url}
-                    alt={img.alt}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+                  <img src={img.url} alt={img.alt} className="w-full h-full object-cover" />
+                </button>
               ))}
-            </div>
-          </div>
-
-          {/* Información */}
-          <div className="space-y-6">
-            <div>
-              <h1 className="text-3xl font-bold text-foreground mb-2">
-                {servicio.title}
-              </h1>
-              <p className="text-lg text-muted-foreground">
-                {servicio.description}
-              </p>
-            </div>
-
-            {/* Botones de contacto */}
-            <div className="space-y-3">
-              <a
-                href="tel:925701792"
-                className="flex items-center gap-2 w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-4 rounded-lg transition-colors"
-              >
-                <Phone size={20} />
-                Llamar: 925 70 17 92
-              </a>
-              <a
-                href="https://wa.me/34661622160"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-4 rounded-lg transition-colors"
-              >
-                <MessageCircle size={20} />
-                WhatsApp: 661 62 21 60
-              </a>
             </div>
           </div>
         </div>
 
-        {/* Contenido de texto */}
-        <div className="prose prose-invert max-w-none">
-          {servicio.content.split("\n\n").map((paragraph: string, idx: number) => (
-            <p key={idx} className="text-foreground mb-4 whitespace-pre-wrap">
-              {paragraph}
-            </p>
-          ))}
+        {/* Descripción */}
+        <div className="prose prose-sm max-w-none mb-12">
+          <Streamdown>{service.content}</Streamdown>
+        </div>
+
+        {/* Botones de contacto */}
+        <div className="flex gap-4 mb-12">
+          <a href="tel:925701792" className="flex-1">
+            <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white">
+              <Phone className="w-4 h-4 mr-2" />
+              Llamar: 925 70 17 92
+            </Button>
+          </a>
+          <a href="https://wa.me/34661622160" target="_blank" rel="noopener noreferrer" className="flex-1">
+            <Button className="w-full bg-green-500 hover:bg-green-600 text-white">
+              <MessageCircle className="w-4 h-4 mr-2" />
+              WhatsApp: 661 62 21 60
+            </Button>
+          </a>
         </div>
       </div>
     </div>
