@@ -173,7 +173,7 @@ export default function Home() {
               icon={<Zap size={32} />}
               title="Cancelas de Hierro a Medida en Talavera de la Reina"
               description="Cancelas de hierro a medida en Talavera de la Reina, Real de San Vicente, San Román, Pueblanueva y Castillo Bayuela. Combinan resistencia estructural con diseño profesional. Adaptadas a cualquier estilo arquitectónico y necesidad de seguridad. Fabricación en hierro y aluminio soldado con acabados de calidad. Instalación rápida y segura. Protección total para parcelas, fincas, terrenos y accesos. Soluciones personalizadas."
-              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-cancelas-hierro-portada-talavera-reina_8c4d7e8f.jpg"
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-cancelas-hierro-portada-talavera-reina_1558188b.jpg"
               galleryImages={[
                 {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-cancelas-hierro-talavera-reina_8c4d7e8f.jpg",
@@ -197,7 +197,7 @@ export default function Home() {
               icon={<Package size={32} />}
               title="Pérgolas y Cubiertas con Panel Sándwich en Talavera de la Reina"
               description="Pérgolas metálicas y cubiertas con panel sándwich para ampliar tu espacio habitable con protección total en Talavera de la Reina, Belvís de la Jara, Sevilleja, Cervera de los Montes y Nuño Gómez. Excelente aislamiento térmico y acústico. Diseño moderno y funcional. Fabricación en hierro y aluminio soldado. Instalación profesional garantizada. Ideal para terrazas, patios y espacios exteriores. Resistencia a la intemperie. Aumenta el valor de tu propiedad."
-              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-pergolas-cubiertas-portada-talavera-reina_7f9e3d4c.jpg"
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-pergolas-cubiertas-portada-talavera-reina_36a7b11e.jpg"
               galleryImages={[
                 {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-pergolas-cubiertas-talavera-reina_7f9e3d4c.jpg",
@@ -221,7 +221,7 @@ export default function Home() {
               icon={<Wrench size={32} />}
               title="Cerramientos Industriales de Hierro y Cristal - Separadores de Espacio en Talavera de la Reina"
               description="Cerramientos industriales de hierro y cristal para separadores de espacio en Talavera de la Reina, Hinojosa de San Vicente, Marrupe, Sotillo de las Palomas y Serranillos. Soluciones modernas para oficinas, almacenes, talleres y espacios industriales. Diseño funcional con estructura de hierro soldado y cristal templado. Permite visibilidad y aislamiento. Acabados profesionales de calidad. Instalación rápida y garantizada. Personalizable según tus necesidades de espacio."
-              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-cerramientos-industriales-portada-talavera-reina_5c2e8b1d.jpg"
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-cerramientos-industriales-hierro-cristal-portada-talavera-reina_ecebc238.jpg"
               galleryImages={[
                 {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-cerramientos-industriales-talavera-reina_5c2e8b1d.jpg",
@@ -347,7 +347,7 @@ export default function Home() {
               icon={<DoorOpen size={32} />}
               title="Puertas de Entrada a Vivienda de Hierro y Aluminio en Talavera de la Reina"
               description="Puertas de entrada a vivienda fabricadas a medida en hierro y aluminio soldado en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvís, Sevilleja y Cervera. Seguridad y elegancia para tu hogar. Diseños personalizados que se adaptan a cualquier fachada. Sistemas de cierre de seguridad avanzados. Acabados profesionales de calidad. Aislamiento térmico y acústico. Instalación rápida y garantizada. Protección total para tu entrada principal."
-              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-puertas-entrada-vivienda-portada-talavera-reina_ce7f6c3f.jpg"
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-puertas-entrada-vivienda-talavera-reina_ce7f6c3f.jpg"
               galleryImages={[
                 {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-puertas-entrada-vivienda-talavera-reina_ce7f6c3f.jpg",
@@ -367,10 +367,38 @@ export default function Home() {
               ]}
             />
             
-            <ServiceCard
+            <ServiceCardWithGallery
               icon={<Wrench size={32} />}
-              title="Barandillas, Balcones y Escaleras de Hierro a Medida en Talavera de la Reina" slug="barandillas-escaleras"
+              title="Barandillas, Balcones y Escaleras de Hierro a Medida en Talavera de la Reina"
               description="Barandillas, balcones y escaleras de hierro a medida con diseños clásicos y contemporáneos en Talavera de la Reina, Pepino, Castillo Bayuela, Mejorada y Cebolla. Fabricación artesanal en hierro soldado con acabados profesionales. Seguridad y estética garantizadas para tu hogar o negocio. Personalizable según tus preferencias de diseño. Resistencia estructural y durabilidad. Instalación profesional y rápida."
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-barandillas-escaleras-portada-talavera-reina_be14427c.jpg"
+              galleryImages={[
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-barandillas-escaleras-talavera-reina_72e0db48.jpg",
+                  title: "Barandilla Escalera Hierro Talavera de la Reina - Diseño Profesional",
+                  alt: "Barandilla escalera de hierro en Talavera de la Reina con diseño profesional"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/10-barandillas-escaleras-talavera-reina_44dc43fe.jpg",
+                  title: "Barandilla Escalera Interior Pepino - Hierro Forjado",
+                  alt: "Barandilla escalera interior en Pepino con hierro forjado"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/11-barandillas-escaleras-talavera-reina_bf8c8876.jpg",
+                  title: "Barandilla Escalera Exterior Cebolla - Seguridad Garantizada",
+                  alt: "Barandilla escalera exterior en Cebolla con seguridad garantizada"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/12-barandillas-escaleras-talavera-reina_acb5dce0.jpg",
+                  title: "Barandilla Balcón Mejorada - Diseño Elegante",
+                  alt: "Barandilla balcón en Mejorada con diseño elegante"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/13-barandillas-escaleras-talavera-reina_e263396e.jpg",
+                  title: "Barandilla Escalera Profesional Castillo Bayuela - Acabado Artesanal",
+                  alt: "Barandilla escalera profesional en Castillo Bayuela con acabado artesanal"
+                }
+              ]}
             />
           </div>
           
