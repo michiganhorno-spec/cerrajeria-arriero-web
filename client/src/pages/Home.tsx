@@ -860,10 +860,7 @@ export default function Home() {
                 }
               ]}
             />
-          </div>
-          
-          {/* Mobiliario y Complementos Metálicos */}
-          <div className="mb-12">
+            {/* Mobiliario y Complementos Metálicos */}
             <ServiceCardWithGallery
               icon={<Package size={32} />}
               title="Mobiliario y Complementos Metálicos a Medida en Talavera de la Reina"
@@ -938,10 +935,7 @@ export default function Home() {
                 }
               ]}
             />
-          </div>
-
-          {/* Puestos de Caza y Aguardos de Espera */}
-          <div className="mb-12">
+            {/* Puestos de Caza y Aguardos de Espera */}
             <ServiceCardWithGallery
               icon={<Wrench size={32} />}
               title="Puestos de Caza y Aguardos de Espera en Panel Sandwich en Talavera de la Reina"
