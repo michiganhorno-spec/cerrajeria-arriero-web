@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Phone, MessageCircle, Star, Wrench, Zap, Shield, DoorOpen, Package } from "lucide-react";
+import { Phone, MessageCircle, Star, Wrench, Zap, Shield, DoorOpen, Package, Facebook, Instagram } from "lucide-react";
 import { useState } from "react";
 import { useAuth } from "@/_core/hooks/useAuth";
 import ContactForm from "@/components/ContactForm";
@@ -1163,11 +1163,11 @@ export default function Home() {
           
           <div className="border-t border-gray-700 pt-8">
             <div className="flex justify-center gap-8 mb-6">
-              <a href="https://www.facebook.com/CerrajeriaLArriero/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors text-2xl" title="Facebook">
-                f
+              <a href="https://www.facebook.com/CerrajeriaLArriero/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 hover:bg-blue-700 transition-all hover:scale-110 shadow-lg" title="Facebook">
+                <Facebook size={24} className="text-white" />
               </a>
-              <a href="https://www.instagram.com/cerrajerialuisarriero/" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-400 transition-colors text-2xl" title="Instagram">
-                📷
+              <a href="https://www.instagram.com/cerrajerialuisarriero/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600 transition-all hover:scale-110 shadow-lg" title="Instagram">
+                <Instagram size={24} className="text-white" />
               </a>
             </div>
             <p className="text-sm text-center">
