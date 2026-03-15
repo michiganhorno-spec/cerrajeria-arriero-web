@@ -200,3 +200,9 @@
 - [ ] Publicar en dominio
 - [ ] Configurar Google Analytics 4
 - [ ] Configurar Google Search Console
+
+## Mejoras SEO Avanzadas (Marzo 2026)
+- [x] Implementar Schema.org LocalBusiness + Service + Product
+- [x] Crear FAQ Schema con preguntas frecuentes
+- [x] Validar con Google Rich Results Test
+- [ ] Crear página de "Trabajos Realizados" (antes/después)
