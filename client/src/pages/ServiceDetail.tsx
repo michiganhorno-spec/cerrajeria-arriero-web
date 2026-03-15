@@ -1024,6 +1024,179 @@ Solicita presupuesto para tu barandilla personalizada. Más de 40 años de exper
                 }
               ]
   },
+  'mobiliario-complementos-metalicos': {
+    seo_content: `## Mobiliario y Complementos Metálicos Personalizados en Talavera de la Reina
+
+Fabricamos mobiliario y complementos metálicos a medida en hierro y aluminio soldado para hogar y negocio. Estructuras para mesas, barras de bar estilo industrial, escaleras móviles, tapaderas de pozo con forja artesanal, parrillas para asados, muebles industriales y más.
+
+### Tipos de Mobiliario y Complementos
+
+- **Estructuras para Mesas**: Diseño personalizado en hierro y aluminio
+- **Barras de Bar**: Estilo industrial con acabados profesionales
+- **Escaleras Móviles**: Hierro soldado resistente y seguro
+- **Tapaderas de Pozo**: Forja artesanal con diseños exclusivos
+- **Parrillas para Asados**: Hierro forjado a medida
+- **Muebles Industriales**: Diseño funcional y resistente
+
+### Características
+
+- **Fabricación Artesanal**: Trabajo manual de calidad
+- **Acabados Profesionales**: Pintura y protecciones de calidad
+- **Diseño Personalizado**: Adaptado a tus necesidades
+- **Hierro y Aluminio Soldado**: Resistencia garantizada
+- **Instalación Garantizada**: Equipo especializado
+
+### Aplicaciones
+
+- Hogares y residencias
+- Bares y restaurantes
+- Comercios y tiendas
+- Oficinas y espacios de trabajo
+- Espacios exteriores y terrazas
+
+### Contacta con Nosotros
+
+Solicita presupuesto para tu mobiliario y complementos metálicos personalizados. Más de 40 años de experiencia en carpintería metálica.`,
+    
+    title: 'Mobiliario y Complementos Metálicos',
+    description: 'Mobiliario y complementos metálicos personalizados en hierro y aluminio. Fabricación artesanal en Talavera de la Reina.',
+    gallery: [
+      {
+        url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/Escalera movil talavera_8eef3e8c.jpg",
+        title: "Escalera Móvil Talavera de la Reina - Hierro Soldado Profesional",
+        alt: "Escalera móvil de hierro en Talavera de la Reina"
+      },
+      {
+        url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/Estructuras para mesas_4da08d33.jpg",
+        title: "Estructuras Metálicas para Mesas - Hierro y Aluminio Talavera",
+        alt: "Estructuras metálicas para mesas en Talavera de la Reina"
+      },
+      {
+        url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/Puertas de chapa lisa con manilla_9b0ffe3a.jpg",
+        title: "Puertas de Chapa Lisa con Manilla - Acabado Profesional Talavera",
+        alt: "Puertas de chapa lisa con manilla en Talavera de la Reina"
+      },
+      {
+        url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/barra bar estilo industrial_365456d2.jpg",
+        title: "Barra Bar Estilo Industrial - Hierro Forjado Talavera de la Reina",
+        alt: "Barra bar estilo industrial en Talavera de la Reina"
+      },
+      {
+        url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/caperuza a 4 aguas con lamas_d65019ef.jpg",
+        title: "Caperuza a 4 Aguas con Lamas - Protección Metálica Talavera",
+        alt: "Caperuza a 4 aguas con lamas en Talavera de la Reina"
+      },
+      {
+        url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/estructura metalica mesa_b95f2ace.jpg",
+        title: "Estructura Metálica Mesa - Diseño Personalizado Talavera",
+        alt: "Estructura metálica para mesa en Talavera de la Reina"
+      },
+      {
+        url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/estructura-barra-bar-hierro-estilo-industrial.jpg_3eeba015.jpg",
+        title: "Estructura Barra Bar Hierro Estilo Industrial - Talavera de la Reina",
+        alt: "Estructura barra bar hierro estilo industrial en Talavera"
+      },
+      {
+        url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/mueble estilo industrial_700e0bdb.jpg",
+        title: "Mueble Estilo Industrial - Hierro Macizo Talavera",
+        alt: "Mueble estilo industrial en Talavera de la Reina"
+      },
+      {
+        url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/parrilla varillas_782591f7.jpg",
+        title: "Parrilla Varillas - Hierro Forjado Talavera de la Reina",
+        alt: "Parrilla de varillas en Talavera de la Reina"
+      },
+      {
+        url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/parrilla-hierro-medida-asados-talavera.jpg_fb01f801.jpg",
+        title: "Parrilla Hierro a Medida Asados Talavera - Fabricación Artesanal",
+        alt: "Parrilla de hierro a medida para asados en Talavera"
+      },
+      {
+        url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/parrillas metalicas plancha y varilla_801e94ad.jpg",
+        title: "Parrillas Metálicas Plancha y Varilla - Profesional Talavera",
+        alt: "Parrillas metálicas plancha y varilla en Talavera de la Reina"
+      },
+      {
+        url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/tapadera de pozo forja artesanal caballo_e6719b01.jpg",
+        title: "Tapadera de Pozo Forja Artesanal Caballo - Hierro Macizo",
+        alt: "Tapadera de pozo forja artesanal caballo en Talavera"
+      },
+      {
+        url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/tapadera-hierro-pozo-seguridad-talavera.jpg_78a554af.JPG",
+        title: "Tapadera Hierro Pozo Seguridad Talavera - Protección Garantizada",
+        alt: "Tapadera de hierro para pozo en Talavera de la Reina"
+      }
+    ]
+  },
+  'puestos-caza-aguardos': {
+    seo_content: `## Puestos de Caza y Aguardos de Espera en Panel Sándwich en Talavera de la Reina
+
+Fabricamos puestos de caza y aguardos de espera con panel sándwich para aislamiento térmico y acústico. Estructuras de hierro soldado con acabados profesionales. Protección total contra la intemperie.
+
+### Características de Nuestros Puestos de Caza
+
+- **Panel Sándwich**: Aislamiento térmico y acústico profesional
+- **Estructura de Hierro**: Hierro soldado resistente y duradero
+- **Protección Total**: Resistencia a la intemperie garantizada
+- **Diseño Funcional**: Optimizado para comodidad y seguridad
+- **Acabados Profesionales**: Pintura y protecciones de calidad
+
+### Tipos de Puestos
+
+- **Aguardos de Espera**: Diseño compacto y eficiente
+- **Puestos Elevados**: Estructura de hierro con plataforma
+- **Cerramientos Completos**: Protección total contra elementos
+- **Sistemas Modulares**: Adaptables a diferentes terrenos
+
+### Aplicaciones
+
+- Turismo cinegético
+- Cazaderos y cotos de caza
+- Observación de fauna
+- Espacios de espera en terrenos
+
+### Ventajas del Panel Sándwich
+
+- **Aislamiento Térmico**: Protección contra temperaturas extremas
+- **Aislamiento Acústico**: Reducción de ruido exterior
+- **Resistencia**: Durabilidad en condiciones adversas
+- **Ligereza**: Fácil instalación y transporte
+- **Mantenimiento**: Bajo mantenimiento requerido
+
+### Contacta con Nosotros
+
+Solicita presupuesto para tu puesto de caza personalizado. Más de 40 años de experiencia en carpintería metálica.`,
+    
+    title: 'Puestos de Caza y Aguardos de Espera',
+    description: 'Puestos de caza y aguardos de espera con panel sándwich. Fabricación profesional en Talavera de la Reina.',
+    gallery: [
+      {
+        url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/WhatsApp Image 2026-03-15 at 08.40.41 (1)_ba2d0cd3.jpeg",
+        title: "Puesto de Caza Aguardo Espera - Estructura Metálica Talavera",
+        alt: "Puesto de caza aguardo espera en Talavera de la Reina"
+      },
+      {
+        url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/WhatsApp Image 2026-03-15 at 08.40.42 (1)_6ecf1d11.jpeg",
+        title: "Aguardo Espera Panel Sándwich - Protección Intemperie Talavera",
+        alt: "Aguardo espera con panel sándwich en Talavera"
+      },
+      {
+        url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/WhatsApp Image 2026-03-15 at 08.40.42 (2)_44a00d30.jpeg",
+        title: "Puesto Caza Estructura Hierro - Diseño Profesional Talavera",
+        alt: "Puesto de caza con estructura de hierro en Talavera de la Reina"
+      },
+      {
+        url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/WhatsApp Image 2026-03-15 at 08.40.42 (3)_bc33e81d.jpeg",
+        title: "Aguardo Espera Aislamiento Térmico - Panel Sándwich Talavera",
+        alt: "Aguardo espera con aislamiento térmico en Talavera"
+      },
+      {
+        url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/WhatsApp Image 2026-03-15 at 08.40.42_deb3d256.jpeg",
+        title: "Puesto de Caza Completo - Hierro y Panel Sándwich Talavera",
+        alt: "Puesto de caza completo en Talavera de la Reina"
+      }
+    ]
+  },
 };
 
 export default function ServiceDetail() {
