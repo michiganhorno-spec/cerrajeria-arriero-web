@@ -7,6 +7,7 @@ interface ImageOptimizedProps {
   width?: number;
   height?: number;
   priority?: boolean;
+  sizes?: string; // Para indicar tamaños en diferentes breakpoints
 }
 
 /**
@@ -23,6 +24,7 @@ export function ImageOptimized({
   width,
   height,
   priority = false,
+  sizes = '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw',
 }: ImageOptimizedProps) {
   const [isLoaded, setIsLoaded] = useState(priority);
   const [isInView, setIsInView] = useState(priority);
@@ -53,9 +55,12 @@ export function ImageOptimized({
     // Agregar parámetros de CloudFront para optimización
     const baseUrl = url.includes('?') ? url : url;
     return `
-      ${baseUrl}?w=400&q=85 400w,
-      ${baseUrl}?w=600&q=85 600w,
-      ${baseUrl}?w=1200&q=85 1200w
+      ${baseUrl}?w=320&q=85 320w,
+      ${baseUrl}?w=480&q=85 480w,
+      ${baseUrl}?w=640&q=85 640w,
+      ${baseUrl}?w=960&q=85 960w,
+      ${baseUrl}?w=1280&q=85 1280w,
+      ${baseUrl}?w=1920&q=85 1920w
     `;
   };
 
@@ -64,6 +69,7 @@ export function ImageOptimized({
       ref={imgRef}
       src={isInView || priority ? src : 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"%3E%3Crect fill="%23f0f0f0" width="400" height="300"/%3E%3C/svg%3E'}
       srcSet={isInView || priority ? generateSrcSet(src) : undefined}
+      sizes={sizes}
       alt={alt}
       className={`${className} transition-opacity duration-300 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
       width={width}
