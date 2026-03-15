@@ -33,8 +33,27 @@ async function startServer() {
   // Configure body parser with larger size limit for file uploads
   app.use(express.json({ limit: "50mb" }));
   app.use(express.urlencoded({ limit: "50mb", extended: true }));
+  // Cache headers for static assets
+  app.use((req, res, next) => {
+    // Cache images, CSS, JS for 1 year (31536000 seconds)
+    if (/\.(jpg|jpeg|png|gif|webp|css|js|woff|woff2|ttf|eot|svg)$/i.test(req.path)) {
+      res.set('Cache-Control', 'public, max-age=31536000, immutable');
+    }
+    // Cache HTML pages for 1 day
+    if (req.path.endsWith('.html') || req.path === '/') {
+      res.set('Cache-Control', 'public, max-age=86400');
+    }
+    next();
+  });
   // OAuth callback under /api/oauth/callback
   registerOAuthRoutes(app);
+  // Security headers
+  app.use((req, res, next) => {
+    res.set('X-Content-Type-Options', 'nosniff');
+    res.set('X-Frame-Options', 'SAMEORIGIN');
+    res.set('X-XSS-Protection', '1; mode=block');
+    next();
+  });
   // tRPC API
   app.use(
     "/api/trpc",

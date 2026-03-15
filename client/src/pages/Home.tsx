@@ -9,7 +9,7 @@ import ServiceCardWithGallery from "@/components/ServiceCardWithGallery";
 import { GoogleReviews } from "@/components/GoogleReviews";
 import { useGoogleReviews } from "@/hooks/useGoogleReviews";
 
-const INDUSTRIAL_BG_1 = "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/industrial_background_sparks_d80625e8.jpg";
+const INDUSTRIAL_BG_1 = "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/industrial_background_sparks_compressed_b4958cb5.webp";
 const INDUSTRIAL_BG_2 = "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/metal_welding_close_up_aedbc5e1.jpg";
 
 export default function Home() {
@@ -71,7 +71,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-8 w-full sm:w-auto">
             <a 
               href="tel:661622160"
-              className="flex items-center justify-center gap-2 bg-orange-600 hover:bg-orange-700 text-white px-6 sm:px-8 py-4 sm:py-4 rounded-lg font-semibold transition-colors text-base sm:text-base min-h-14 sm:min-h-12 active:scale-95"
+              className="flex items-center justify-center gap-2 bg-orange-700 hover:bg-orange-800 text-white px-6 sm:px-8 py-4 sm:py-4 rounded-lg font-bold transition-colors text-base sm:text-base min-h-14 sm:min-h-12 active:scale-95"
             >
               <Phone size={24} />
               <span className="hidden sm:inline">925 70 17 92</span>
@@ -92,7 +92,7 @@ export default function Home() {
           
           <button
             onClick={openContactForm}
-            className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold transition-colors min-h-14 text-base active:scale-95 w-full sm:w-auto"
+            className="bg-orange-700 hover:bg-orange-800 text-white px-8 py-4 rounded-lg font-bold transition-colors min-h-14 text-base active:scale-95 w-full sm:w-auto"
           >
             Solicitar Presupuesto Sin Compromiso
           </button>
@@ -1016,7 +1016,7 @@ export default function Home() {
             <div className="text-center">
               <Button
                 onClick={() => setShowContactForm(true)}
-                className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 text-lg font-bold"
+                className="bg-orange-700 hover:bg-orange-800 text-white px-8 py-4 text-lg font-bold"
               >
                 Solicitar Presupuesto Sin Compromiso
               </Button>
@@ -1048,6 +1048,7 @@ export default function Home() {
               loading="lazy"
               allowFullScreen
               referrerPolicy="no-referrer-when-downgrade"
+              title="Ubicación de Cerrajería L. Arriero - Carpintería Metálica en Talavera de la Reina"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.6794656789!2d-4.82416!3d40.0007457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd401bcc43905b03%3A0x1deee5eef1491310!2sCerrajer%C3%ADa%20L.%20Arriero%20-%20Carpinter%C3%ADa%20Met%C3%A1lica!5e0!3m2!1ses!2ses!4v1741543200000"
             />
           </div>

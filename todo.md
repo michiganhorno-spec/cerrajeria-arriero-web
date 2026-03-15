@@ -206,3 +206,12 @@
 - [x] Crear FAQ Schema con preguntas frecuentes
 - [x] Validar con Google Rich Results Test
 - [ ] Crear página de "Trabajos Realizados" (antes/después)
+
+## Optimización de Rendimiento y Accesibilidad (Lighthouse - Marzo 2026)
+- [x] Comprimir imagen de fondo (2.5 MB → 200 KB) y convertir a WebP
+- [x] Agregar defer a scripts bloqueantes (analítica)
+- [x] Mejorar contraste de botones (naranja + blanco)
+- [x] Cambiar meta viewport (quitar maximum-scale=1)
+- [x] Agregar title descriptivo a iframe del mapa
+- [x] Configurar cache headers para recursos estáticos
+- [ ] Validar con Lighthouse (LCP < 2.5s, Accessibility 90+)
