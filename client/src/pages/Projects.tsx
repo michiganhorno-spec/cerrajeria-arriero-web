@@ -122,7 +122,7 @@ export default function Projects() {
 
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="tel:925701792"
+                    href="tel:661622160"
                     className="flex-1 bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors text-center"
                   >
                     📞 Llamar: 925 70 17 92

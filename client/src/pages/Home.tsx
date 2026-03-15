@@ -70,7 +70,7 @@ export default function Home() {
           {/* Call to Action Buttons - Optimized for mobile */}
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-8 w-full sm:w-auto">
             <a 
-              href="tel:925701792"
+              href="tel:661622160"
               className="flex items-center justify-center gap-2 bg-orange-600 hover:bg-orange-700 text-white px-6 sm:px-8 py-4 sm:py-4 rounded-lg font-semibold transition-colors text-base sm:text-base min-h-14 sm:min-h-12 active:scale-95"
             >
               <Phone size={24} />
@@ -955,7 +955,7 @@ export default function Home() {
             <div className="bg-secondary p-6 rounded-lg border border-orange-600/30">
               <h3 className="text-xl font-bold text-white mb-4">📞 Contacto</h3>
               <div className="space-y-3">
-                <a href="tel:925701792" className="flex items-center gap-3 text-gray-300 hover:text-orange-400 transition-colors">
+                <a href="tel:661622160" className="flex items-center gap-3 text-gray-300 hover:text-orange-400 transition-colors">
                   <span>☎️</span>
                   <span>925 70 17 92</span>
                 </a>

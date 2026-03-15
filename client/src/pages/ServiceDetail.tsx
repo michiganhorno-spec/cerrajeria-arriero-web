@@ -1151,7 +1151,7 @@ export default function ServiceDetail() {
           <h2 className="text-2xl font-bold mb-4">¿Te interesa este servicio?</h2>
           <p className="mb-6">Contacta con nosotros para más información y presupuesto</p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:925701792" className="bg-white text-orange-500 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+            <a href="tel:661622160" className="bg-white text-orange-500 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
               📞 Llamar
             </a>
             <a href="https://wa.me/34661622160" target="_blank" rel="noopener noreferrer" className="bg-green-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-600 transition">
