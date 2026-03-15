@@ -17,6 +17,33 @@ interface BlogPost {
 
 const BLOG_POSTS: BlogPost[] = [
   {
+    id: "6",
+    title: "Protección contra Robos en Talavera: Rejas vs Cerramientos Industriales",
+    excerpt: "¿Rejas o cerramientos industriales? Descubre cuál es la mejor opción para proteger tu hogar o negocio en Talavera de la Reina, Pepino y Cebolla.",
+    content: "En Talavera de la Reina, la seguridad es fundamental. Tanto las rejas de hierro como los cerramientos industriales ofrecen protección, pero cada una tiene ventajas específicas. Las rejas son ideales para ventanas y balcones, permitiendo visibilidad y ventilación. Los cerramientos industriales son perfectos para espacios amplios que requieren separación total. En Carpintería L. Arriero, analizamos tu situación específica para recomendarte la solución más adecuada. Con más de 40 años de experiencia en Talavera, Pepino, Cebolla y alrededores, sabemos qué funciona mejor en cada caso.",
+    author: "Carpintería L. Arriero",
+    date: "2026-03-15",
+    category: "Seguridad",
+  },
+  {
+    id: "5",
+    title: "Mantenimiento de Puertas Automáticas: Guía Completa para Talavera",
+    excerpt: "Aprende cómo mantener tus puertas automáticas en perfecto estado. Consejos prácticos para alargar la vida útil de tus sistemas de apertura.",
+    content: "Las puertas automáticas requieren mantenimiento regular para funcionar correctamente. En Talavera de la Reina, Carpintería L. Arriero ofrece servicios de mantenimiento preventivo que evitan averías costosas. Limpia los sensores mensualmente, revisa los mecanismos cada 6 meses y realiza lubricación anual. Si notas ruidos extraños o movimientos lentos, contacta con nosotros inmediatamente. Nuestro equipo especializado en Talavera, Pepino, Cebolla y comarca está disponible para reparaciones urgentes. Mantener tu puerta automática en buen estado garantiza seguridad, comodidad y durabilidad.",
+    author: "Carpintería L. Arriero",
+    date: "2026-03-14",
+    category: "Mantenimiento",
+  },
+  {
+    id: "4",
+    title: "Diseño de Barandillas Modernas: Tendencias 2026 en Talavera",
+    excerpt: "Descubre las tendencias en diseño de barandillas para 2026. Combinaciones de hierro, aluminio y cristal que transforman tu espacio.",
+    content: "En 2026, las barandillas modernas combinan funcionalidad con estética contemporánea. Los diseños minimalistas con líneas rectas y materiales mixtos (hierro + cristal, aluminio + acero inoxidable) son tendencia en Talavera de la Reina. Las barandillas de seguridad para escaleras interiores ahora incorporan cristal templado que permite visibilidad total. En Carpintería L. Arriero, fabricamos barandillas personalizadas que se adaptan a tu estilo arquitectónico. Desde diseños clásicos tradicionales hasta contemporáneos minimalistas, tenemos la solución perfecta para tu hogar en Talavera, Pepino, Cebolla y alrededores.",
+    author: "Carpintería L. Arriero",
+    date: "2026-03-13",
+    category: "Diseño",
+  },
+  {
     id: "1",
     title: "Rejas de Hierro Soldado: Seguridad y Estética en Talavera",
     excerpt: "Descubre cómo las rejas de hierro soldado combinan máxima protección con diseño profesional. Conoce los diferentes estilos y acabados disponibles.",
