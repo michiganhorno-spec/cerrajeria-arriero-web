@@ -1,100 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   
-  <!-- Home Page -->
+  <!-- Página principal -->
   <url>
-    <loc>https://cerrajeria-arriero.manus.space/</loc>
-    <lastmod>2026-03-13</lastmod>
+    <loc>https://cerrajeria-7cbmk8ht.manus.space/</loc>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Servicios Pages (cuando estén creadas) -->
+  <!-- Rejas de Seguridad -->
   <url>
-    <loc>https://cerrajeria-arriero.manus.space/servicios/puertas-seccionales</loc>
-    <lastmod>2026-03-13</lastmod>
+    <loc>https://cerrajeria-7cbmk8ht.manus.space/servicios/rejas-seguridad</loc>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
+  <!-- Puertas Correderas Automáticas -->
   <url>
-    <loc>https://cerrajeria-arriero.manus.space/servicios/puertas-correderas-automaticas</loc>
-    <lastmod>2026-03-13</lastmod>
+    <loc>https://cerrajeria-7cbmk8ht.manus.space/servicios/puertas-correderas-automaticas</loc>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
+  <!-- Cancelas de Hierro -->
   <url>
-    <loc>https://cerrajeria-arriero.manus.space/servicios/rejas-seguridad</loc>
-    <lastmod>2026-03-13</lastmod>
+    <loc>https://cerrajeria-7cbmk8ht.manus.space/servicios/cancelas-hierro</loc>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
+  <!-- Pérgolas y Cubiertas -->
   <url>
-    <loc>https://cerrajeria-arriero.manus.space/servicios/puertas-portones</loc>
-    <lastmod>2026-03-13</lastmod>
+    <loc>https://cerrajeria-7cbmk8ht.manus.space/servicios/pergolas-cubiertas</loc>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
+  <!-- Cerramientos Industriales -->
   <url>
-    <loc>https://cerrajeria-arriero.manus.space/servicios/barandillas-balcones-escaleras</loc>
-    <lastmod>2026-03-13</lastmod>
+    <loc>https://cerrajeria-7cbmk8ht.manus.space/servicios/cerramientos-industriales</loc>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
+  <!-- Puertas y Portones -->
   <url>
-    <loc>https://cerrajeria-arriero.manus.space/servicios/pergolas-cubiertas</loc>
-    <lastmod>2026-03-13</lastmod>
+    <loc>https://cerrajeria-7cbmk8ht.manus.space/servicios/puertas-portones</loc>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
+  <!-- Puertas Seccionales -->
   <url>
-    <loc>https://cerrajeria-arriero.manus.space/servicios/cancelas-hierro</loc>
-    <lastmod>2026-03-13</lastmod>
+    <loc>https://cerrajeria-7cbmk8ht.manus.space/servicios/puertas-seccionales</loc>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
+  <!-- Puertas de Portales -->
   <url>
-    <loc>https://cerrajeria-arriero.manus.space/servicios/cerramientos-industriales-hierro-cristal</loc>
-    <lastmod>2026-03-13</lastmod>
+    <loc>https://cerrajeria-7cbmk8ht.manus.space/servicios/puertas-portales</loc>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
+  <!-- Puertas de Entrada -->
   <url>
-    <loc>https://cerrajeria-arriero.manus.space/servicios/cerramientos-vallas</loc>
-    <lastmod>2026-03-13</lastmod>
+    <loc>https://cerrajeria-7cbmk8ht.manus.space/servicios/puertas-entrada</loc>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
+  <!-- Barandillas, Balcones y Escaleras -->
   <url>
-    <loc>https://cerrajeria-arriero.manus.space/servicios/puertas-portales-comunidades</loc>
-    <lastmod>2026-03-13</lastmod>
+    <loc>https://cerrajeria-7cbmk8ht.manus.space/servicios/barandillas-escaleras</loc>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Other Pages -->
+  <!-- Mobiliario y Complementos Metálicos -->
   <url>
-    <loc>https://cerrajeria-arriero.manus.space/productos</loc>
-    <lastmod>2026-03-13</lastmod>
+    <loc>https://cerrajeria-7cbmk8ht.manus.space/servicios/mobiliario-complementos-metalicos</loc>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
+  <!-- Puestos de Caza y Aguardos de Espera -->
   <url>
-    <loc>https://cerrajeria-arriero.manus.space/blog</loc>
-    <lastmod>2026-03-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://cerrajeria-7cbmk8ht.manus.space/servicios/puestos-caza-aguardos</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
 
 </urlset>
