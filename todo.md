@@ -215,3 +215,6 @@
 - [x] Agregar title descriptivo a iframe del mapa
 - [x] Configurar cache headers para recursos estáticos
 - [ ] Validar con Lighthouse (LCP < 2.5s, Accessibility 90+)
+
+## Cambios de Contenido (Marzo 2026)
+- [x] Cambiar imagen de portada de Portones a "Portón Garaje en Cervines"

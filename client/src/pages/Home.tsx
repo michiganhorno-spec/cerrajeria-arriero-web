@@ -492,7 +492,7 @@ export default function Home() {
               title="Puertas y Portones en Talavera de la Reina"
               slug="puertas-portones"
               description="Puertas y portones automáticos de última generación en Talavera de la Reina, Cornicabral, Cervines, Las Nieves y Espinosillo. Sistemas de apertura suave, segura y controlada. Tecnología avanzada con mandos a distancia y controles de acceso. Fabricación en hierro y aluminio soldado. Mantenimiento y reparación especializada. Seguridad garantizada para tu hogar o negocio. Instalación profesional y rápida."
-              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-porton-automatico-talavera-1_46a7a963.jpg"
+              coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-portones-portada_daae3efc.jpg"
               galleryImages={[
                 {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-porton-automatico-talavera-1_46a7a963.jpg",
