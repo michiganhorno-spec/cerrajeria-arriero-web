@@ -2,6 +2,7 @@ import { useState } from "react";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { Link } from "wouter";
 import { Card } from "@/components/ui/card";
+import { ImageOptimized } from "@/components/ImageOptimized";
 
 interface ServiceCardWithGalleryProps {
   icon: React.ReactNode;
@@ -49,10 +50,11 @@ export default function ServiceCardWithGallery({
 
         {/* Cover Image */}
         <div className="mb-4 rounded-lg overflow-hidden h-48 bg-gray-800">
-          <img
+          <ImageOptimized
             src={coverImage}
             alt={title}
             className="w-full h-full object-cover"
+            priority={false}
           />
         </div>
 
@@ -87,10 +89,11 @@ export default function ServiceCardWithGallery({
           <div className="w-full max-w-4xl px-4">
             {/* Image */}
             <div className="relative bg-gray-900 rounded-lg overflow-hidden mb-4">
-              <img
+              <ImageOptimized
                 src={galleryImages[currentImageIndex].url}
                 alt={galleryImages[currentImageIndex].alt}
                 className="w-full h-auto max-h-96 object-contain"
+                priority={true}
               />
             </div>
 
@@ -125,10 +128,11 @@ export default function ServiceCardWithGallery({
                         : "border-gray-600 hover:border-orange-400"
                     }`}
                   >
-                    <img
+                    <ImageOptimized
                       src={img.url}
                       alt={`Thumbnail ${index + 1}`}
                       className="w-full h-full object-cover"
+                      priority={false}
                     />
                   </button>
                 ))}
