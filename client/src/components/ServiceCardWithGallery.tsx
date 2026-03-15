@@ -42,8 +42,7 @@ export default function ServiceCardWithGallery({
   return (
     <>
       <Card className="bg-gray-900 border-orange-600/30 hover:border-orange-600 transition-colors p-6 h-full flex flex-col cursor-pointer" onClick={() => window.location.href = `/servicios/${slug}`}>
-        {/* Icon */}
-        <div className="inline-flex items-center justify-center w-14 h-14 rounded-lg bg-orange-600/20 border border-orange-600/50 mb-4 text-orange-500 hover:bg-orange-600/30 transition-colors">{icon}</div>
+
 
         {/* Title */}
         <h3 className="text-xl font-bold text-white mb-3">{title}</h3>
