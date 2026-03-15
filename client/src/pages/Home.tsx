@@ -16,6 +16,17 @@ export default function Home() {
   const { user } = useAuth();
   const [showContactForm, setShowContactForm] = useState(false);
   const { reviews } = useGoogleReviews();
+  
+  const openContactForm = () => {
+    setShowContactForm(true);
+    // Scroll to the contact form section after a short delay
+    setTimeout(() => {
+      const contactSection = document.querySelector('[data-contact-section]');
+      if (contactSection) {
+        contactSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 100);
+  };
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -80,7 +91,7 @@ export default function Home() {
           </div>
           
           <button
-            onClick={() => setShowContactForm(true)}
+            onClick={openContactForm}
             className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold transition-colors min-h-14 text-base active:scale-95 w-full sm:w-auto"
           >
             Solicitar Presupuesto Sin Compromiso
@@ -870,7 +881,7 @@ export default function Home() {
       {/* Testimonials Section - Removed, using GoogleReviews instead */}
 
       {/* Contact Section */}
-      <section className="py-16 md:py-24 bg-secondary">
+      <section className="py-16 md:py-24 bg-secondary" data-contact-section>
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-white">
             REPARACIONES Y TRABAJOS A MEDIDA
