@@ -221,3 +221,7 @@
 
 ## Correcciones de Contacto (Marzo 2026)
 - [x] Cambiar botón "Llamar" para usar móvil (661 62 21 60) en lugar de teléfono fijo (925 70 17 92)
+
+## Ajustes de UI de Botones (Marzo 2026)
+- [x] Cambiar botón "Llamar" para mostrar solo "Llamar" (sin número)
+- [x] Cambiar botón "WhatsApp" para mostrar solo "WhatsApp" (sin número)

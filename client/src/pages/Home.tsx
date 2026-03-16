@@ -74,8 +74,7 @@ export default function Home() {
               className="flex items-center justify-center gap-2 bg-orange-700 hover:bg-orange-800 text-white px-6 sm:px-8 py-4 sm:py-4 rounded-lg font-bold transition-colors text-base sm:text-base min-h-14 sm:min-h-12 active:scale-95"
             >
               <Phone size={24} />
-              <span className="hidden sm:inline">661 62 21 60</span>
-              <span className="sm:hidden">Llamar</span>
+              <span>Llamar</span>
             </a>
             
             <a 
@@ -85,8 +84,7 @@ export default function Home() {
               className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-6 sm:px-8 py-4 sm:py-4 rounded-lg font-semibold transition-colors text-base sm:text-base min-h-14 sm:min-h-12 active:scale-95"
             >
               <MessageCircle size={24} />
-              <span className="hidden sm:inline">WhatsApp: 661 62 21 60</span>
-              <span className="sm:hidden">WhatsApp</span>
+              <span>WhatsApp</span>
             </a>
           </div>
           
