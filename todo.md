@@ -225,3 +225,10 @@
 ## Ajustes de UI de Botones (Marzo 2026)
 - [x] Cambiar botón "Llamar" para mostrar solo "Llamar" (sin número)
 - [x] Cambiar botón "WhatsApp" para mostrar solo "WhatsApp" (sin número)
+
+## Correcciones de SEO Técnico (Análisis de Herramienta - Marzo 2026)
+- [x] Agregar encabezado H1 a la página
+- [x] Arreglar canonical tag (múltiples canónicos)
+- [x] Acortar meta descripción (1860px → máx 1000px)
+- [x] Arreglar idioma HTML (en → es)
+- [x] Agregar favicon
