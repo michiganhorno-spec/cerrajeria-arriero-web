@@ -74,7 +74,7 @@ export default function Home() {
               className="flex items-center justify-center gap-2 bg-orange-700 hover:bg-orange-800 text-white px-6 sm:px-8 py-4 sm:py-4 rounded-lg font-bold transition-colors text-base sm:text-base min-h-14 sm:min-h-12 active:scale-95"
             >
               <Phone size={24} />
-              <span className="hidden sm:inline">925 70 17 92</span>
+              <span className="hidden sm:inline">661 62 21 60</span>
               <span className="sm:hidden">Llamar</span>
             </a>
             
@@ -1073,7 +1073,7 @@ export default function Home() {
               <div className="space-y-3">
                 <a href="tel:661622160" className="flex items-center gap-3 text-gray-300 hover:text-orange-400 transition-colors">
                   <span>☎️</span>
-                  <span>925 70 17 92</span>
+                  <span>661 62 21 60</span>
                 </a>
                 <a href="https://wa.me/34661622160" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-gray-300 hover:text-orange-400 transition-colors">
                   <span>💬</span>

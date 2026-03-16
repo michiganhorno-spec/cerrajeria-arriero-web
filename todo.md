@@ -218,3 +218,6 @@
 
 ## Cambios de Contenido (Marzo 2026)
 - [x] Cambiar imagen de portada de Portones a "Portón Garaje en Cervines"
+
+## Correcciones de Contacto (Marzo 2026)
+- [x] Cambiar botón "Llamar" para usar móvil (661 62 21 60) en lugar de teléfono fijo (925 70 17 92)
