@@ -232,3 +232,10 @@
 - [x] Acortar meta descripción (1860px → máx 1000px)
 - [x] Arreglar idioma HTML (en → es)
 - [x] Agregar favicon
+
+## Configuración de Dominio Personalizado (Marzo 2026)
+- [x] Agregar dominio personalizado `cerrajerialuisarriero.es` en Manus
+- [x] Configurar registro A en Ionos (IP: 104.18.26.246)
+- [ ] Verificar que DNS se propague (24-48 horas)
+- [ ] Verificar que certificado SSL se genere automáticamente
+- [ ] Probar acceso a https://www.cerrajerialuisarriero.es
