@@ -239,3 +239,10 @@
 - [ ] Verificar que DNS se propague (24-48 horas)
 - [ ] Verificar que certificado SSL se genere automáticamente
 - [ ] Probar acceso a https://www.cerrajerialuisarriero.es
+
+## Optimización SEO Avanzada (ChatGPT Recommendations - Marzo 2026)
+- [x] Optimizar palabras clave locales (Talavera, Pepino, Cebolla) en títulos y descripciones
+- [ ] Diferenciar contenido de cada página de servicio (Rejas, Puertas, Pérgolas, etc.)
+- [ ] Agregar enlaces internos estratégicos entre servicios
+- [ ] Agregar FAQ específico en cada página de servicio
+- [ ] Renombrar imágenes descriptivamente y agregar alt text con palabras clave
