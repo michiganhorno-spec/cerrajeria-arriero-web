@@ -137,6 +137,91 @@ Solicita presupuesto para tu puerta corredera automática personalizada. Más de
                 }
               ]
   },
+  'puertas-seccionales': {
+    seo_content: `## Puertas Seccionales Automáticas en Talavera de la Reina
+
+Fabricamos e instalamos puertas seccionales automáticas de alta calidad en acero galvanizado y aluminio soldado. Sistemas de apertura suave y silenciosa con mecanismos de seguridad avanzados para garajes, naves industriales y accesos comerciales.
+
+### Características de Nuestras Puertas Seccionales
+
+- **Sistemas Automáticos**: Apertura suave, silenciosa y segura
+- **Acero Galvanizado y Aluminio**: Fabricación resistente y duradera
+- **Mecanismos de Seguridad**: Sistemas avanzados de cierre y control
+- **Panel Sándwich**: Aislamiento térmico y acústico profesional
+- **Instalación Profesional**: Equipo especializado con garantía
+
+### Servicios en Talavera de la Reina
+
+Instalamos puertas seccionales automáticas en Talavera de la Reina, Pepino, Cebolla, Mejorada y comarca. Soluciones personalizadas para cada proyecto.
+
+### Aplicaciones
+
+- Garajes residenciales y comerciales
+- Naves industriales y almacenes
+- Accesos a comercios y oficinas
+- Cerramientos de aparcamientos
+- Accesos de seguridad controlada
+
+### Acabados Disponibles
+
+- Lacado al horno RAL
+- Acabado madera
+- Acabado profesional
+- Panel sándwich con aislamiento
+
+### Mantenimiento y Reparación
+
+Ofrecemos servicios de mantenimiento preventivo y reparación especializada para todas las puertas seccionales automáticas.
+
+### Contacta con Nosotros
+
+Solicita presupuesto para tu puerta seccional personalizada. Más de 40 años de experiencia en carpintería metálica.`,
+    
+    title: 'Puertas Seccionales',
+    description: 'Puertas seccionales automáticas de acero galvanizado y aluminio. Fabricación e instalación profesional en Talavera de la Reina y pueblos cercanos.',
+    gallery: [
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-talavera-reina-1_8e112a6e.jpg",
+                  title: "Puerta Seccional Panel Sandwich Talavera de la Reina - Acabado Madera Automatizada",
+                  alt: "Puerta Seccional Panel Sandwich Talavera de la Reina - Acabado Madera Automatizada con Motor"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-automatica-talavera-2_0bb6558e.jpg",
+                  title: "Puerta Seccional Panel Sandwich Pepino - Lacado al Horno RAL Automatizada",
+                  alt: "Puerta Seccional Panel Sandwich Pepino - Lacado al Horno RAL Automatizada con Motor"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-garaje-talavera-3_965be917.jpg",
+                  title: "Puerta Seccional Panel Sandwich Cebolla - Acabado Profesional Automatizada",
+                  alt: "Puerta Seccional Panel Sandwich Cebolla - Acabado Profesional Automatizada con Motor"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-metalica-talavera-4_7390da26.jpg",
+                  title: "Puerta Seccional Panel Sandwich Mejorada - Lacado al Horno Automatizada",
+                  alt: "Puerta Seccional Panel Sandwich Mejorada - Lacado al Horno Automatizada con Motor"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-hierro-talavera-5_9ed978ba.jpg",
+                  title: "Puerta Seccional Panel Sandwich Talavera la Nueva - Acabado Madera Automatizada",
+                  alt: "Puerta Seccional Panel Sandwich Talavera la Nueva - Acabado Madera Automatizada con Motor"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-aluminio-talavera-6_b6e321dd.jpg",
+                  title: "Puerta Seccional Panel Sandwich Belvis de la Jara - Lacado al Horno RAL Automatizada",
+                  alt: "Puerta Seccional Panel Sandwich Belvis de la Jara - Lacado al Horno RAL Automatizada con Motor"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-seguridad-talavera-7_ce76b07f.jpg",
+                  title: "Puerta Seccional Panel Sandwich Sevilleja - Acabado Profesional Automatizada",
+                  alt: "Puerta Seccional Panel Sandwich Sevilleja - Acabado Profesional Automatizada con Motor"
+                },
+                {
+                  url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-personalizada-talavera-8_4001a2bf.jpg",
+                  title: "Puerta Seccional Panel Sandwich Cervera de los Montes - Lacado al Horno Automatizada",
+                  alt: "Puerta Seccional Panel Sandwich Cervera de los Montes - Lacado al Horno Automatizada con Motor"
+                }
+              ]
+  },
   'rejas-seguridad': {
     seo_content: `## Rejas de Seguridad Profesionales en Talavera de la Reina
 
