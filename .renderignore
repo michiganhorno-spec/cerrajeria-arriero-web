@@ -1,0 +1,9 @@
+node_modules
+.git
+.manus-logs
+.webdev
+dist
+*.md
+.env.local
+.vercelignore
+vercel.json
