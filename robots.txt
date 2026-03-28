@@ -1,0 +1,41 @@
+# Robots.txt para Cerrajería L. Arriero
+# Permite a todos los buscadores e IAs indexar el sitio
+
+User-agent: *
+Allow: /
+Allow: /servicios/
+Disallow: /admin
+Disallow: /.env
+Disallow: /node_modules/
+
+# Sitemap
+Sitemap: https://cerrajeria-7cbmk8ht.manus.space/sitemap.xml
+
+# Crawl delay para no sobrecargar el servidor
+Crawl-delay: 1
+
+# Especificar el User-Agent de Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Especificar el User-Agent de Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Permitir rastreadores de IAs
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
