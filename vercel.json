@@ -3,23 +3,24 @@
   "installCommand": "",
   "outputDirectory": ".",
   "framework": null,
-  "cleanUrls": true,
+  "cleanUrls": false,
   "trailingSlash": false,
-  "headers": [
+  "public": true,
+  "functions": {},
+  "routes": [
     {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600"
-        }
-      ]
-    }
-  ],
-  "rewrites": [
+      "src": "/(.*\\.html)$",
+      "dest": "/$1",
+      "headers": {
+        "Cache-Control": "public, max-age=3600"
+      }
+    },
     {
-      "source": "/:path*",
-      "destination": "/:path*"
+      "src": "/(.*)$",
+      "dest": "/$1",
+      "headers": {
+        "Cache-Control": "public, max-age=3600"
+      }
     }
   ]
 }
