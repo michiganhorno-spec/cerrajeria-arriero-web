@@ -117,6 +117,7 @@ export default function ContactForm({ onClose }: ContactFormProps) {
               Nombre Completo *
             </label>
             <Input
+              id="nombre"
               type="text"
               name="nombre"
               value={formData.nombre}
@@ -133,6 +134,7 @@ export default function ContactForm({ onClose }: ContactFormProps) {
               Email *
             </label>
             <Input
+              id="email"
               type="email"
               name="email"
               value={formData.email}
@@ -149,6 +151,7 @@ export default function ContactForm({ onClose }: ContactFormProps) {
               Teléfono *
             </label>
             <Input
+              id="telefono"
               type="tel"
               name="telefono"
               value={formData.telefono}
@@ -186,6 +189,7 @@ export default function ContactForm({ onClose }: ContactFormProps) {
               Mensaje
             </label>
             <Textarea
+              id="mensaje"
               name="mensaje"
               value={formData.mensaje}
               onChange={handleChange}
