@@ -51,6 +51,30 @@ const MOCK_REVIEWS: Review[] = [
     text: 'Encargué rejas para las ventanas de mi casa y una puerta de garaje corredera motorizada, ¡y fueron fantásticos! ¡Trabajo limpio e impecable! ¡100% recomendado!',
     date: 'hace 3 semanas',
     profilePhoto: 'https://lh3.googleusercontent.com/a/default-user=s40-c'
+  },
+  {
+    id: '6',
+    author: 'Carlos Ruiz',
+    rating: 5,
+    text: 'Instalación de cerramientos industriales perfecta. Profesionales muy atentos y puntuales. Recomendado sin dudarlo.',
+    date: 'hace 2 semanas',
+    profilePhoto: 'https://lh3.googleusercontent.com/a/default-user=s40-c'
+  },
+  {
+    id: '7',
+    author: 'Rosa García',
+    rating: 5,
+    text: 'Excelente trabajo en las barandillas de mi terraza. Diseño personalizado y acabado de primera calidad. Muy satisfecha.',
+    date: 'hace 1 semana',
+    profilePhoto: 'https://lh3.googleusercontent.com/a/default-user=s40-c'
+  },
+  {
+    id: '8',
+    author: 'Miguel Sánchez',
+    rating: 5,
+    text: 'Pérgola con panel sándwich instalada en tiempo récord. Trabajo profesional y limpio. Sin duda volveré a confiar en ellos.',
+    date: 'hace 5 días',
+    profilePhoto: 'https://lh3.googleusercontent.com/a/default-user=s40-c'
   }
 ];
 

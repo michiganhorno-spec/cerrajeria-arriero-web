@@ -1028,7 +1028,7 @@ export default function Home() {
 
       {/* Google Reviews Section */}
       {reviews.length > 0 && (
-        <GoogleReviews reviews={reviews} autoRotate={true} rotationInterval={5000} />
+        <GoogleReviews reviews={reviews} />
       )}
       {/* Contact Section */}
       <section id="contact" className="py-16 md:py-24 bg-secondary border-t border-orange-600/30" data-contact-section>

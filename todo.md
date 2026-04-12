@@ -260,3 +260,5 @@
 - [x] Navbar: Agregada opción "Testimonios" nuevamente
 - [x] Sección de Testimonios: Integrada con reseñas de Google
 - [x] GoogleReviews: Actualizado tema oscuro para match con diseño
+- [x] GoogleReviews: Cambiado de carrusel a grid de 8 reseñas
+- [x] GoogleReviews: Actualizado con 8 reseñas reales de Google Maps
