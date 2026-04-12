@@ -29,8 +29,6 @@ export default function Navbar({ onContactClick }: NavbarProps) {
   const navLinks = [
     { label: 'Inicio', id: 'hero', type: 'section' },
     { label: 'Servicios', id: 'services', type: 'section' },
-    { label: 'Galería', id: 'gallery', type: 'section' },
-    { label: 'Testimonios', id: 'testimonials', type: 'section' },
     { label: 'Contacto', id: 'contact', type: 'section' },
   ];
 
@@ -46,9 +44,7 @@ export default function Navbar({ onContactClick }: NavbarProps) {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center gap-2 flex-shrink-0">
-            <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-orange-700 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">CA</span>
-            </div>
+            <img src="/favicon.ico" alt="Cerrajería L. Arriero" className="w-10 h-10 rounded-lg" />
             <div className="hidden sm:block">
               <h1 className="text-white font-bold text-lg leading-tight">
                 Cerrajería
