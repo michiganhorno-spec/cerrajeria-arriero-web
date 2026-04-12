@@ -117,7 +117,7 @@ export default function Home() {
               icon={<Shield size={32} />}
               title="Rejas de Seguridad a Medida en Talavera de la Reina"
               slug="rejas-seguridad"
-              description="Rejas de seguridad a medida en hierro macizo y aluminio soldado para ventanas, balcones y accesos. Precio competitivo en Talavera de la Reina, Pepino, Cebolla, Seguirilla, Mejorada. Instalación profesional con garantía. Diseños tradicionales y modernos personalizados. Protección máxima contra robos. Fabricación artesanal con soldadura de calidad. Más de 40 años de experiencia en carpintería metálica profesional. Presupuesto sin compromiso."
+              description="Protege tu hogar con rejas de forja artesanal. Diseños clásicos con barrotes macizos o modernos lacados. Cada reja se fabrica en nuestro taller con técnicas de soldadura profesional. Acabados en hierro negro, lacado al horno o aluminio anodizado. Ideales para ventanas, balcones, puertas de acceso y terrazas. Resistentes a la intemperie con protección contra oxidación. Cada reja incluye herrajes de calidad y cierre de seguridad. Instalación profesional con garantía."
               coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/reja-hierro-negro-tradicional-talavera_b4b99360.jpg"
               galleryImages={[
                 {
@@ -183,7 +183,7 @@ export default function Home() {
               icon={<DoorOpen size={32} />}
               title="Puertas Correderas Automáticas de Hierro y Aluminio en Talavera de la Reina"
               slug="puertas-correderas-automaticas"
-              description="Puertas automáticas correderas a medida de hierro y aluminio soldado con sistemas de apertura suave, silenciosa y segura. Precio competitivo e instalación profesional en Talavera de la Reina, Pepino, Cebolla, Montecarlo, Prado del Arca, Pueblanueva y El Chaparral. Soluciones personalizadas para garajes, accesos comerciales y residenciales. Sistemas de cierre automático, controlado y seguro. Diseños modernos y tradicionales. Tecnología de última generación con mandos a distancia. Garantía profesional."
+              description="Acceso automatizado sin esfuerzo. Nuestras puertas correderas se abren y cierran suavemente con motores silenciosos. Ideales para garajes, comercios y accesos residenciales. Control remoto, sensor de movimiento, cierre de emergencia. Instalamos el motor, configuramos los sensores y dejamos todo funcionando. Sistemas de seguridad avanzados con cierre automático. Mantenimiento y reparación disponible. Garantía en todos los componentes."
               coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-puertas-correderas-automaticas-portada-talavera-reina_93c6539c.jpg"
               galleryImages={[
                 {
@@ -279,7 +279,7 @@ export default function Home() {
               icon={<DoorOpen size={32} />}
               title="Puertas Seccionales a Medida en Talavera de la Reina"
               slug="puertas-seccionales"
-              description="Puertas seccionales automáticas de alta calidad fabricadas a medida con precio competitivo e instalación profesional en Talavera de la Reina, Pepino, Cebolla, Mejorada y comarca. Sistemas de apertura suave y silenciosa con mecanismos de seguridad avanzados. Ideales para garajes, naves industriales y accesos comerciales. Fabricación en acero galvanizado y aluminio soldado con acabados profesionales. Mantenimiento y reparación disponible."
+              description="Garaje moderno y seguro. Puertas seccionales con panel sándwich que aíslan del frío y ruido. Se suben verticalmente ahorrando espacio. Acabados en madera, lacado RAL o aluminio. Motor silencioso, mandos a distancia, cierre automático. Fabricamos en nuestro taller e instalamos con garantía. Ideales para garajes residenciales, naves industriales y accesos comerciales. Mantenimiento y reparación disponible."
               coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puerta-seccional-talavera-reina-1_8e112a6e.jpg"
               galleryImages={[
                 {
@@ -329,7 +329,7 @@ export default function Home() {
               icon={<Zap size={32} />}
               title="Cancelas de Hierro a Medida en Talavera de la Reina"
               slug="cancelas-hierro"
-              description="Cancelas de hierro a medida con precio competitivo e instalación profesional en Talavera de la Reina, Pepino, Cebolla, Real de San Vicente, San Román, Pueblanueva y Castillo Bayuela. Combinan resistencia estructural con diseño profesional. Adaptadas a cualquier estilo arquitectónico y necesidad de seguridad. Fabricación en hierro y aluminio soldado con acabados de calidad. Protección total para parcelas, fincas, terrenos y accesos. Soluciones personalizadas con garantía."
+              description="Entrada segura y elegante. Cancelas de hierro forjado con diseños personalizados. Resistentes a la intemperie, con acabados duraderos. Fabricadas en nuestro taller con soldadura profesional. Ideales para fincas, parcelas, terrenos y accesos comerciales. Disponemos de modelos tradicionales y contemporáneos. Herrajes de calidad, cierres de seguridad, bisagras reforzadas. Instalación profesional y mantenimiento disponible."
               coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-cancelas-hierro-portada-talavera-reina_1558188b.jpg"
               galleryImages={[
                 {
@@ -425,7 +425,7 @@ export default function Home() {
               icon={<Package size={32} />}
               title="Pérgolas y Cubiertas con Panel Sándwich en Talavera de la Reina"
               slug="pergolas-cubiertas"
-              description="Pérgolas y cubiertas con panel sándwich para ampliar tu espacio habitable con protección total. Precio competitivo e instalación profesional en Talavera de la Reina, Pepino, Cebolla, Belvís de la Jara, Sevilleja, Cervera de los Montes y Nuño Gómez. Excelente aislamiento térmico y acústico. Diseño moderno y funcional. Fabricación en hierro y aluminio soldado. Ideal para terrazas, patios y espacios exteriores. Resistencia garantizada a la intemperie. Aumenta el valor de tu propiedad."
+              description="Sombra y confort en tu terraza. Pérgolas con panel sándwich que protegen del sol y la lluvia. Aislamiento térmico y acústico profesional. Estructura de hierro soldado, acabados lacados. Disponemos de modelos fijos y retráctiles. Ideales para terrazas, jardines, patios y espacios comerciales. Diseños personalizados según tu estilo. Instalación profesional, mantenimiento mínimo, garantía incluida."
               coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-pergolas-cubiertas-portada-talavera-reina_36a7b11e.jpg"
               galleryImages={[
                 {
@@ -486,7 +486,7 @@ export default function Home() {
               icon={<Wrench size={32} />}
               title="Cerramientos Industriales de Hierro y Cristal - Separadores de Espacio en Talavera de la Reina"
               slug="cerramientos-industriales"
-              description="Cerramientos industriales de hierro y cristal para separadores de espacio. Precio competitivo e instalación profesional en Talavera de la Reina, Pepino, Cebolla, Hinojosa de San Vicente, Marrupe, Sotillo de las Palomas y Serranillos. Soluciones modernas para oficinas, almacenes, talleres y espacios industriales. Diseño funcional con estructura de hierro soldado y cristal templado. Permite visibilidad y aislamiento. Acabados profesionales de calidad. Personalizable según tus necesidades."
+              description="Divide espacios sin perder luz. Cerramientos de hierro y cristal templado para oficinas, almacenes y naves. Marcos de hierro soldado, cristal de seguridad. Modulares y personalizables según tus necesidades. Ideales para separar zonas de trabajo, crear oficinas, almacenes o áreas de descanso. Fácil instalación, mantenimiento mínimo. Disponemos de puertas integradas con cierre automático. Garantía en estructura y cristal."
               coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-cerramientos-industriales-hierro-cristal-portada-talavera-reina_ecebc238.jpg"
               galleryImages={[
                 {
@@ -542,7 +542,7 @@ export default function Home() {
               icon={<Zap size={32} />}
               title="Puertas y Portones en Talavera de la Reina"
               slug="puertas-portones"
-              description="Puertas y portones automáticos de última generación con precio competitivo e instalación profesional en Talavera de la Reina, Pepino, Cebolla, Cornicabral, Cervines, Las Nieves y Espinosillo. Sistemas de apertura suave, segura y controlada. Tecnología avanzada con mandos a distancia y controles de acceso. Fabricación en hierro y aluminio soldado. Mantenimiento y reparación especializada. Seguridad garantizada para tu hogar o negocio."
+              description="Entrada imponente y segura. Portones de hierro forjado con diseños personalizados. Apertura manual o motorizada con control remoto. Ideales para garajes, fachadas, accesos comerciales y residenciales. Disponemos de modelos tradicionales, contemporáneos y minimalistas. Herrajes de calidad, cierres de seguridad reforzados. Fabricación en nuestro taller, instalación profesional. Mantenimiento y reparación disponible."
               coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/puertas-portones-portada_daae3efc.jpg"
               galleryImages={[
                 {
@@ -623,7 +623,7 @@ export default function Home() {
               icon={<DoorOpen size={32} />}
               title="Puertas de Portales para Comunidades en Talavera de la Reina"
               slug="puertas-portales-comunidad"
-              description="Puertas de portales para comunidades a medida con precio competitivo e instalación profesional en Talavera de la Reina, Pepino, Cebolla, Mejorada y comarca. Soluciones modernas y seguras para accesos comunitarios. Fabricación en hierro y aluminio soldado con cristal de seguridad. Diseño funcional y profesional. Sistemas de cierre automático y control de acceso. Acabados de calidad garantizados. Protección y seguridad para tu comunidad."
+              description="Acceso comunitario profesional. Puertas de portal con sistemas de control de acceso. Apertura automática, cierre de seguridad, videoportero compatible. Diseños modernos y elegantes que mejoran la fachada. Ideales para comunidades de vecinos, edificios residenciales y comerciales. Fabricación robusta, instalación profesional. Sistemas de seguridad avanzados, mantenimiento disponible."
               coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-puertas-portales-comunidad-portada-talavera-reina_be99162f.jpg"
               galleryImages={[
                 {
@@ -689,7 +689,7 @@ export default function Home() {
               icon={<DoorOpen size={32} />}
               title="Puertas de Entrada a Vivienda de Hierro y Aluminio en Talavera de la Reina"
               slug="puertas-entrada-vivienda"
-              description="Puertas de entrada a vivienda fabricadas a medida en hierro y aluminio soldado con precio competitivo e instalación profesional en Talavera de la Reina, Pepino, Cebolla, Mejorada, Talavera la Nueva, Belvís, Sevilleja y Cervera. Seguridad y elegancia para tu hogar. Diseños personalizados que se adaptan a cualquier fachada. Sistemas de cierre de seguridad avanzados. Acabados profesionales de calidad. Aislamiento térmico y acústico. Protección total para tu entrada principal."
+              description="Bienvenida segura a tu hogar. Puertas de entrada de hierro y aluminio con sistemas de cierre de seguridad. Diseños personalizados que complementan tu fachada. Protección contra robos e intrusiones. Disponemos de modelos clásicos, contemporáneos y minimalistas. Acabados en hierro negro, lacado al horno o aluminio anodizado. Herrajes de calidad, cerraduras de seguridad. Instalación profesional, garantía incluida."
               coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-puertas-entrada-vivienda-talavera-reina_ce7f6c3f.jpg"
               galleryImages={[
                 {
@@ -760,7 +760,7 @@ export default function Home() {
               icon={<Wrench size={32} />}
               title="Barandillas, Balcones y Escaleras de Hierro a Medida en Talavera de la Reina"
               slug="barandillas-escaleras"
-              description="Barandillas, balcones y escaleras de hierro a medida con diseños clásicos y contemporáneos. Precio competitivo e instalación profesional en Talavera de la Reina, Pepino, Castillo Bayuela, Mejorada y Cebolla. Fabricación artesanal en hierro soldado con acabados profesionales. Seguridad y estética garantizadas para tu hogar o negocio. Personalizable según tus preferencias de diseño. Resistencia estructural y durabilidad."
+              description="Seguridad con estilo. Barandillas de hierro forjado para escaleras, balcones y terrazas. Diseños personalizados que complementan tu decoración. Disponemos de modelos clásicos, art déco, minimalistas y contemporáneos. Fabricación robusta, soldadura profesional. Acabados en hierro negro, lacado al horno o aluminio. Instalación segura, mantenimiento mínimo. Ideales para interiores y exteriores."
               coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/0-barandillas-escaleras-portada-talavera-reina_be14427c.jpg"
               galleryImages={[
                 {
@@ -866,7 +866,7 @@ export default function Home() {
               icon={<Package size={32} />}
               title="Mobiliario y Complementos Metálicos a Medida en Talavera de la Reina"
               slug="mobiliario-complementos-metalicos"
-              description="Mobiliario y complementos metálicos personalizados en hierro y aluminio soldado con precio competitivo e instalación profesional en Talavera de la Reina. Estructuras para mesas, barras de bar estilo industrial, escaleras móviles, tapaderas de pozo con forja artesanal, parrillas para asados, muebles industriales y más. Diseño personalizado, fabricación artesanal y acabados profesionales. Soluciones a medida para tu negocio."
+              description="Mobiliario industrial personalizado. Mesas, sillas, estanterías, puertas de armarios y complementos metálicos. Diseños únicos adaptados a tu espacio. Fabricación robusta en hierro y acero. Acabados en hierro negro, lacado al horno o aluminio. Ideales para hogares, oficinas, comercios y espacios industriales. Combinan funcionalidad con estética. Instalación profesional, mantenimiento mínimo."
               coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/tapadera de pozo forja artesanal Ciervo_1e3cc7ef.JPG"
               galleryImages={[
                 {
@@ -941,7 +941,7 @@ export default function Home() {
               icon={<Wrench size={32} />}
               title="Puestos de Caza y Aguardos de Espera en Panel Sandwich en Talavera de la Reina"
               slug="puestos-caza-aguardos"
-              description="Puestos de caza y aguardos de espera fabricados con panel sandwich para aislamiento térmico y acústico. Precio competitivo e instalación profesional en Talavera de la Reina. Estructuras de hierro soldado con acabados profesionales. Protección total contra la intemperie. Diseño funcional y resistente. Soluciones personalizadas para cazadores y empresas de turismo cinegético."
+              description="Refugio seguro para la caza. Puestos de aguardo con panel sándwich para aislamiento térmico y acústico. Estructura de hierro soldado, acabados resistentes. Protección total contra lluvia, viento y frío. Diseño funcional con acceso seguro. Disponemos de modelos fijos y desmontables. Ideales para cazadores y empresas de turismo cinegético. Fabricación personalizada, instalación profesional."
               coverImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/portada_94bc05d3.jpeg"
               galleryImages={[
                 {
