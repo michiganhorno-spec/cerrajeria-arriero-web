@@ -44,7 +44,7 @@ export default function Navbar({ onContactClick }: NavbarProps) {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center gap-2 flex-shrink-0">
-            <img src="/favicon.ico" alt="Cerrajería L. Arriero" className="w-10 h-10 rounded-lg" />
+            <img src="/favicon.ico" alt="Cerrajería L. Arriero" className="w-10 h-10 rounded-lg object-cover" />
             <div className="hidden sm:block">
               <h1 className="text-white font-bold text-lg leading-tight">
                 Cerrajería
