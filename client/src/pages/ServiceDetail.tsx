@@ -18,9 +18,9 @@ Fabricamos e instalamos puertas correderas automáticas de hierro y aluminio sol
 - **Seguridad Garantizada**: Sistemas de cierre automático y controlado
 - **Instalación Profesional**: Equipo especializado con garantía
 
-### Servicios en Talavera de la Reina
+### Servicios en Talavera de la Reina y Alrededores
 
-Instalamos puertas correderas automáticas en Talavera de la Reina, Montecarlo, Prado del Arca, Pueblanueva, El Chaparral y pueblos cercanos. Soluciones personalizadas para cada proyecto.
+Instalamos puertas correderas automáticas en Talavera de la Reina, Montecarlo, Prado del Arca, Pueblanueva, El Chaparral, Lucillos y pueblos cercanos. Soluciones personalizadas para cada proyecto.
 
 ### Aplicaciones
 
@@ -52,12 +52,12 @@ Solicita presupuesto para tu puerta corredera automática personalizada. Más de
                 {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/1-puertas-correderas-automaticas-talavera-reina_bcd8e5ee.jpg",
                   title: "Puerta Corredera Automática Talavera de la Reina - Sistema Motorizado",
-                  alt: "Puerta corredera automática en Talavera con sistema motorizado profesional"
+                  alt: "Puerta corredera automática en Talavera de la Reina y alrededores con sistema motorizado profesional"
                 },
                 {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/2-puertas-correderas-automaticas-talavera-reina_08f0a94d.jpg",
                   title: "Puerta Corredera Automática Pepino - Hierro Soldado",
-                  alt: "Puerta corredera automática en Pepino con hierro soldado"
+                  alt: "Puerta corredera automática en Pepino y Talavera con hierro soldado"
                 },
                 {
                   url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/5-puertas-correderas-automaticas-talavera-reina_e7681138.jpg",

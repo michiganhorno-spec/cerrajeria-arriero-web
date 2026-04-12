@@ -1121,6 +1121,7 @@ export default function Home() {
               "Cervines",
               "Las Nieves",
               "Espinosillo",
+              "Lucillos",
             ].map((pueblo) => (
               <span key={pueblo} className="text-xs text-gray-600 bg-gray-900/50 px-3 py-1 rounded-full border border-gray-700/50">
                 {pueblo}
@@ -1167,7 +1168,7 @@ export default function Home() {
               © 2026 Cerrajería L. Arriero. Todos los derechos reservados.
             </p>
             <p className="text-sm mt-2 text-orange-400 text-center">
-              Especialistas en carpintería metálica y cerrajería profesional en Talavera de la Reina
+              Especialistas en carpintería metálica y cerrajería profesional en Talavera de la Reina y alrededores (Lucillos, Pepino, Cebolla y más)
             </p>
           </div>
         </div>
