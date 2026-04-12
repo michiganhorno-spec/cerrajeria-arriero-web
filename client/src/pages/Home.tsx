@@ -8,6 +8,7 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import ServiceCardWithGallery from "@/components/ServiceCardWithGallery";
 import { GoogleReviews } from "@/components/GoogleReviews";
 import { useGoogleReviews } from "@/hooks/useGoogleReviews";
+import Navbar from "@/components/Navbar";
 
 const INDUSTRIAL_BG_1 = "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/industrial_background_sparks_compressed_b4958cb5.webp";
 const INDUSTRIAL_BG_2 = "https://d2xsxph8kpxj0f.cloudfront.net/310519663416298541/7CbMk8hTL6QGCD7YZB5hE6/metal_welding_close_up_aedbc5e1.jpg";
@@ -30,8 +31,10 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <Navbar onContactClick={openContactForm} />
+      
       {/* Hero Section with Industrial Background */}
-      <header className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
+      <header id="hero" className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-20">
         {/* Background with overlay */}
         <div 
           className="absolute inset-0 bg-cover bg-center"
@@ -98,7 +101,7 @@ export default function Home() {
       </header>
 
       {/* Services Section */}
-      <section className="py-16 md:py-24 bg-background">
+      <section id="services" className="py-16 md:py-24 bg-background">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-white">
             Servicios de Carpintería Metálica en Talavera
@@ -1027,9 +1030,8 @@ export default function Home() {
       {reviews.length > 0 && (
         <GoogleReviews reviews={reviews} autoRotate={true} rotationInterval={5000} />
       )}
-
-      {/* Location Section */}
-      <section className="py-16 bg-secondary border-t border-orange-600/30">
+      {/* Contact Section */}
+      <section id="contact" className="py-16 md:py-24 bg-secondary border-t border-orange-600/30" data-contact-section>
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-white">
             📍 UBICACIÓN Y ZONA DE COBERTURA
@@ -1088,7 +1090,7 @@ export default function Home() {
       </section>
 
       {/* Service Areas Section - Discreta para SEO */}
-      <section className="py-12 bg-background border-t border-orange-600/20">
+      <section id="gallery" className="py-12 bg-background border-t border-orange-600/20">
         <div className="container mx-auto px-4">
           <p className="text-center text-gray-500 text-sm mb-6">
             Servicio profesional en Talavera de la Reina y alrededores

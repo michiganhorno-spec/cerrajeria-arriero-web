@@ -246,3 +246,12 @@
 - [ ] Agregar enlaces internos estratégicos entre servicios
 - [ ] Agregar FAQ específico en cada página de servicio
 - [ ] Renombrar imágenes descriptivamente y agregar alt text con palabras clave
+
+
+## Análisis Externo de Mejoras (Abril 2026)
+- [x] **MEJORA 1**: Arreglar imágenes - usar loading='lazy' nativo HTML en lugar de JS personalizado
+- [x] **MEJORA 2**: Barra de navegación fija (sticky) con logo, enlaces y menú hamburguesa en móvil
+- [x] **MEJORA 3**: Meta descripción mejorada + Open Graph + Twitter Card tags
+- [x] **MEJORA 4**: Schema JSON-LD LocalBusiness con dirección, teléfono, email, horarios (8:30-19:30 LV)
+- [ ] **MEJORA 5**: Formulario de contacto/presupuesto (nombre, teléfono, email, servicio, descripción)
+- [ ] **MEJORA 6**: Reescribir descripciones de servicios (únicas, sin repeticiones) + sección "Zona de Cobertura"

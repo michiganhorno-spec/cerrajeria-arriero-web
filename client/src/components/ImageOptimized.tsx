@@ -1,5 +1,3 @@
-import { useState, useEffect, useRef } from 'react';
-
 interface ImageOptimizedProps {
   src: string;
   alt: string;
@@ -7,15 +5,15 @@ interface ImageOptimizedProps {
   width?: number;
   height?: number;
   priority?: boolean;
-  sizes?: string; // Para indicar tamaños en diferentes breakpoints
+  sizes?: string;
 }
 
 /**
  * Componente ImageOptimized con:
- * - Lazy loading (carga solo cuando se ve en pantalla)
- * - Responsive images (diferentes tamaños según dispositivo)
+ * - Lazy loading nativo de HTML (Google lo entiende)
+ * - Responsive images con srcset
  * - Compresión automática en CDN
- * - Placeholder mientras carga
+ * - Sin JavaScript personalizado (más rápido)
  */
 export function ImageOptimized({
   src,
@@ -26,33 +24,8 @@ export function ImageOptimized({
   priority = false,
   sizes = '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw',
 }: ImageOptimizedProps) {
-  const [isLoaded, setIsLoaded] = useState(priority);
-  const [isInView, setIsInView] = useState(priority);
-  const imgRef = useRef<HTMLImageElement>(null);
-
-  useEffect(() => {
-    if (priority) return; // No lazy load si es prioritario
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsInView(true);
-          observer.unobserve(entry.target);
-        }
-      },
-      { rootMargin: '50px' } // Cargar 50px antes de que sea visible
-    );
-
-    if (imgRef.current) {
-      observer.observe(imgRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, [priority]);
-
   // Generar srcset para responsive images
   const generateSrcSet = (url: string) => {
-    // Agregar parámetros de CloudFront para optimización
     const baseUrl = url.includes('?') ? url : url;
     return `
       ${baseUrl}?w=320&q=85 320w,
@@ -66,15 +39,13 @@ export function ImageOptimized({
 
   return (
     <img
-      ref={imgRef}
-      src={isInView || priority ? src : 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"%3E%3Crect fill="%23f0f0f0" width="400" height="300"/%3E%3C/svg%3E'}
-      srcSet={isInView || priority ? generateSrcSet(src) : undefined}
+      src={src}
+      srcSet={generateSrcSet(src)}
       sizes={sizes}
       alt={alt}
-      className={`${className} transition-opacity duration-300 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
+      className={className}
       width={width}
       height={height}
-      onLoad={() => setIsLoaded(true)}
       loading={priority ? 'eager' : 'lazy'}
       decoding="async"
     />
