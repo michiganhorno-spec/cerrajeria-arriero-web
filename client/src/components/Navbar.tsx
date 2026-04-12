@@ -29,6 +29,7 @@ export default function Navbar({ onContactClick }: NavbarProps) {
   const navLinks = [
     { label: 'Inicio', id: 'hero', type: 'section' },
     { label: 'Servicios', id: 'services', type: 'section' },
+    { label: 'Testimonios', id: 'testimonials', type: 'section' },
     { label: 'Contacto', id: 'contact', type: 'section' },
   ];
 

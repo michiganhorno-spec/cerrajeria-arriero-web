@@ -63,16 +63,18 @@ export function GoogleReviews({
   };
 
   return (
-    <div className="w-full bg-gradient-to-r from-orange-50 to-orange-100 py-12 px-4">
-      <div className="container max-w-4xl">
-        <h2 className="text-3xl font-bold text-center mb-2 text-gray-900">
-          Lo que dicen nuestros clientes
-        </h2>
-        <p className="text-center text-gray-600 mb-8">
-          Más de 40 años de confianza en Talavera de la Reina
-        </p>
+    <section id="testimonials" className="w-full bg-gray-900/50 border-t border-gray-800 py-16 px-4">
+      <div className="container max-w-5xl mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold text-white mb-4">
+            Lo que dicen nuestros clientes
+          </h2>
+          <p className="text-gray-400 mb-6">
+            Más de 40 años de confianza en Talavera de la Reina
+          </p>
+        </div>
 
-        <div className="relative bg-white rounded-lg shadow-lg p-8 min-h-64 flex flex-col justify-between">
+        <div className="relative bg-gray-800/50 border border-gray-700 rounded-lg shadow-2xl p-8 md:p-12 min-h-80 flex flex-col justify-between">
           {/* Review Content */}
           <div>
             {/* Rating */}
@@ -81,13 +83,13 @@ export function GoogleReviews({
             </div>
 
             {/* Review Text */}
-            <p className="text-gray-700 text-lg mb-6 italic leading-relaxed">
+            <p className="text-gray-200 text-lg mb-8 italic leading-relaxed">
               "{currentReview.text}"
             </p>
           </div>
 
           {/* Author Info */}
-          <div className="flex items-center gap-4 border-t pt-6">
+          <div className="flex items-center gap-4 border-t border-gray-700 pt-6">
             {currentReview.profilePhoto && (
               <img
                 src={currentReview.profilePhoto}
@@ -96,26 +98,26 @@ export function GoogleReviews({
               />
             )}
             <div>
-              <p className="font-semibold text-gray-900">{currentReview.author}</p>
+              <p className="font-semibold text-white">{currentReview.author}</p>
               <p className="text-sm text-gray-500">{currentReview.date}</p>
             </div>
           </div>
 
           {/* Navigation Buttons */}
-          <div className="absolute top-1/2 left-4 -translate-y-1/2">
+          <div className="absolute top-1/2 left-4 -translate-y-1/2 hidden md:block">
             <button
               onClick={handlePrev}
-              className="bg-orange-500 hover:bg-orange-600 text-white p-2 rounded-full transition shadow-md"
+              className="bg-orange-600 hover:bg-orange-700 text-white p-2 rounded-full transition shadow-md"
               aria-label="Reseña anterior"
             >
               <ChevronLeft size={24} />
             </button>
           </div>
 
-          <div className="absolute top-1/2 right-4 -translate-y-1/2">
+          <div className="absolute top-1/2 right-4 -translate-y-1/2 hidden md:block">
             <button
               onClick={handleNext}
-              className="bg-orange-500 hover:bg-orange-600 text-white p-2 rounded-full transition shadow-md"
+              className="bg-orange-600 hover:bg-orange-700 text-white p-2 rounded-full transition shadow-md"
               aria-label="Siguiente reseña"
             >
               <ChevronRight size={24} />
@@ -132,7 +134,7 @@ export function GoogleReviews({
                   setCurrentIndex(index);
                 }}
                 className={`w-2 h-2 rounded-full transition ${
-                  index === currentIndex ? 'bg-orange-500 w-6' : 'bg-gray-300'
+                  index === currentIndex ? 'bg-orange-500 w-6' : 'bg-gray-600'
                 }`}
                 aria-label={`Ir a reseña ${index + 1}`}
               />
@@ -140,13 +142,21 @@ export function GoogleReviews({
           </div>
         </div>
 
-        {/* Google Logo */}
-        <div className="flex justify-center mt-6">
-          <p className="text-sm text-gray-600">
-            Reseñas verificadas de <span className="font-semibold">Google</span>
+        {/* Google Logo and Link */}
+        <div className="flex flex-col items-center justify-center mt-8 gap-4">
+          <p className="text-sm text-gray-400">
+            Reseñas verificadas de <span className="font-semibold text-white">Google</span>
           </p>
+          <a
+            href="https://www.google.com/search?q=Cerrajer%C3%ADa+L.+Arriero+-+Carpinter%C3%ADa+Met%C3%A1lica"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-6 rounded-lg transition-colors"
+          >
+            Ver todas las reseñas en Google
+          </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

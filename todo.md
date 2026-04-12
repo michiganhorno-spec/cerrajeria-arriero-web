@@ -255,5 +255,8 @@
 - [x] **MEJORA 4**: Schema JSON-LD LocalBusiness con dirección, teléfono, email, horarios (8:30-19:30 LV)
 - [ ] **MEJORA 5**: Formulario de contacto/presupuesto (nombre, teléfono, email, servicio, descripción)
 - [x] **MEJORA 6**: Reescribir descripciones de servicios (unicas, sin repeticiones) - 12 servicios con textos personalizados
-- [x] Navbar: Removidas opciones "Galeria" y "Testimonios"
+- [x] Navbar: Removidas opciones "Galeria" y "Testimonios" (versión anterior)
 - [x] Navbar: Logo reemplazado con favicon redondo
+- [x] Navbar: Agregada opción "Testimonios" nuevamente
+- [x] Sección de Testimonios: Integrada con reseñas de Google
+- [x] GoogleReviews: Actualizado tema oscuro para match con diseño
