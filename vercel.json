@@ -3,5 +3,16 @@
   "outputDirectory": "dist",
   "env": {
     "NODE_ENV": "production"
-  }
+  },
+  "functions": {
+    "dist/index.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.js"
+    }
+  ]
 }
