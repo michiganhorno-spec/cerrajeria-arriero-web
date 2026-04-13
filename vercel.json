@@ -1,13 +1,1 @@
-{
-  "buildCommand": "pnpm build",
-  "outputDirectory": ".",
-  "framework": "other",
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "functions": {
-    "dist/index.js": {
-      "runtime": "nodejs20.x"
-    }
-  }
-}
+{}
