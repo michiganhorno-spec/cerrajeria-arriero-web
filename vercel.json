@@ -1,7 +1,6 @@
 {
   "buildCommand": "pnpm build",
   "outputDirectory": "dist",
-  "framework": "react-router",
   "env": {
     "NODE_ENV": "production"
   }
