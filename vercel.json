@@ -7,8 +7,7 @@
   },
   "functions": {
     "dist/index.js": {
-      "runtime": "nodejs20.x",
-      "handler": "dist/index.js"
+      "runtime": "nodejs20.x"
     }
   }
 }
